@@ -1,0 +1,38 @@
+{
+  "cameras": [
+    {
+      "id": "wyze-front-door",
+      "label": "Front Door",
+      "type": "wyze",
+      "streamUrl": "http://HOST_IP:8888/front-door/stream.m3u8"
+    },
+    {
+      "id": "wyze-backyard",
+      "label": "Backyard",
+      "type": "wyze",
+      "streamUrl": "http://HOST_IP:8888/backyard/stream.m3u8"
+    },
+    {
+      "id": "wyze-garage",
+      "label": "Garage",
+      "type": "wyze",
+      "streamUrl": "http://HOST_IP:8888/garage/stream.m3u8"
+    },
+    {
+      "id": "dlink-cam1",
+      "label": "Driveway",
+      "type": "dlink",
+      "streamUrl": "http://HOST_IP:8080/hls/dlink-cam1/stream.m3u8"
+    },
+    {
+      "id": "dlink-cam2",
+      "label": "Side Gate",
+      "type": "dlink",
+      "streamUrl": "http://HOST_IP:8080/hls/dlink-cam2/stream.m3u8"
+    }
+  ],
+  "layout": {
+    "columns": 4,
+    "theme": "dark"
+  }
+}

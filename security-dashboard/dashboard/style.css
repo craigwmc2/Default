@@ -1,0 +1,204 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0a0a;
+  --surface: #111;
+  --border: #222;
+  --accent: #00c8ff;
+  --text: #e0e0e0;
+  --text-dim: #666;
+  --label-bg: rgba(0,0,0,0.7);
+  --header-h: 44px;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+header {
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  z-index: 10;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo { font-weight: 700; font-size: 15px; color: var(--accent); letter-spacing: 1px; }
+.clock { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.stat  { color: var(--text-dim); }
+
+header button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: border-color 0.15s;
+}
+header button:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Grid ────────────────────────────────────────────────────────────────── */
+main#grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 4), 1fr);
+  gap: 2px;
+  height: calc(100vh - var(--header-h));
+  padding: 2px;
+  background: var(--border);
+}
+
+/* ── Camera tile ─────────────────────────────────────────────────────────── */
+.tile {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tile:hover .tile-overlay { opacity: 1; }
+
+.tile video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tile-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px 8px;
+  background: var(--label-bg);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tile-type {
+  font-size: 9px;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.tile-type.wyze  { background: #1a73e8; }
+.tile-type.dlink { background: #e37400; }
+
+.tile-overlay {
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--accent);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+/* Status indicators */
+.tile-status {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #444;
+}
+.tile-status.live    { background: #2ecc71; box-shadow: 0 0 6px #2ecc71; }
+.tile-status.loading { background: #f39c12; animation: pulse 1s infinite; }
+.tile-status.error   { background: #e74c3c; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* Placeholder when stream hasn't loaded */
+.tile-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-dim);
+  font-size: 11px;
+}
+.tile-placeholder .icon { font-size: 28px; }
+.tile-placeholder.hidden { display: none; }
+
+/* ── Layout variants ─────────────────────────────────────────────────────── */
+.layout-2 { --cols: 2; }
+.layout-3 { --cols: 3; }
+.layout-4 { --cols: 4; }
+
+/* ── Lightbox ────────────────────────────────────────────────────────────── */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.lightbox.hidden { display: none; }
+
+#lightbox-video {
+  max-width: 90vw;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--border);
+}
+
+#lightbox-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+#lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 1;
+}
+#lightbox-close:hover { color: var(--accent); }
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

@@ -1,0 +1,73 @@
+services:
+
+  # ── Wyze cameras → RTSP/HLS/WebRTC ─────────────────────────────────────────
+  wyze-bridge:
+    image: mrlt8/wyze-bridge:latest
+    restart: unless-stopped
+    ports:
+      - "5000:5000"   # web UI (optional)
+      - "8554:8554"   # RTSP
+      - "8888:8888"   # HLS
+      - "8889:8889"   # WebRTC
+    environment:
+      - WYZE_EMAIL=${WYZE_EMAIL}
+      - WYZE_PASSWORD=${WYZE_PASSWORD}
+      - API_ID=${WYZE_API_ID}
+      - API_KEY=${WYZE_API_KEY}
+      - WB_IP=${HOST_IP}
+      - ENABLE_AUDIO=false
+      - QUALITY=HD
+    volumes:
+      - wyze-tokens:/tokens
+
+  # ── D-Link cameras: RTSP → HLS transcoding (one container per camera) ──────
+  # Duplicate this block for each D-Link camera, changing the service name,
+  # CAMERA_NAME, RTSP_URL, and host port number.
+
+  dlink-cam1:
+    build: ./ffmpeg-hls
+    restart: unless-stopped
+    environment:
+      - CAMERA_NAME=dlink-cam1
+      - RTSP_URL=${DLINK_CAM1_RTSP}
+    volumes:
+      - hls-output:/hls
+    depends_on:
+      - hls-server
+
+  dlink-cam2:
+    build: ./ffmpeg-hls
+    restart: unless-stopped
+    environment:
+      - CAMERA_NAME=dlink-cam2
+      - RTSP_URL=${DLINK_CAM2_RTSP}
+    volumes:
+      - hls-output:/hls
+    depends_on:
+      - hls-server
+
+  # Add more dlink-camN blocks here following the same pattern...
+
+  # ── Static HLS file server for D-Link streams ───────────────────────────────
+  hls-server:
+    image: nginx:alpine
+    restart: unless-stopped
+    volumes:
+      - hls-output:/usr/share/nginx/html/hls:ro
+      - ./nginx/hls-server.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8080:80"
+
+  # ── Dashboard web app ────────────────────────────────────────────────────────
+  dashboard:
+    image: nginx:alpine
+    restart: unless-stopped
+    volumes:
+      - ./dashboard:/usr/share/nginx/html:ro
+      - ./nginx/dashboard.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "3000:80"
+
+volumes:
+  wyze-tokens:
+  hls-output:
