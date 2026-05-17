@@ -60,19 +60,14 @@ def get_credentials():
     return creds
 
 
-def list_messages(service, label_ids, older_than_days, max_emails):
-    query = ""
-    if older_than_days and older_than_days > 0:
-        cutoff = datetime.now() - timedelta(days=older_than_days)
-        query = f"before:{cutoff.strftime('%Y/%m/%d')}"
-
+def _list_messages_for_label(service, label_id, query, max_emails, current_count):
     message_ids = []
     page_token = None
 
     while True:
         kwargs = {
             "userId": "me",
-            "labelIds": label_ids,
+            "labelIds": [label_id],
             "maxResults": PAGE_SIZE,
         }
         if query:
@@ -84,18 +79,40 @@ def list_messages(service, label_ids, older_than_days, max_emails):
         messages = resp.get("messages", [])
         message_ids.extend(m["id"] for m in messages)
 
-        print(f"  Fetched {len(message_ids)} emails so far...", end="\r")
+        total_so_far = current_count + len(message_ids)
+        print(f"  Fetched {total_so_far} emails so far...", end="\r")
 
-        if max_emails and len(message_ids) >= max_emails:
-            message_ids = message_ids[:max_emails]
+        if max_emails and total_so_far >= max_emails:
+            message_ids = message_ids[: max_emails - current_count]
             break
 
         page_token = resp.get("nextPageToken")
         if not page_token:
             break
 
-    print()  # newline after the \r progress line
     return message_ids
+
+
+def list_messages(service, label_ids, older_than_days, max_emails):
+    query = ""
+    if older_than_days and older_than_days > 0:
+        cutoff = datetime.now() - timedelta(days=older_than_days)
+        query = f"before:{cutoff.strftime('%Y/%m/%d')}"
+
+    all_ids = []
+    seen = set()
+
+    for label_id in label_ids:
+        if max_emails and len(all_ids) >= max_emails:
+            break
+        ids = _list_messages_for_label(service, label_id, query, max_emails, len(all_ids))
+        for msg_id in ids:
+            if msg_id not in seen:
+                seen.add(msg_id)
+                all_ids.append(msg_id)
+
+    print()  # newline after the \r progress line
+    return all_ids
 
 
 def _batch_modify_with_retry(service, chunk, max_retries=5):
