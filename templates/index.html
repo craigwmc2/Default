@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="My Cookbook">
+<title>My Cookbook</title>
+<style>
+:root {
+  --green:#34C759; --green-bg:rgba(52,199,89,.12); --green-dark:#248A3D;
+  --orange:#FF9500; --red:#FF3B30; --blue:#007AFF;
+  --bg:#F2F2F7; --card:#fff; --text:#000; --secondary:#8E8E93;
+  --border:#C6C6C8; --tab-height:83px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:-apple-system,sans-serif;background:var(--bg);color:var(--text);overflow:hidden;height:100dvh}
+/* layout */
+#app{display:flex;flex-direction:column;height:100dvh}
+.tab-content{display:none;flex:1;overflow-y:auto;padding-bottom:calc(var(--tab-height) + 8px)}
+.tab-content.active{display:block}
+/* tab bar */
+.tab-bar{position:fixed;bottom:0;left:0;right:0;height:var(--tab-height);background:rgba(255,255,255,.9);
+  backdrop-filter:blur(20px);border-top:1px solid var(--border);display:flex;z-index:100;
+  padding-bottom:env(safe-area-inset-bottom)}
+.tab-btn{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;border:none;background:none;color:var(--secondary);font-size:10px;cursor:pointer;padding-top:8px}
+.tab-btn.active{color:var(--green)}
+.tab-btn svg{width:24px;height:24px}
+/* cards & sections */
+.page-header{padding:16px 16px 8px;font-size:28px;font-weight:700}
+.section{margin:12px 16px}
+.card{background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:12px}
+.card-row{padding:14px 16px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--bg)}
+.card-row:last-child{border-bottom:none}
+/* buttons */
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 20px;
+  border-radius:14px;border:none;font-size:16px;font-weight:600;cursor:pointer;width:100%}
+.btn-green{background:var(--green);color:#fff}
+.btn-gray{background:var(--card);color:var(--text);border:1px solid var(--border)}
+.btn-red{background:var(--red);color:#fff}
+.btn-sm{padding:8px 14px;font-size:14px;border-radius:10px;width:auto}
+/* inputs */
+input,select,textarea{font-family:inherit;font-size:16px;background:var(--card);border:1px solid var(--border);
+  border-radius:10px;padding:10px 12px;width:100%;outline:none;color:var(--text)}
+input:focus,select:focus{border-color:var(--green)}
+label{font-size:14px;color:var(--secondary);display:block;margin-bottom:4px}
+.form-group{margin-bottom:14px}
+/* toggle */
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--card);border-bottom:1px solid var(--bg)}
+.toggle-row:last-child{border-bottom:none}
+input[type=checkbox].toggle{width:51px;height:31px;appearance:none;background:#ccc;border-radius:16px;
+  cursor:pointer;transition:.3s;position:relative;flex-shrink:0}
+input[type=checkbox].toggle:checked{background:var(--green)}
+input[type=checkbox].toggle::after{content:'';position:absolute;width:27px;height:27px;
+  background:#fff;border-radius:50%;top:2px;left:2px;transition:.3s;box-shadow:0 2px 4px rgba(0,0,0,.2)}
+input[type=checkbox].toggle:checked::after{left:22px}
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:8px 0}
+.chip{padding:6px 14px;border-radius:20px;font-size:13px;border:none;cursor:pointer;background:#e5e5ea;color:var(--text)}
+.chip.active{background:var(--green);color:#fff}
+/* alert card */
+.alert-card{background:rgba(255,149,0,.1);border-radius:16px;padding:14px 16px;margin-bottom:12px}
+.alert-title{color:var(--orange);font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.alert-row{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:14px}
+/* greeting card */
+.greeting{background:var(--green-bg);border-radius:16px;padding:16px;margin-bottom:12px}
+.greeting h2{font-size:20px;font-weight:700}
+.greeting p{color:var(--secondary);font-size:14px;margin-top:4px}
+/* meal chips */
+.meal-chips{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:8px}
+.meal-chip{background:var(--card);border-radius:12px;padding:10px 8px;text-align:center}
+.meal-chip-label{font-size:11px;color:var(--secondary);margin-bottom:4px}
+.meal-chip-name{font-size:12px;font-weight:500;line-height:1.3}
+/* recipe row */
+.recipe-row{padding:14px 16px;display:flex;gap:12px;border-bottom:1px solid var(--bg);cursor:pointer;background:var(--card)}
+.recipe-row:last-child{border-bottom:none}
+.recipe-row:active{background:var(--bg)}
+.recipe-info{flex:1;min-width:0}
+.recipe-name{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.recipe-meta{font-size:12px;color:var(--secondary);margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}
+.stars{color:#FFD60A;font-size:12px}
+.tag{background:var(--green-bg);color:var(--green-dark);font-size:11px;padding:2px 8px;border-radius:6px;display:inline-block}
+/* search */
+.search-bar{position:relative;margin:8px 16px}
+.search-bar input{background:#e5e5ea;border:none;padding:10px 14px 10px 36px;border-radius:12px}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--secondary);font-size:16px}
+/* pantry item */
+.pantry-row{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--bg);background:var(--card);cursor:pointer}
+.pantry-row:last-child{border-bottom:none}
+.pantry-row:active{background:var(--bg)}
+.pantry-status{font-size:18px;flex-shrink:0}
+.pantry-info{flex:1;min-width:0}
+.pantry-name{font-size:15px;font-weight:500}
+.pantry-sub{font-size:12px;color:var(--secondary);margin-top:2px}
+.expired-badge{background:var(--red);color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:6px}
+/* category header */
+.cat-header{padding:12px 16px 6px;font-size:13px;font-weight:600;color:var(--secondary);text-transform:uppercase;letter-spacing:.5px}
+/* week selector */
+.week-scroll{overflow-x:auto;white-space:nowrap;padding:8px 16px;-webkit-overflow-scrolling:touch}
+.week-scroll::-webkit-scrollbar{display:none}
+.day-chip{display:inline-flex;flex-direction:column;align-items:center;gap:2px;padding:8px 14px;
+  border-radius:12px;border:none;background:none;cursor:pointer;min-width:56px}
+.day-chip.active{background:var(--green);color:#fff}
+.day-chip.today:not(.active){background:var(--green-bg);color:var(--green-dark)}
+.day-chip-name{font-size:11px;font-weight:500}
+.day-chip-date{font-size:14px;font-weight:700}
+/* meal slots */
+.meal-slot{margin:0 16px 12px}
+.slot-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.slot-label{font-size:15px;font-weight:600}
+.slot-clear{background:none;border:none;color:var(--secondary);font-size:20px;cursor:pointer;padding:0 4px}
+.slot-filled{background:var(--card);border-radius:12px;padding:12px;display:flex;align-items:center;justify-content:space-between}
+.slot-empty{background:var(--card);border-radius:12px;padding:12px 16px;color:var(--secondary);
+  border:2px dashed var(--border);text-align:center;cursor:pointer;font-size:14px}
+.slot-empty:active{background:var(--bg)}
+/* ── Modals ── */
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;
+  align-items:flex-end;justify-content:center}
+.overlay.active{display:flex}
+.sheet{background:var(--bg);border-radius:20px 20px 0 0;width:100%;max-height:92dvh;
+  display:flex;flex-direction:column;animation:slideUp .3s ease}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.sheet-full{max-height:100dvh;border-radius:0}
+.sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:10px auto 0}
+.sheet-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px 12px}
+.sheet-title{font-size:18px;font-weight:700}
+.sheet-close{background:none;border:none;font-size:24px;color:var(--secondary);cursor:pointer;padding:0 4px}
+.sheet-body{flex:1;overflow-y:auto;padding:0 16px 16px}
+/* ── Cooking Mode ── */
+#cooking-overlay{background:#000}
+.cooking-sheet{background:#000;color:#fff;border-radius:0;max-height:100dvh;height:100dvh}
+.cooking-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px}
+.cooking-exit{color:rgba(255,255,255,.6);background:none;border:none;font-size:16px;cursor:pointer}
+.cooking-ing-btn{color:rgba(255,255,255,.6);background:none;border:none;font-size:24px;cursor:pointer}
+.cooking-progress-bar{height:4px;background:rgba(255,255,255,.2);margin:0 20px 4px}
+.cooking-progress-fill{height:100%;background:var(--green);border-radius:2px;transition:.3s}
+.cooking-step-label{text-align:center;font-size:12px;color:rgba(255,255,255,.5);margin-bottom:20px}
+.cooking-body{flex:1;overflow-y:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
+.cooking-step-text{font-size:22px;line-height:1.5;text-align:center;color:#fff;margin-bottom:32px}
+.cooking-timer{text-align:center}
+.cooking-timer-display{font-size:72px;font-weight:200;font-variant-numeric:tabular-nums;
+  color:var(--green);line-height:1;margin-bottom:16px;font-family:'Courier New',monospace}
+.cooking-timer-display.done{color:var(--red)}
+.timer-btns{display:flex;gap:20px;justify-content:center}
+.timer-btn{background:none;border:none;cursor:pointer;font-size:48px;line-height:1}
+.timer-reset{font-size:36px;opacity:.5}
+.cooking-nav{display:flex;gap:12px;padding:16px 20px;padding-bottom:calc(16px + env(safe-area-inset-bottom))}
+.cook-nav-btn{flex:1;padding:16px;border-radius:14px;font-size:17px;font-weight:600;
+  border:none;cursor:pointer}
+.cook-nav-back{background:rgba(255,255,255,.1);color:#fff}
+.cook-nav-next{background:var(--green);color:#fff}
+/* nutrition */
+.nutrition-row{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:12px 0}
+.nut-cell{text-align:center}
+.nut-val{font-size:16px;font-weight:700}
+.nut-unit{font-size:10px;color:var(--secondary)}
+.nut-label{font-size:11px;color:var(--secondary)}
+/* rating */
+.rating-stars{display:flex;gap:12px;justify-content:center;margin:20px 0}
+.rating-star{font-size:44px;background:none;border:none;cursor:pointer;line-height:1}
+.rating-emoji{font-size:72px;text-align:center;display:block;margin:16px 0}
+.rating-label{text-align:center;font-size:17px;font-weight:600;color:var(--secondary)}
+/* settings */
+.settings-section{margin-bottom:20px}
+.settings-label{font-size:13px;color:var(--secondary);text-transform:uppercase;letter-spacing:.5px;
+  padding:0 16px;margin-bottom:6px;font-weight:600}
+/* slider */
+input[type=range]{-webkit-appearance:none;height:6px;border-radius:3px;background:#e5e5ea;outline:none;border:none;padding:0}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;
+  background:var(--green);cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+/* spinner */
+.spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--green);
+  border-radius:50%;animation:spin .8s linear infinite;margin:20px auto}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* empty state */
+.empty{text-align:center;padding:60px 20px;color:var(--secondary)}
+.empty-icon{font-size:60px;margin-bottom:16px}
+.empty h3{font-size:20px;font-weight:700;color:var(--text);margin-bottom:8px}
+/* toast */
+#toast{position:fixed;bottom:calc(var(--tab-height) + 16px);left:50%;transform:translateX(-50%);
+  background:rgba(0,0,0,.85);color:#fff;padding:10px 20px;border-radius:20px;font-size:14px;
+  z-index:999;opacity:0;transition:.3s;pointer-events:none;white-space:nowrap}
+#toast.show{opacity:1}
+/* add-to-home banner */
+.add-home-banner{background:var(--green-bg);padding:10px 16px;font-size:13px;color:var(--green-dark);
+  display:flex;align-items:center;justify-content:space-between;gap:8px}
+.add-home-banner button{background:var(--green);color:#fff;border:none;border-radius:8px;padding:6px 12px;
+  font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- ── TABS ── -->
+<div id="tab-home" class="tab-content active"></div>
+<div id="tab-pantry" class="tab-content"></div>
+<div id="tab-recipes" class="tab-content"></div>
+<div id="tab-mealplan" class="tab-content"></div>
+<div id="tab-settings" class="tab-content"></div>
+
+<!-- ── TAB BAR ── -->
+<nav class="tab-bar">
+  <button class="tab-btn active" onclick="App.showTab('home')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    Home
+  </button>
+  <button class="tab-btn" onclick="App.showTab('pantry')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5 14H7v-2h6v2zm3-4H7v-2h9v2zm0-4H7V6h9v2z"/></svg>
+    Pantry
+  </button>
+  <button class="tab-btn" onclick="App.showTab('recipes')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg>
+    Recipes
+  </button>
+  <button class="tab-btn" onclick="App.showTab('mealplan')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+    Meal Plan
+  </button>
+  <button class="tab-btn" onclick="App.showTab('settings')">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+    Settings
+  </button>
+</nav>
+
+<!-- ══════════════════════════════════════════════════
+     MODALS
+═══════════════════════════════════════════════════ -->
+
+<!-- Pantry Item -->
+<div class="overlay" id="pantry-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title" id="pantry-modal-title">Add Item</span>
+      <button class="sheet-close" onclick="App.closeModal('pantry-modal')">✕</button>
+    </div>
+    <div class="sheet-body">
+      <input type="hidden" id="pantry-id">
+      <div class="form-group"><label>Name</label><input id="pantry-name" placeholder="e.g. Chicken Breast"></div>
+      <div class="form-group"><label>Category</label>
+        <select id="pantry-category">
+          <option>Produce</option><option>Proteins</option><option>Dairy</option>
+          <option>Grains</option><option>Spices & Herbs</option><option>Condiments</option>
+          <option>Frozen</option><option>Canned Goods</option><option>Other</option>
+        </select>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px" class="form-group">
+        <div><label>Quantity</label><input id="pantry-qty" placeholder="2" type="number" step="any"></div>
+        <div><label>Unit</label><input id="pantry-unit" placeholder="lbs, cups..."></div>
+      </div>
+      <div class="form-group toggle-row" style="border-radius:10px;border:1px solid var(--border)">
+        <span>Low Stock</span><input type="checkbox" class="toggle" id="pantry-lowstock">
+      </div>
+      <div class="form-group toggle-row" style="border-radius:10px;border:1px solid var(--border);margin-top:8px">
+        <span>Has Expiration</span><input type="checkbox" class="toggle" id="pantry-has-exp" onchange="document.getElementById('pantry-exp-row').style.display=this.checked?'block':'none'">
+      </div>
+      <div id="pantry-exp-row" style="display:none" class="form-group" style="margin-top:8px">
+        <label>Expiration Date</label><input type="date" id="pantry-exp">
+      </div>
+      <br>
+      <button class="btn btn-green" onclick="App.savePantryItem()">Save</button>
+      <div id="pantry-delete-row" style="display:none;margin-top:10px">
+        <button class="btn btn-red" onclick="App.deletePantryItem()">Delete Item</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Generate Recipes -->
+<div class="overlay" id="generate-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title">Generate Recipes</span>
+      <button class="sheet-close" onclick="App.closeModal('generate-modal')">✕</button>
+    </div>
+    <div class="sheet-body">
+      <div class="form-group"><label>How many recipes?</label>
+        <select id="gen-count"><option value="1">1</option><option value="2">2</option>
+          <option value="3" selected>3</option><option value="5">5</option></select>
+      </div>
+      <div class="form-group"><label>Meal Type (optional)</label>
+        <select id="gen-mealtype"><option value="">Any</option>
+          <option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option></select>
+      </div>
+      <div class="form-group"><label>Cuisine Hint (optional)</label>
+        <input id="gen-cuisine" placeholder="e.g. Italian, Thai, Southern..."></div>
+      <div class="toggle-row card form-group">
+        <span>Use my pantry items</span><input type="checkbox" class="toggle" id="gen-use-pantry" checked>
+      </div>
+      <div id="gen-error" style="color:var(--red);font-size:14px;margin-bottom:10px;display:none"></div>
+      <button class="btn btn-green" id="gen-btn" onclick="App.generateRecipes()">✦ Generate with AI</button>
+    </div>
+  </div>
+</div>
+
+<!-- Recipe Detail -->
+<div class="overlay" id="recipe-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title" id="recipe-modal-title" style="font-size:16px;flex:1;margin-right:8px"></span>
+      <button class="sheet-close" onclick="App.closeModal('recipe-modal')">✕</button>
+    </div>
+    <div class="sheet-body" id="recipe-modal-body"></div>
+  </div>
+</div>
+
+<!-- Cooking Mode (full screen) -->
+<div class="overlay" id="cooking-overlay">
+  <div class="sheet cooking-sheet">
+    <div class="cooking-header">
+      <button class="cooking-exit" onclick="App.exitCooking()">✕ Exit</button>
+      <span id="cooking-title" style="color:#fff;font-size:15px;font-weight:600;flex:1;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 8px"></span>
+      <button class="cooking-ing-btn" onclick="App.toggleCookingIngredients()">≡</button>
+    </div>
+    <div class="cooking-progress-bar"><div class="cooking-progress-fill" id="cooking-progress"></div></div>
+    <div class="cooking-step-label" id="cooking-step-label"></div>
+    <div class="cooking-body">
+      <div id="cooking-step-text" class="cooking-step-text"></div>
+      <div id="cooking-timer" class="cooking-timer" style="display:none">
+        <div class="cooking-timer-display" id="cooking-time">00:00</div>
+        <div class="timer-btns">
+          <button class="timer-btn" id="cooking-play-btn" onclick="App.toggleTimer()">▶</button>
+          <button class="timer-btn timer-reset" onclick="App.resetTimer()">↺</button>
+        </div>
+      </div>
+    </div>
+    <div class="cooking-nav">
+      <button class="cook-nav-btn cook-nav-back" id="cook-back" onclick="App.cookStep(-1)">← Back</button>
+      <button class="cook-nav-btn cook-nav-next" id="cook-next" onclick="App.cookStep(1)">Next →</button>
+    </div>
+  </div>
+</div>
+
+<!-- Cooking Ingredients Sheet -->
+<div class="overlay" id="cooking-ing-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title">Ingredients</span>
+      <button class="sheet-close" onclick="App.closeModal('cooking-ing-modal')">✕</button>
+    </div>
+    <div class="sheet-body" id="cooking-ing-list"></div>
+  </div>
+</div>
+
+<!-- Rate Recipe -->
+<div class="overlay" id="rate-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title">Rate Recipe</span>
+      <button class="sheet-close" onclick="App.closeModal('rate-modal')">✕</button>
+    </div>
+    <div class="sheet-body">
+      <p style="text-align:center;font-weight:600;margin-bottom:8px" id="rate-recipe-name"></p>
+      <span class="rating-emoji" id="rate-emoji">⭐️</span>
+      <div class="rating-stars" id="rating-stars"></div>
+      <p class="rating-label" id="rate-label">Tap a star to rate</p>
+      <div id="rate-low-msg" style="display:none;background:rgba(255,149,0,.1);border-radius:12px;padding:12px;text-align:center;margin:12px 0;font-size:14px;color:var(--orange)">
+        💡 Got it! We'll avoid similar recipes in future suggestions.
+      </div>
+      <br>
+      <button class="btn btn-green" id="rate-submit" onclick="App.submitRating()" disabled>Submit Rating</button>
+    </div>
+  </div>
+</div>
+
+<!-- Pick Recipe for Meal Plan -->
+<div class="overlay" id="pick-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title" id="pick-title">Pick Recipe</span>
+      <button class="sheet-close" onclick="App.closeModal('pick-modal')">✕</button>
+    </div>
+    <div class="sheet-body">
+      <div class="form-group"><label>Servings</label>
+        <input type="number" id="pick-servings" value="4" min="1" max="20">
+      </div>
+      <input placeholder="🔍 Search recipes..." id="pick-search" oninput="App.renderPickList()" style="margin-bottom:10px">
+      <div id="pick-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Shopping List -->
+<div class="overlay" id="shopping-modal">
+  <div class="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <span class="sheet-title">Shopping List</span>
+      <button class="sheet-close" onclick="App.closeModal('shopping-modal')">✕</button>
+    </div>
+    <div class="sheet-body" id="shopping-body"></div>
+  </div>
+</div>
+
+</div><!-- #app -->
+<div id="toast"></div>
+
+<script>
+const App = {
+  data: { pantry:[], recipes:[], mealplan:{}, preferences:{} },
+  currentTab: 'home',
+  selectedDay: 0,
+  currentRecipe: null,
+  currentRating: 0,
+  cookingRecipe: null,
+  cookingStep: 0,
+  timerInterval: null,
+  timerSeconds: 0,
+  timerRunning: false,
+  pickContext: null,
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+  async init() {
+    await this.loadAll();
+    this.selectedDay = new Date().getDay();
+    this.selectedDay = this.selectedDay === 0 ? 6 : this.selectedDay - 1;
+    this.renderTab(this.currentTab);
+    // Show add-to-home-screen banner on first visit if not standalone
+    if (!window.navigator.standalone && !localStorage.getItem('a2hs_dismissed')) {
+      this.showA2HBanner();
+    }
+  },
+
+  async loadAll() {
+    const [pantry, recipes, mealplan, preferences] = await Promise.all([
+      fetch('/api/pantry').then(r=>r.json()),
+      fetch('/api/recipes').then(r=>r.json()),
+      fetch('/api/mealplan').then(r=>r.json()),
+      fetch('/api/preferences').then(r=>r.json())
+    ]);
+    this.data = { pantry, recipes, mealplan, preferences };
+  },
+
+  showA2HBanner() {
+    const banner = document.createElement('div');
+    banner.className = 'add-home-banner';
+    banner.id = 'a2hs';
+    banner.innerHTML = `<span>📲 Add to Home Screen for the best experience: tap <b>Share</b> → <b>Add to Home Screen</b></span>
+      <button onclick="document.getElementById('a2hs').remove();localStorage.setItem('a2hs_dismissed','1')">Got it</button>`;
+    document.getElementById('tab-home').prepend(banner);
+  },
+
+  // ── Tab management ────────────────────────────────────────────────────────
+  showTab(name) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('tab-' + name).classList.add('active');
+    document.querySelectorAll('.tab-btn')[['home','pantry','recipes','mealplan','settings'].indexOf(name)].classList.add('active');
+    this.currentTab = name;
+    this.renderTab(name);
+  },
+
+  renderTab(name) {
+    const m = { home: 'renderHome', pantry: 'renderPantry', recipes: 'renderRecipes', mealplan: 'renderMealPlan', settings: 'renderSettings' };
+    if (m[name]) this[m[name]]();
+  },
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+  el(id) { return document.getElementById(id); },
+  html(id, h) { const e = this.el(id); if(e) e.innerHTML = h; },
+  fmt(n) { return Number.isInteger(n) ? n : parseFloat(n.toFixed(1)); },
+  stars(r) { if(!r) return ''; return '★'.repeat(r) + '☆'.repeat(5-r); },
+  timeStr(s) { return `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`; },
+  toast(msg) {
+    const t = this.el('toast'); t.textContent = msg; t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2500);
+  },
+  openModal(id) { this.el(id).classList.add('active'); },
+  closeModal(id) { this.el(id).classList.remove('active'); },
+
+  pantryAlerts() {
+    const now = Date.now(), three = 3*24*60*60*1000;
+    return this.data.pantry.filter(i => {
+      if(i.isLowStock) return true;
+      if(!i.expirationDate) return false;
+      const exp = new Date(i.expirationDate).getTime();
+      return exp < now || exp < now + three;
+    });
+  },
+
+  statusEmoji(item) {
+    if(!item.expirationDate && !item.isLowStock) return '🟢';
+    const exp = item.expirationDate ? new Date(item.expirationDate).getTime() : Infinity;
+    const now = Date.now();
+    if(exp < now) return '🔴';
+    if(exp < now + 3*24*60*60*1000) return '🟡';
+    if(item.isLowStock) return '🟠';
+    return '🟢';
+  },
+
+  catEmoji(cat) {
+    return {Produce:'🥦',Proteins:'🥩',Dairy:'🧀',Grains:'🌾','Spices & Herbs':'🌿',
+      Condiments:'🫙',Frozen:'❄️','Canned Goods':'🥫',Other:'📦'}[cat]||'📦';
+  },
+
+  scaleIngredients(recipe, newServings) {
+    const factor = newServings / (recipe.servings || 4);
+    return recipe.ingredients.map(i => ({...i, amount: this.fmt(i.amount * factor)}));
+  },
+
+  // ── HOME ──────────────────────────────────────────────────────────────────
+  renderHome() {
+    const p = this.data.preferences;
+    const name = p.userName || '';
+    const alerts = this.pantryAlerts();
+    const today = this.getTodayPlan();
+    const recent = this.data.recipes.slice(0,5);
+
+    let alertHTML = '';
+    if(alerts.length) {
+      const rows = alerts.slice(0,3).map(i => {
+        const emoji = this.statusEmoji(i);
+        const exp = i.expirationDate ? new Date(i.expirationDate) : null;
+        const label = exp && exp < Date.now() ? '<span style="color:var(--red);font-size:12px">Expired</span>'
+          : exp ? '<span style="color:var(--orange);font-size:12px">Expiring soon</span>'
+          : '<span style="color:var(--orange);font-size:12px">Low stock</span>';
+        return `<div class="alert-row">${emoji} <span style="flex:1">${i.name}</span>${label}</div>`;
+      }).join('');
+      alertHTML = `<div class="alert-card"><div class="alert-title">⚠️ Pantry Alerts</div>${rows}</div>`;
+    }
+
+    const mealHTML = `
+      <div style="margin-bottom:12px">
+        <div style="font-weight:600;margin-bottom:8px">Today's Meals</div>
+        <div class="meal-chips">
+          ${['breakfast','lunch','dinner'].map(m => `
+            <div class="meal-chip">
+              <div class="meal-chip-label">${m[0].toUpperCase()+m.slice(1)}</div>
+              <div class="meal-chip-name">${today[m]?.recipeName || '—'}</div>
+            </div>`).join('')}
+        </div>
+      </div>`;
+
+    const recentHTML = recent.length ? recent.map(r => this.recipeRowHTML(r, true)).join('') : '<div class="empty"><div class="empty-icon">📖</div><h3>No recipes yet</h3><p>Generate your first recipe!</p></div>';
+
+    this.el('tab-home').innerHTML = `
+      <div class="page-header">My Cookbook</div>
+      <div style="padding:0 16px">
+        <div class="greeting">
+          <h2>${name ? 'Hello, '+name+'!' : 'Welcome back!'}</h2>
+          <p>${this.data.recipes.length} recipes · ${this.data.pantry.length} pantry items</p>
+        </div>
+        ${alertHTML}
+        ${mealHTML}
+        <div style="margin-bottom:12px">
+          <button class="btn btn-green" id="surprise-btn" onclick="App.surpriseMe()">✦ What can I make tonight?</button>
+        </div>
+        <div id="surprise-result" style="margin-bottom:12px"></div>
+        <div style="font-weight:600;margin-bottom:8px">Recent Recipes</div>
+        <div class="card">${recentHTML}</div>
+      </div>`;
+  },
+
+  getTodayPlan() {
+    const day = new Date().getDay();
+    const idx = day === 0 ? 6 : day - 1;
+    return this.data.mealplan[String(idx)] || {};
+  },
+
+  async surpriseMe() {
+    const btn = this.el('surprise-btn');
+    btn.textContent = '⏳ Thinking…'; btn.disabled = true;
+    this.html('surprise-result', '');
+    try {
+      const res = await fetch('/api/generate', {method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({count:1, usePantry:true})});
+      const data = await res.json();
+      if(data.error) { this.toast('⚠️ '+data.error); return; }
+      if(data[0]) {
+        await this.loadAll();
+        const r = data[0];
+        this.el('surprise-result').innerHTML = `
+          <div class="card" style="cursor:pointer" onclick="App.showRecipeDetail('${r.id}')">
+            <div class="recipe-row">
+              <div class="recipe-info">
+                <div class="recipe-name">✨ ${r.name}</div>
+                <div class="recipe-meta"><span>🕐 ${r.totalTime||((r.prepTime||0)+(r.cookTime||0))}m</span><span>${r.cuisineType}</span></div>
+                <div style="font-size:13px;color:var(--secondary);margin-top:4px">${r.description}</div>
+              </div>
+            </div>
+          </div>`;
+      }
+    } catch(e) { this.toast('Error: '+e.message); }
+    btn.textContent = '✦ What can I make tonight?'; btn.disabled = false;
+  },
+
+  // ── PANTRY ────────────────────────────────────────────────────────────────
+  renderPantry() {
+    const cats = ['Produce','Proteins','Dairy','Grains','Spices & Herbs','Condiments','Frozen','Canned Goods','Other'];
+    const byCategory = {};
+    this.data.pantry.forEach(i => { (byCategory[i.category]=byCategory[i.category]||[]).push(i); });
+    const usedCats = cats.filter(c => byCategory[c]?.length);
+
+    let body = `<div class="search-bar"><span class="search-icon">🔍</span>
+      <input id="pantry-search" placeholder="Search pantry" oninput="App.filterPantry()" style="background:#e5e5ea;border:none;padding:10px 14px 10px 36px;border-radius:12px;width:100%"></div>`;
+
+    if(this.data.pantry.length === 0) {
+      body += `<div class="empty"><div class="empty-icon">🛒</div><h3>Pantry is empty</h3><p>Add ingredients to get personalized recipes</p></div>`;
+    } else {
+      usedCats.forEach(cat => {
+        const items = byCategory[cat];
+        body += `<div class="cat-header">${this.catEmoji(cat)} ${cat}</div><div class="card" id="cat-${cat.replace(/\W/g,'_')}">`;
+        items.forEach(item => { body += this.pantryRowHTML(item); });
+        body += '</div>';
+      });
+    }
+
+    this.el('tab-pantry').innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 16px 8px">
+        <span style="font-size:28px;font-weight:700">Pantry</span>
+        <button class="btn btn-green btn-sm" onclick="App.showPantryModal()">+ Add</button>
+      </div>
+      <div style="padding:0 16px" id="pantry-list">${body}</div>`;
+  },
+
+  pantryRowHTML(item) {
+    const emoji = this.statusEmoji(item);
+    const exp = item.expirationDate ? ` · Exp: ${new Date(item.expirationDate).toLocaleDateString('en',{month:'numeric',day:'numeric'})}` : '';
+    const badge = (item.expirationDate && new Date(item.expirationDate)<Date.now()) ? '<span class="expired-badge">EXPIRED</span>' : '';
+    return `<div class="pantry-row" onclick="App.showPantryModal('${item.id}')">
+      <span class="pantry-status">${emoji}</span>
+      <div class="pantry-info">
+        <div class="pantry-name">${item.name}</div>
+        <div class="pantry-sub">${item.quantity||''} ${item.unit||''}${exp}</div>
+      </div>
+      ${badge}
+      <span style="color:var(--border);font-size:18px">›</span>
+    </div>`;
+  },
+
+  filterPantry() {
+    const q = (this.el('pantry-search')?.value||'').toLowerCase();
+    document.querySelectorAll('.pantry-row').forEach(row => {
+      const name = row.querySelector('.pantry-name')?.textContent.toLowerCase()||'';
+      row.style.display = name.includes(q) ? '' : 'none';
+    });
+  },
+
+  showPantryModal(id) {
+    const item = id ? this.data.pantry.find(i=>i.id===id) : null;
+    this.el('pantry-modal-title').textContent = item ? 'Edit Item' : 'Add Item';
+    this.el('pantry-id').value = id || '';
+    this.el('pantry-name').value = item?.name || '';
+    this.el('pantry-category').value = item?.category || 'Produce';
+    this.el('pantry-qty').value = item?.quantity || '';
+    this.el('pantry-unit').value = item?.unit || '';
+    this.el('pantry-lowstock').checked = item?.isLowStock || false;
+    const hasExp = !!(item?.expirationDate);
+    this.el('pantry-has-exp').checked = hasExp;
+    this.el('pantry-exp-row').style.display = hasExp ? 'block' : 'none';
+    this.el('pantry-exp').value = item?.expirationDate ? item.expirationDate.split('T')[0] : '';
+    this.el('pantry-delete-row').style.display = id ? 'block' : 'none';
+    this.openModal('pantry-modal');
+  },
+
+  async savePantryItem() {
+    const id = this.el('pantry-id').value;
+    const name = this.el('pantry-name').value.trim();
+    if(!name) { this.toast('Please enter a name'); return; }
+    const hasExp = this.el('pantry-has-exp').checked;
+    const item = {
+      name, category: this.el('pantry-category').value,
+      quantity: this.el('pantry-qty').value, unit: this.el('pantry-unit').value,
+      isLowStock: this.el('pantry-lowstock').checked,
+      expirationDate: hasExp ? this.el('pantry-exp').value : null
+    };
+    const url = id ? `/api/pantry/${id}` : '/api/pantry';
+    const method = id ? 'PUT' : 'POST';
+    await fetch(url, {method, headers:{'Content-Type':'application/json'}, body:JSON.stringify(item)});
+    await this.loadAll();
+    this.closeModal('pantry-modal');
+    this.renderPantry();
+    this.toast(id ? '✅ Item updated' : '✅ Item added');
+  },
+
+  async deletePantryItem() {
+    const id = this.el('pantry-id').value;
+    if(!confirm('Delete this item?')) return;
+    await fetch(`/api/pantry/${id}`, {method:'DELETE'});
+    await this.loadAll();
+    this.closeModal('pantry-modal');
+    this.renderPantry();
+    this.toast('🗑 Item deleted');
+  },
+
+  // ── RECIPES ───────────────────────────────────────────────────────────────
+  renderRecipes() {
+    const list = this.data.recipes;
+    this.el('tab-recipes').innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 16px 8px">
+        <span style="font-size:28px;font-weight:700">Recipes</span>
+        <button class="btn btn-green btn-sm" onclick="App.openModal('generate-modal')">✦ Generate</button>
+      </div>
+      <div class="search-bar"><span class="search-icon">🔍</span>
+        <input id="recipe-search" placeholder="Search recipes" oninput="App.filterRecipes()" style="background:#e5e5ea;border:none;padding:10px 14px 10px 36px;border-radius:12px;width:100%"></div>
+      <div class="chips" style="padding:0 16px 0">
+        <button class="chip" id="fav-chip" onclick="App.toggleFavFilter()">❤️ Favorites</button>
+      </div>
+      <div class="card" id="recipe-list" style="margin:8px 16px">
+        ${list.length ? list.map(r=>this.recipeRowHTML(r)).join('') : '<div class="empty"><div class="empty-icon">📚</div><h3>No recipes yet</h3><p>Tap Generate to create AI recipes from your pantry</p></div>'}
+      </div>`;
+    this._favFilter = false;
+  },
+
+  recipeRowHTML(r, minimal) {
+    const total = (r.prepTime||0)+(r.cookTime||0);
+    const fav = r.isFavorite ? '❤️ ' : '';
+    const stars = r.rating ? `<span class="stars">${'★'.repeat(r.rating)+'☆'.repeat(5-r.rating)}</span>` : '';
+    return `<div class="recipe-row" data-id="${r.id}" data-name="${r.name.toLowerCase()}" data-fav="${r.isFavorite}" onclick="App.showRecipeDetail('${r.id}')">
+      <div class="recipe-info">
+        <div class="recipe-name">${fav}${r.name}</div>
+        <div class="recipe-meta"><span>🕐 ${total}m</span><span>${r.cuisineType||''}</span><span>${r.servings||4} servings</span>${stars}</div>
+      </div>
+      <span style="color:var(--border);font-size:18px">›</span>
+    </div>`;
+  },
+
+  filterRecipes() {
+    const q = (this.el('recipe-search')?.value||'').toLowerCase();
+    document.querySelectorAll('#recipe-list .recipe-row').forEach(row => {
+      const name = row.dataset.name||'';
+      const favOk = !this._favFilter || row.dataset.fav === 'true';
+      row.style.display = (name.includes(q) && favOk) ? '' : 'none';
+    });
+  },
+
+  toggleFavFilter() {
+    this._favFilter = !this._favFilter;
+    const chip = this.el('fav-chip');
+    chip.classList.toggle('active', this._favFilter);
+    this.filterRecipes();
+  },
+
+  showRecipeDetail(id) {
+    const r = this.data.recipes.find(x=>x.id===id);
+    if(!r) return;
+    this.currentRecipe = r;
+    this._recipeServings = r.servings || 4;
+    this.el('recipe-modal-title').textContent = r.name;
+    this.renderRecipeBody(r);
+    this.openModal('recipe-modal');
+  },
+
+  renderRecipeBody(r) {
+    const s = this._recipeServings;
+    const ings = this.scaleIngredients(r, s);
+    const total = (r.prepTime||0)+(r.cookTime||0);
+    const favLabel = r.isFavorite ? '❤️ Favorited' : '🤍 Favorite';
+    const stars = r.rating ? this.stars(r.rating) : 'Not rated';
+
+    const nutrition = r.nutritionInfo ? `
+      <div class="card" style="margin-bottom:12px">
+        <div style="padding:12px 16px 0;font-weight:600">Nutrition (per serving)</div>
+        <div class="nutrition-row">
+          ${[['Calories',r.nutritionInfo.calories,'kcal'],['Protein',r.nutritionInfo.protein,'g'],
+             ['Carbs',r.nutritionInfo.carbohydrates,'g'],['Fat',r.nutritionInfo.fat,'g'],['Fiber',r.nutritionInfo.fiber,'g']]
+            .map(([l,v,u])=>`<div class="nut-cell"><div class="nut-val">${Math.round(v)}</div><div class="nut-unit">${u}</div><div class="nut-label">${l}</div></div>`).join('')}
+        </div>
+      </div>` : '';
+
+    const ingHTML = ings.map(i=>`<div class="card-row"><span style="width:8px;height:8px;background:var(--green);border-radius:50%;display:inline-block;flex-shrink:0"></span><span>${i.amount} ${i.unit} ${i.name}</span></div>`).join('');
+
+    const stepsHTML = (r.instructions||[]).map((step,idx)=>`
+      <div class="card-row" style="align-items:flex-start">
+        <span style="background:var(--green);color:#fff;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0">${idx+1}</span>
+        <div><div style="font-size:14px;line-height:1.5">${step.instruction}</div>
+        ${step.timerMinutes?`<div style="color:var(--orange);font-size:12px;margin-top:3px">⏱ ${step.timerMinutes} min timer</div>`:''}</div>
+      </div>`).join('');
+
+    const tags = (r.tags||[]).map(t=>`<span class="tag">${t}</span>`).join(' ');
+
+    this.el('recipe-modal-body').innerHTML = `
+      <p style="color:var(--secondary);margin-bottom:8px;font-size:14px">${r.description||''}</p>
+      <div style="margin-bottom:12px">${tags}</div>
+      <div class="card" style="margin-bottom:12px">
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:12px 0">
+          <div><div style="font-size:16px;font-weight:700">${r.prepTime||0}m</div><div style="font-size:11px;color:var(--secondary)">Prep</div></div>
+          <div><div style="font-size:16px;font-weight:700">${r.cookTime||0}m</div><div style="font-size:11px;color:var(--secondary)">Cook</div></div>
+          <div><div style="font-size:16px;font-weight:700">${r.cuisineType||''}</div><div style="font-size:11px;color:var(--secondary)">Cuisine</div></div>
+          <div>
+            <div style="display:flex;align-items:center;justify-content:center;gap:4px">
+              <button onclick="App.changeServings(-1)" style="background:none;border:none;font-size:20px;color:var(--green);cursor:pointer">−</button>
+              <span id="serving-count" style="font-size:16px;font-weight:700">${s}</span>
+              <button onclick="App.changeServings(1)" style="background:none;border:none;font-size:20px;color:var(--green);cursor:pointer">+</button>
+            </div>
+            <div style="font-size:11px;color:var(--secondary)">Servings</div>
+          </div>
+        </div>
+      </div>
+      ${nutrition}
+      <div style="font-weight:600;margin-bottom:6px">Ingredients</div>
+      ${s !== r.servings ? `<p style="color:var(--green);font-size:12px;font-style:italic;margin-bottom:6px">Scaled for ${s} servings</p>` : ''}
+      <div class="card" style="margin-bottom:12px">${ingHTML}</div>
+      <div style="font-weight:600;margin-bottom:6px">Instructions</div>
+      <div class="card" style="margin-bottom:16px">${stepsHTML}</div>
+      <button class="btn btn-green" style="margin-bottom:10px" onclick="App.startCooking()">▶ Start Cooking Mode</button>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+        <button class="btn btn-gray" onclick="App.toggleFavorite()">${favLabel}</button>
+        <button class="btn btn-gray" onclick="App.openRateModal()">⭐ ${stars}</button>
+      </div>
+      <button class="btn btn-red" onclick="App.deleteRecipe()">Delete Recipe</button>
+      <br>`;
+  },
+
+  changeServings(delta) {
+    this._recipeServings = Math.max(1, (this._recipeServings||4) + delta);
+    this.renderRecipeBody(this.currentRecipe);
+  },
+
+  async toggleFavorite() {
+    const r = this.currentRecipe;
+    r.isFavorite = !r.isFavorite;
+    await fetch(`/api/recipes/${r.id}`, {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({isFavorite:r.isFavorite})});
+    await this.loadAll();
+    this.currentRecipe = this.data.recipes.find(x=>x.id===r.id);
+    this.renderRecipeBody(this.currentRecipe);
+    this.toast(r.isFavorite ? '❤️ Added to favorites' : '🤍 Removed from favorites');
+  },
+
+  async deleteRecipe() {
+    if(!confirm('Delete this recipe?')) return;
+    await fetch(`/api/recipes/${this.currentRecipe.id}`, {method:'DELETE'});
+    await this.loadAll();
+    this.closeModal('recipe-modal');
+    this.renderRecipes();
+    this.toast('🗑 Recipe deleted');
+  },
+
+  // ── GENERATE ──────────────────────────────────────────────────────────────
+  async generateRecipes() {
+    const btn = this.el('gen-btn');
+    const err = this.el('gen-error');
+    btn.textContent = '⏳ Generating…'; btn.disabled = true;
+    err.style.display = 'none';
+    try {
+      const res = await fetch('/api/generate', {method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+          count: parseInt(this.el('gen-count').value),
+          mealType: this.el('gen-mealtype').value,
+          cuisineHint: this.el('gen-cuisine').value,
+          usePantry: this.el('gen-use-pantry').checked
+        })});
+      const data = await res.json();
+      if(data.error) { err.textContent = data.error; err.style.display='block'; return; }
+      await this.loadAll();
+      this.closeModal('generate-modal');
+      this.renderRecipes();
+      this.toast(`✅ ${data.length} recipe${data.length>1?'s':''} generated!`);
+    } catch(e) { err.textContent = e.message; err.style.display = 'block'; }
+    btn.textContent = '✦ Generate with AI'; btn.disabled = false;
+  },
+
+  // ── COOKING MODE ──────────────────────────────────────────────────────────
+  startCooking() {
+    const r = this.currentRecipe;
+    if(!r?.instructions?.length) return;
+    this.closeModal('recipe-modal');
+    this.cookingRecipe = {...r, instructions: r.instructions};
+    this.cookingStep = 0;
+    clearInterval(this.timerInterval);
+    this.timerRunning = false;
+    this.el('cooking-overlay').classList.add('active');
+    this.el('cooking-title').textContent = r.name;
+    this.renderCookingStep();
+  },
+
+  renderCookingStep() {
+    const steps = this.cookingRecipe.instructions;
+    const step = steps[this.cookingStep];
+    const pct = ((this.cookingStep+1)/steps.length*100)+'%';
+    this.el('cooking-progress').style.width = pct;
+    this.el('cooking-step-label').textContent = `Step ${this.cookingStep+1} of ${steps.length}`;
+    this.el('cooking-step-text').textContent = step.instruction;
+    this.el('cook-back').style.display = this.cookingStep > 0 ? '' : 'none';
+    this.el('cook-next').textContent = this.cookingStep === steps.length-1 ? '🎉 Done!' : 'Next →';
+    // Timer
+    clearInterval(this.timerInterval);
+    this.timerRunning = false;
+    if(step.timerMinutes) {
+      this.timerSeconds = step.timerMinutes * 60;
+      this.el('cooking-time').textContent = this.timeStr(this.timerSeconds);
+      this.el('cooking-time').classList.remove('done');
+      this.el('cooking-play-btn').textContent = '▶';
+      this.el('cooking-timer').style.display = 'block';
+    } else {
+      this.el('cooking-timer').style.display = 'none';
+    }
+  },
+
+  cookStep(dir) {
+    const steps = this.cookingRecipe.instructions;
+    if(dir > 0 && this.cookingStep === steps.length-1) { this.exitCooking(); return; }
+    this.cookingStep = Math.max(0, Math.min(steps.length-1, this.cookingStep+dir));
+    this.renderCookingStep();
+  },
+
+  toggleTimer() {
+    if(this.timerRunning) {
+      clearInterval(this.timerInterval);
+      this.timerRunning = false;
+      this.el('cooking-play-btn').textContent = '▶';
+    } else {
+      this.timerRunning = true;
+      this.el('cooking-play-btn').textContent = '⏸';
+      this.timerInterval = setInterval(() => {
+        this.timerSeconds--;
+        this.el('cooking-time').textContent = this.timeStr(Math.max(0,this.timerSeconds));
+        if(this.timerSeconds <= 0) {
+          clearInterval(this.timerInterval); this.timerRunning = false;
+          this.el('cooking-play-btn').textContent = '▶';
+          this.el('cooking-time').classList.add('done');
+        }
+      }, 1000);
+    }
+  },
+
+  resetTimer() {
+    clearInterval(this.timerInterval); this.timerRunning = false;
+    const mins = this.cookingRecipe.instructions[this.cookingStep].timerMinutes || 0;
+    this.timerSeconds = mins * 60;
+    this.el('cooking-time').textContent = this.timeStr(this.timerSeconds);
+    this.el('cooking-time').classList.remove('done');
+    this.el('cooking-play-btn').textContent = '▶';
+  },
+
+  exitCooking() {
+    clearInterval(this.timerInterval);
+    this.timerRunning = false;
+    this.el('cooking-overlay').classList.remove('active');
+    if(this.currentRecipe) this.openModal('recipe-modal');
+  },
+
+  toggleCookingIngredients() {
+    const r = this.cookingRecipe;
+    const ings = (r.ingredients||[]).map(i=>`<div class="card-row">• ${i.amount} ${i.unit} ${i.name}</div>`).join('');
+    this.el('cooking-ing-list').innerHTML = `<div class="card">${ings}</div>`;
+    this.openModal('cooking-ing-modal');
+  },
+
+  // ── RATING ────────────────────────────────────────────────────────────────
+  openRateModal() {
+    this.currentRating = this.currentRecipe.rating || 0;
+    this.el('rate-recipe-name').textContent = this.currentRecipe.name;
+    this.renderRatingStars();
+    this.openModal('rate-modal');
+  },
+
+  renderRatingStars() {
+    const emojis = ['','😞','😐','🙂','😊','🤩'];
+    const labels = ['Tap a star to rate','Not for me','Could be better','Pretty good','Really liked it','Absolutely loved it!'];
+    this.el('rate-emoji').textContent = emojis[this.currentRating] || '⭐️';
+    this.el('rate-label').textContent = labels[this.currentRating];
+    this.el('rate-low-msg').style.display = (this.currentRating>0&&this.currentRating<=2) ? 'block' : 'none';
+    this.el('rate-submit').disabled = this.currentRating === 0;
+    this.el('rating-stars').innerHTML = [1,2,3,4,5].map(n=>
+      `<button class="rating-star" onclick="App.setRating(${n})">${n<=this.currentRating?'★':'☆'}</button>`
+    ).join('');
+  },
+
+  setRating(n) { this.currentRating = n; this.renderRatingStars(); },
+
+  async submitRating() {
+    const r = this.currentRecipe;
+    const stars = this.currentRating;
+    r.rating = stars;
+    await fetch(`/api/recipes/${r.id}`, {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify({rating:stars})});
+    if(stars <= 2) {
+      fetch('/api/extract-ingredients', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({recipe:r})})
+        .then(res=>res.json()).then(async ings => {
+          if(ings.length) {
+            const prefs = this.data.preferences;
+            const newAvoid = ings.filter(i => !prefs.avoidFromRatings.includes(i));
+            if(newAvoid.length) {
+              prefs.avoidFromRatings = [...(prefs.avoidFromRatings||[]), ...newAvoid];
+              await fetch('/api/preferences', {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(prefs)});
+            }
+          }
+        });
+    }
+    await this.loadAll();
+    this.currentRecipe = this.data.recipes.find(x=>x.id===r.id);
+    this.closeModal('rate-modal');
+    this.renderRecipeBody(this.currentRecipe);
+    this.toast(`⭐ Rated ${stars} star${stars>1?'s':''}!`);
+  },
+
+  // ── MEAL PLAN ─────────────────────────────────────────────────────────────
+  renderMealPlan() {
+    const days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+    const today = new Date().getDay();
+    const todayIdx = today === 0 ? 6 : today - 1;
+    const weekDates = this.getWeekDates();
+
+    const dayChips = days.map((d,i) => {
+      const isToday = i === todayIdx;
+      const isActive = i === this.selectedDay;
+      return `<button class="day-chip ${isActive?'active':''} ${isToday&&!isActive?'today':''}" onclick="App.selectDay(${i})">
+        <span class="day-chip-name">${d}</span>
+        <span class="day-chip-date">${weekDates[i].getDate()}</span>
+      </button>`;
+    }).join('');
+
+    const plan = this.data.mealplan[String(this.selectedDay)] || {};
+    const slotsHTML = ['breakfast','lunch','dinner'].map(slot => {
+      const meal = plan[slot];
+      const icon = {breakfast:'🌅',lunch:'☀️',dinner:'🌙'}[slot];
+      const label = slot[0].toUpperCase()+slot.slice(1);
+      return `<div class="meal-slot">
+        <div class="slot-header">
+          <span class="slot-label">${icon} ${label}</span>
+          ${meal ? `<button class="slot-clear" onclick="App.clearMeal('${slot}')">✕</button>` : ''}
+        </div>
+        ${meal ? `<div class="slot-filled">
+          <div>
+            <div style="font-weight:600;font-size:15px">${meal.recipeName}</div>
+            <div style="font-size:12px;color:var(--secondary)">${meal.servings} servings</div>
+          </div>
+          <span style="color:var(--green);font-size:20px">✓</span>
+        </div>` : `<div class="slot-empty" onclick="App.openPickModal('${slot}')">+ Add ${label}</div>`}
+      </div>`;
+    }).join('');
+
+    this.el('tab-mealplan').innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 16px 8px">
+        <span style="font-size:28px;font-weight:700">Meal Plan</span>
+        <button class="btn btn-gray btn-sm" onclick="App.openShoppingList()">🛒 List</button>
+      </div>
+      <div class="week-scroll">${dayChips}</div>
+      <div style="padding:0 0 8px;margin-top:8px">
+        <div style="font-size:18px;font-weight:600;padding:0 16px 12px">${['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][this.selectedDay]}</div>
+        ${slotsHTML}
+      </div>`;
+  },
+
+  getWeekDates() {
+    const now = new Date();
+    const day = now.getDay();
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - (day===0?6:day-1));
+    return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setDate(monday.getDate()+i);return d;});
+  },
+
+  selectDay(idx) { this.selectedDay = idx; this.renderMealPlan(); },
+
+  async clearMeal(slot) {
+    const plan = {...this.data.mealplan};
+    plan[String(this.selectedDay)] = {...(plan[String(this.selectedDay)]||{}), [slot]: null};
+    await fetch('/api/mealplan',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(plan)});
+    await this.loadAll();
+    this.renderMealPlan();
+  },
+
+  openPickModal(slot) {
+    this.pickContext = slot;
+    this.el('pick-title').textContent = `Pick ${{breakfast:'Breakfast',lunch:'Lunch',dinner:'Dinner'}[slot]}`;
+    this.el('pick-servings').value = this.data.preferences.defaultServings || 4;
+    this.el('pick-search').value = '';
+    this.renderPickList();
+    this.openModal('pick-modal');
+  },
+
+  renderPickList() {
+    const q = (this.el('pick-search')?.value||'').toLowerCase();
+    const list = this.data.recipes.filter(r=>r.name.toLowerCase().includes(q));
+    this.el('pick-list').innerHTML = list.length ? `<div class="card">${list.map(r=>`
+      <div class="recipe-row" onclick="App.assignMeal('${r.id}','${r.name}')">
+        <div class="recipe-info">
+          <div class="recipe-name">${r.name}</div>
+          <div class="recipe-meta"><span>🕐 ${(r.prepTime||0)+(r.cookTime||0)}m</span><span>${r.cuisineType||''}</span></div>
+        </div>
+        <span style="color:var(--border);font-size:18px">›</span>
+      </div>`).join('')}</div>` : '<p style="color:var(--secondary);text-align:center;padding:20px">No recipes found</p>';
+  },
+
+  async assignMeal(recipeId, recipeName) {
+    const servings = parseInt(this.el('pick-servings').value) || 4;
+    const plan = {...this.data.mealplan};
+    plan[String(this.selectedDay)] = {...(plan[String(this.selectedDay)]||{}),[this.pickContext]:{recipeId,recipeName,servings}};
+    await fetch('/api/mealplan',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(plan)});
+    await this.loadAll();
+    this.closeModal('pick-modal');
+    this.renderMealPlan();
+    this.toast('✅ Meal planned!');
+  },
+
+  async openShoppingList() {
+    const items = await fetch('/api/shopping').then(r=>r.json());
+    this._shoppingChecked = new Set();
+    this.renderShoppingList(items);
+    this._shoppingItems = items;
+    this.openModal('shopping-modal');
+  },
+
+  renderShoppingList(items) {
+    if(!items.length) { this.el('shopping-body').innerHTML = '<p style="color:var(--secondary);text-align:center;padding:30px">Plan some meals first to auto-generate your list!</p>'; return; }
+    const checked = this._shoppingChecked||new Set();
+    const unchecked = items.filter(i=>!checked.has(i.name));
+    const done = items.filter(i=>checked.has(i.name));
+    const row = i => {
+      const isChecked = checked.has(i.name);
+      const amt = Number.isInteger(i.amount)?i.amount:parseFloat(i.amount.toFixed(1));
+      return `<div class="card-row" onclick="App.toggleShoppingItem('${i.name}')" style="cursor:pointer">
+        <span style="font-size:22px">${isChecked?'✅':'⭕️'}</span>
+        <span style="${isChecked?'text-decoration:line-through;color:var(--secondary)':''}">${amt} ${i.unit} ${i.name}</span>
+      </div>`;
+    };
+    this.el('shopping-body').innerHTML = `
+      ${unchecked.length ? `<div style="font-weight:600;margin-bottom:6px">To Buy (${unchecked.length})</div><div class="card" style="margin-bottom:12px">${unchecked.map(row).join('')}</div>` : ''}
+      ${done.length ? `<div style="font-weight:600;margin-bottom:6px;color:var(--secondary)">In Cart (${done.length})</div><div class="card">${done.map(row).join('')}</div>` : ''}`;
+  },
+
+  toggleShoppingItem(name) {
+    if(!this._shoppingChecked) this._shoppingChecked = new Set();
+    if(this._shoppingChecked.has(name)) this._shoppingChecked.delete(name);
+    else this._shoppingChecked.add(name);
+    this.renderShoppingList(this._shoppingItems);
+  },
+
+  // ── SETTINGS ─────────────────────────────────────────────────────────────
+  renderSettings() {
+    const p = this.data.preferences;
+    const allergens = ['Crawfish','Shrimp','Shellfish','Peanuts','Tree Nuts','Milk','Eggs','Fish','Wheat','Soy','Sesame'];
+    const diets = ['Vegetarian','Vegan','Gluten-Free','Dairy-Free','Keto','Paleo','Low Sodium','Low Carb','Halal','Kosher'];
+    const skills = ['Beginner','Intermediate','Advanced','Chef Level'];
+
+    const allergenToggles = allergens.map(a => `
+      <div class="toggle-row">
+        <span>${a}</span>
+        <input type="checkbox" class="toggle" ${(p.allergies||[]).includes(a)?'checked':''} onchange="App.toggleAllergy('${a}',this.checked)">
+      </div>`).join('');
+
+    const dietToggles = diets.map(d => `
+      <div class="toggle-row">
+        <span>${d}</span>
+        <input type="checkbox" class="toggle" ${(p.dietary||[]).includes(d)?'checked':''} onchange="App.toggleDietary('${d}',this.checked)">
+      </div>`).join('');
+
+    const dislikedHTML = (p.disliked||[]).map(i=>`
+      <div class="card-row">
+        <span style="flex:1">${i}</span>
+        <button onclick="App.removeDisliked('${i}')" style="background:none;border:none;color:var(--red);font-size:20px;cursor:pointer">−</button>
+      </div>`).join('');
+
+    const avoidHTML = (p.avoidFromRatings||[]).map(i=>`
+      <div class="card-row">
+        <span style="flex:1">${i}</span>
+        <button onclick="App.removeAvoid('${i}')" style="background:none;border:none;color:var(--red);font-size:20px;cursor:pointer">−</button>
+      </div>`).join('');
+
+    this.el('tab-settings').innerHTML = `
+      <div class="page-header">Settings</div>
+
+      <div class="settings-section">
+        <div class="settings-label">Profile</div>
+        <div class="card">
+          <div class="card-row"><span style="color:var(--secondary);width:80px">Name</span>
+            <input id="s-name" value="${p.userName||''}" placeholder="Your name" style="border:none;background:none;text-align:right;flex:1" onchange="App.savePref('userName',this.value)"></div>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label">AI Integration</div>
+        <div class="card">
+          <div class="card-row" style="flex-direction:column;align-items:stretch;gap:8px">
+            <span style="font-size:14px;color:var(--secondary)">Anthropic API Key</span>
+            <div style="display:flex;gap:8px">
+              <input id="s-apikey" type="password" value="${p.apiKey||''}" placeholder="sk-ant-..." style="flex:1">
+              <button class="btn btn-green btn-sm" onclick="App.saveApiKey()">Save</button>
+            </div>
+            <p style="font-size:12px;color:var(--secondary)">Get a free key at console.anthropic.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label">Allergies & Intolerances</div>
+        <div class="card">${allergenToggles}</div>
+        <div style="display:flex;gap:8px;margin-top:8px;padding:0 0">
+          <input id="s-new-allergy" placeholder="Add custom allergy..." style="flex:1">
+          <button class="btn btn-green btn-sm" onclick="App.addCustomAllergy()">Add</button>
+        </div>
+        ${(p.allergies||[]).filter(a=>!allergens.includes(a)).length ? `<div class="card" style="margin-top:8px">${(p.allergies||[]).filter(a=>!allergens.includes(a)).map(a=>`<div class="card-row"><span style="flex:1">${a}</span><button onclick="App.toggleAllergy('${a}',false)" style="background:none;border:none;color:var(--red);font-size:20px;cursor:pointer">−</button></div>`).join('')}</div>` : ''}
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label">Dietary Preferences</div>
+        <div class="card">${dietToggles}</div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label">Disliked Ingredients</div>
+        <div class="card" id="disliked-list">${dislikedHTML || '<div class="card-row" style="color:var(--secondary)">None added</div>'}</div>
+        <div style="display:flex;gap:8px;margin-top:8px">
+          <input id="s-new-dislike" placeholder="Add ingredient to avoid...">
+          <button class="btn btn-green btn-sm" onclick="App.addDisliked()">Add</button>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <div class="settings-label">Cooking Preferences</div>
+        <div class="card">
+          <div class="card-row"><span>Skill Level</span>
+            <select id="s-skill" onchange="App.savePref('skillLevel',this.value)" style="border:none;background:none;text-align:right">
+              ${skills.map(s=>`<option ${p.skillLevel===s?'selected':''}>${s}</option>`).join('')}
+            </select>
+          </div>
+          <div class="card-row" style="flex-direction:column;align-items:stretch;gap:8px">
+            <div style="display:flex;justify-content:space-between"><span>Max Cook Time</span><span id="s-time-val" style="color:var(--green)">${p.maxCookTime||60} min</span></div>
+            <input type="range" min="15" max="180" step="15" value="${p.maxCookTime||60}" oninput="App.el('s-time-val').textContent=this.value+' min'" onchange="App.savePref('maxCookTime',parseInt(this.value))">
+          </div>
+          <div class="card-row"><span>Default Servings</span>
+            <div style="display:flex;align-items:center;gap:10px">
+              <button onclick="App.changeDefaultServings(-1)" style="background:none;border:none;font-size:22px;color:var(--green);cursor:pointer">−</button>
+              <span id="s-servings" style="font-weight:600">${p.defaultServings||4}</span>
+              <button onclick="App.changeDefaultServings(1)" style="background:none;border:none;font-size:22px;color:var(--green);cursor:pointer">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      ${(p.avoidFromRatings||[]).length ? `
+      <div class="settings-section">
+        <div class="settings-label">Avoided from Low Ratings</div>
+        <p style="font-size:12px;color:var(--secondary);padding:0 4px;margin-bottom:6px">Auto-learned from poorly rated recipes</p>
+        <div class="card">${avoidHTML}</div>
+      </div>` : ''}
+      <br>`;
+  },
+
+  async savePref(key, value) {
+    this.data.preferences[key] = value;
+    await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({[key]:value})});
+  },
+
+  async saveApiKey() {
+    const key = this.el('s-apikey').value.trim();
+    await this.savePref('apiKey', key);
+    this.toast('✅ API key saved');
+  },
+
+  async toggleAllergy(name, on) {
+    const p = this.data.preferences;
+    p.allergies = p.allergies || [];
+    if(on && !p.allergies.includes(name)) p.allergies.push(name);
+    else if(!on) p.allergies = p.allergies.filter(a=>a!==name);
+    await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({allergies:p.allergies})});
+  },
+
+  async toggleDietary(name, on) {
+    const p = this.data.preferences;
+    p.dietary = p.dietary || [];
+    if(on && !p.dietary.includes(name)) p.dietary.push(name);
+    else if(!on) p.dietary = p.dietary.filter(d=>d!==name);
+    await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({dietary:p.dietary})});
+  },
+
+  async addCustomAllergy() {
+    const val = this.el('s-new-allergy').value.trim();
+    if(!val) return;
+    await this.toggleAllergy(val, true);
+    await this.loadAll();
+    this.el('s-new-allergy').value = '';
+    this.renderSettings();
+    this.toast('✅ Added');
+  },
+
+  async addDisliked() {
+    const val = this.el('s-new-dislike').value.trim();
+    if(!val) return;
+    const p = this.data.preferences;
+    p.disliked = p.disliked || [];
+    if(!p.disliked.includes(val)) {
+      p.disliked.push(val);
+      await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({disliked:p.disliked})});
+    }
+    await this.loadAll();
+    this.el('s-new-dislike').value = '';
+    this.renderSettings();
+  },
+
+  async removeDisliked(name) {
+    this.data.preferences.disliked = (this.data.preferences.disliked||[]).filter(i=>i!==name);
+    await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({disliked:this.data.preferences.disliked})});
+    await this.loadAll();
+    this.renderSettings();
+  },
+
+  async removeAvoid(name) {
+    this.data.preferences.avoidFromRatings = (this.data.preferences.avoidFromRatings||[]).filter(i=>i!==name);
+    await fetch('/api/preferences',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({avoidFromRatings:this.data.preferences.avoidFromRatings})});
+    await this.loadAll();
+    this.renderSettings();
+  },
+
+  changeDefaultServings(delta) {
+    const current = this.data.preferences.defaultServings || 4;
+    const next = Math.max(1, Math.min(20, current+delta));
+    this.savePref('defaultServings', next);
+    const el = this.el('s-servings');
+    if(el) el.textContent = next;
+  }
+};
+
+document.addEventListener('DOMContentLoaded', () => App.init());
+</script>
+</body>
+</html>
