@@ -1,12 +1,10 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, send_from_directory, request, jsonify
 import json, os, uuid, re
 from datetime import datetime
 import requests as http
 
 app = Flask(__name__)
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cookbook_data.json')
-
-# ── Data helpers ──────────────────────────────────────────────────────────────
 
 def load():
     if os.path.exists(DATA_FILE):
@@ -30,13 +28,9 @@ def _default():
         }
     }
 
-# ── Main page ─────────────────────────────────────────────────────────────────
-
 @app.route('/')
 def index():
-    return render_template('index.html')
-
-# ── Pantry ────────────────────────────────────────────────────────────────────
+    return send_from_directory('templates', 'index.html')
 
 @app.route('/api/pantry', methods=['GET'])
 def get_pantry():
@@ -69,8 +63,6 @@ def delete_pantry(item_id):
     save(d)
     return jsonify({'ok': True})
 
-# ── Recipes ───────────────────────────────────────────────────────────────────
-
 @app.route('/api/recipes', methods=['GET'])
 def get_recipes():
     return jsonify(load()['recipes'])
@@ -91,8 +83,6 @@ def delete_recipe(recipe_id):
     d['recipes'] = [r for r in d['recipes'] if r['id'] != recipe_id]
     save(d)
     return jsonify({'ok': True})
-
-# ── AI Generation ─────────────────────────────────────────────────────────────
 
 @app.route('/api/generate', methods=['POST'])
 def generate():
@@ -182,8 +172,6 @@ def extract_ingredients():
         pass
     return jsonify([])
 
-# ── Meal Plan ─────────────────────────────────────────────────────────────────
-
 @app.route('/api/mealplan', methods=['GET'])
 def get_mealplan():
     return jsonify(load()['mealplan'])
@@ -194,8 +182,6 @@ def update_mealplan():
     d['mealplan'] = request.json
     save(d)
     return jsonify(d['mealplan'])
-
-# ── Shopping List ─────────────────────────────────────────────────────────────
 
 @app.route('/api/shopping', methods=['GET'])
 def shopping_list():
@@ -219,8 +205,6 @@ def shopping_list():
                     agg[key] = {'name': ing['name'], 'amount': round(ing['amount'] * scale, 1), 'unit': ing['unit']}
     return jsonify(sorted(agg.values(), key=lambda x: x['name']))
 
-# ── Preferences ───────────────────────────────────────────────────────────────
-
 @app.route('/api/preferences', methods=['GET'])
 def get_preferences():
     return jsonify(load()['preferences'])
@@ -231,8 +215,6 @@ def update_preferences():
     d['preferences'].update(request.json)
     save(d)
     return jsonify(d['preferences'])
-
-# ── Claude API ────────────────────────────────────────────────────────────────
 
 def _claude(api_key, system_prompt, user_prompt):
     resp = http.post(
@@ -253,8 +235,6 @@ def _claude(api_key, system_prompt, user_prompt):
     resp.raise_for_status()
     return resp.json()['content'][0]['text']
 
-# ─────────────────────────────────────────────────────────────────────────────
-
 if __name__ == '__main__':
-    print("Starting Cookbook server...")
+    print('Starting Cookbook server...')
     app.run(host='0.0.0.0', port=5000, debug=False)
