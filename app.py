@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, send_from_directory, request, jsonify
 import json, os, uuid, re
 from datetime import datetime
 import requests as http
@@ -34,7 +34,7 @@ def _default():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return send_from_directory('templates', 'index.html')
 
 # ── Pantry ────────────────────────────────────────────────────────────────────
 
