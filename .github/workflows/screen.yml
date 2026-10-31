@@ -1,0 +1,24 @@
+name: Value screen
+on:
+  schedule:
+    - cron: "15 22 * * 1,4"   # Monday and Thursday, after the close
+  workflow_dispatch:
+  push:
+    paths: ["screen/screen.py", ".github/workflows/screen.yml"]
+permissions:
+  contents: write
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install yfinance
+      - run: python screen/screen.py 2>&1 | tee screen/run.log
+      - if: always()
+        run: |
+          git config user.name "price-bot"; git config user.email "price-bot@users.noreply.github.com"
+          git add screen/results.json screen/history screen/run.log
+          git diff --cached --quiet || (git commit -m "Screen results" && git pull --rebase -q origin main && git push)
