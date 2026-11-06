@@ -826,4 +826,4 @@ universe 267
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:190: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   out = {"run_date": today, "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ"),
-done {'universe': 267, 'scored': 204, 'skipped': 62, 'skip_reasons': {'not cheap': 38, 'market value below floor': 19, 'penny stock': 5}} top10 ['CVE', 'ZTO', 'TME', 'HMY', 'IAG', 'TIMB', 'SBSW', 'PBR', 'SM', 'VALE']
+done {'universe': 267, 'scored': 204, 'skipped': 62, 'skip_reasons': {'penny stock': 5, 'market value below floor': 20, 'not cheap': 37}} top10 ['CVE', 'ZTO', 'TME', 'HMY', 'IAG', 'TIMB', 'SBSW', 'PBR', 'SM', 'VALE']
