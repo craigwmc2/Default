@@ -1,7 +1,7 @@
 name: Value screen
 on:
   schedule:
-    - cron: "15 22 * * 1,4"   # Monday and Thursday, after the close
+    - cron: "30 21 * * 1,4"   # Monday and Thursday, after the close (GitHub can start scheduled jobs hours late)
   workflow_dispatch:
   push:
     paths: ["screen/screen.py", ".github/workflows/screen.yml"]
