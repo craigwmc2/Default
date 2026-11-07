@@ -3,7 +3,7 @@
 scores every candidate on the 12-point rubric, rates the numeric risk checks, builds the
 combined top 10 / top 5 per exchange, and compares with the previous run.
 Output: screen/results.json (latest) and screen/history/<date>.json."""
-import datetime as dt, json, math, os, sys, time
+import datetime as dt, json, math, os, re, sys, time
 import yfinance as yf
 from yfinance import EquityQuery
 
@@ -23,6 +23,25 @@ LEVELS = {   # indicator: (direction, [(good,bad) for level 1..5])
 }
 OVERRIDES = {}  # e.g. {"debt": 3}
 EXCLUDED = json.load(open(os.path.join(HERE, "exclusions.json"))) if os.path.exists(os.path.join(HERE, "exclusions.json")) else {}
+
+DEAL_RE = re.compile(r"\b(acquire[sd]?|acquisition|acquiring|to buy|agrees? to (?:buy|sell|be acquired|merge)|merger|merges?|takeover|take-private|buyout|definitive agreement|to be acquired|tender offer|all-stock|all-cash deal)\b", re.I)
+
+def deal_scan(t, days=90):
+    """Scan Yahoo headlines from the last `days` days for deal language. Returns (flag, headlines).
+    This is a wide net: Claude confirms terms in the analysis step. Absence = 'none found', not 'none exists'."""
+    try: items = retry(lambda: t.news) or []
+    except Exception: return None, []
+    cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+    hits = []
+    for it in items:
+        c = it.get("content") or it
+        title = c.get("title") or ""
+        when = c.get("pubDate") or c.get("displayTime") or ""
+        try: d = dt.datetime.strptime(when[:10], "%Y-%m-%d")
+        except Exception: d = None
+        if d and d < cutoff: continue
+        if DEAL_RE.search(title): hits.append({"date": when[:10], "title": title[:160]})
+    return ("possible" if hits else "none_found"), hits[:5]
 
 def num(x):
     try:
@@ -136,12 +155,17 @@ def analyze(sym, quote):
     risks["analyst"] = analyst
     nred = sum(1 for k, x in risks.items() if x == "❌"); nwatch = sum(1 for x in risks.values() if x == "⚠️")
     lvl = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
+    dflag, dhits = deal_scan(t)
+    risks["deal"] = "❓" if dflag == "possible" else ("✅" if dflag == "none_found" else "❓")
     ts = num(info.get("earningsTimestamp") or info.get("earningsTimestampStart"))
     r.update({"financial": fin, "fwd_pe": fwd, "pb": pb, "roe": roe, "roic": roic, "fcf_yield": fcfy, "debt_ebitda": dte,
               "net_cash": netcash, "altman": z, "dilution_pct": dil, "short_pct_float": short, "fcf_payout_pct": divpay,
               "fwd_eps_growth_pct": fgrowth, "analyst_rec": rec, "analyst_upside_pct": up,
               "score": score, "score_parts": {"valuation": v, "returns": ret, "balance": bal, "fcf": fc, "growth": gr},
               "risks": risks, "after_risk": score - nred, "risk_level": lvl,
+              "deal_flag": dflag, "deal_headlines": dhits,
+              "total_debt": debt, "total_cash": cash, "ebitda": ebitda, "free_cash_flow": fcf,
+              "shares_out": num(info.get("sharesOutstanding")),
               "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
     return r
 
