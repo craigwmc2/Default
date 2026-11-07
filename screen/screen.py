@@ -72,7 +72,7 @@ def peer_check(r, pool):
                             "value": round(mine, 2), "vs_median_pct": round(rel, 1)}
     return "❓", {"metric": metric, "note": "too few peers in the screened set"}
 
-NO_WATCH = ("peer", "margin", "steady")   # these two checks can mark a stock bad (-1 point) but their watch marks do not raise the risk level
+NO_WATCH = ("peer", "margin", "steady")   # added 2026-11-07: these checks cost 1 point per bad mark (after-risk) but do not change the risk LEVEL, which keeps its original definition
 
 def margin_check(fs, fin):
     """EBITDA margin: latest annual year vs the average of up to 3 prior annual years (percentage points).
@@ -224,7 +224,8 @@ def analyze(sym, quote):
     mrate, mdet = margin_check(fs, fin); risks["margin"] = mrate
     srate, sdet = steadiness_check(fs, trl); risks["steady"] = srate
     nred = sum(1 for k, x in risks.items() if x == "❌"); nwatch = sum(1 for k, x in risks.items() if x == "⚠️" and k not in NO_WATCH)
-    lvl = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
+    nred_lvl = sum(1 for k, x in risks.items() if x == "❌" and k not in NO_WATCH)
+    lvl = "High" if nred_lvl >= 2 else "Medium" if (nred_lvl == 1 or nwatch >= 5) else "Low"
     dflag, dhits = deal_scan(t)
     risks["deal"] = "❓" if dflag == "possible" else ("✅" if dflag == "none_found" else "❓")
     ts = num(info.get("earningsTimestamp") or info.get("earningsTimestampStart"))
@@ -257,8 +258,9 @@ def main():
         rt, det = peer_check(r, pool)
         r["risks"]["peer"] = rt; r["peer"] = det
         nred = sum(1 for x in r["risks"].values() if x == "❌"); nwatch = sum(1 for k, x in r["risks"].items() if x == "⚠️" and k not in NO_WATCH)
+        nred_lvl = sum(1 for k, x in r["risks"].items() if x == "❌" and k not in NO_WATCH)
         r["after_risk"] = r["score"] - nred
-        r["risk_level"] = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
+        r["risk_level"] = "High" if nred_lvl >= 2 else "Medium" if (nred_lvl == 1 or nwatch >= 5) else "Low"
     scored.sort(key=lambda r: (-r["after_risk"], -r["score"], -(r["market_cap"] or 0)))
     for n, r in enumerate(scored, 1): r["rank"] = n
     top10 = scored[:10]
