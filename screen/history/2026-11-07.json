@@ -1,6 +1,6 @@
 {
  "run_date": "2026-11-07",
- "generated_at": "2026-11-07T14:22Z",
+ "generated_at": "2026-11-07T14:28Z",
  "source": "Yahoo Finance via yfinance, fetched live during this run",
  "risk_setting": {
   "master": 2,
@@ -11,9 +11,9 @@
   "scored": 202,
   "skipped": 70,
   "skip_reasons": {
-   "market value below floor": 19,
+   "penny stock": 5,
    "not cheap": 46,
-   "penny stock": 5
+   "market value below floor": 19
   }
  },
  "excluded": {
@@ -28,7 +28,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.9994173,
    "m_pb": 1.9767724,
    "m_ev_ebitda": null,
@@ -122,7 +122,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.458209,
    "m_pb": 1.3464848,
    "m_ev_ebitda": null,
@@ -216,7 +216,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.245092,
    "m_pb": 1.6593182,
    "m_ev_ebitda": null,
@@ -305,7 +305,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 5.198147,
    "m_pb": 2.3404922,
    "m_ev_ebitda": null,
@@ -394,7 +394,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 3.482386,
    "m_pb": 0.9064744,
    "m_ev_ebitda": 3.79,
@@ -488,7 +488,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.315206,
    "m_pb": 1.7402893,
    "m_ev_ebitda": null,
@@ -577,7 +577,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 4.344666,
    "m_pb": 1.2480016,
    "m_ev_ebitda": null,
@@ -666,7 +666,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 3.8435724,
    "m_pb": 4.1011443,
    "m_ev_ebitda": null,
@@ -753,7 +753,7 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 7.4705296,
    "m_pb": 1.283553,
    "m_ev_ebitda": 6.212,
@@ -847,7 +847,7 @@
    "market_cap": 39313055744.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.2370224,
    "m_pb": 1.1924037,
    "m_ev_ebitda": null,
@@ -944,7 +944,7 @@
     "market_cap": 49610989568.0,
     "sector": "Energy",
     "industry": "Oil & Gas Integrated",
-    "fetched_at": "2026-11-07T14:16Z",
+    "fetched_at": "2026-11-07T14:24Z",
     "m_fwd_pe": 7.9994173,
     "m_pb": 1.9767724,
     "m_ev_ebitda": null,
@@ -1038,7 +1038,7 @@
     "market_cap": 15580555264.0,
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "fetched_at": "2026-11-07T14:17Z",
+    "fetched_at": "2026-11-07T14:25Z",
     "m_fwd_pe": 9.458209,
     "m_pb": 1.3464848,
     "m_ev_ebitda": null,
@@ -1132,7 +1132,7 @@
     "market_cap": 15530130432.0,
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics",
-    "fetched_at": "2026-11-07T14:17Z",
+    "fetched_at": "2026-11-07T14:25Z",
     "m_fwd_pe": 9.245092,
     "m_pb": 1.6593182,
     "m_ev_ebitda": null,
@@ -1221,7 +1221,7 @@
     "market_cap": 10766166016.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T14:18Z",
+    "fetched_at": "2026-11-07T14:26Z",
     "m_fwd_pe": 5.198147,
     "m_pb": 2.3404922,
     "m_ev_ebitda": null,
@@ -1310,7 +1310,7 @@
     "market_cap": 7031777280.0,
     "sector": "Energy",
     "industry": "Oil & Gas E&P",
-    "fetched_at": "2026-11-07T14:20Z",
+    "fetched_at": "2026-11-07T14:27Z",
     "m_fwd_pe": 3.482386,
     "m_pb": 0.9064744,
     "m_ev_ebitda": 3.79,
@@ -1406,7 +1406,7 @@
     "market_cap": 39313055744.0,
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "fetched_at": "2026-11-07T14:16Z",
+    "fetched_at": "2026-11-07T14:24Z",
     "m_fwd_pe": 7.2370224,
     "m_pb": 1.1924037,
     "m_ev_ebitda": null,
@@ -1500,7 +1500,7 @@
     "market_cap": 17673695232.0,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "fetched_at": "2026-11-07T14:17Z",
+    "fetched_at": "2026-11-07T14:25Z",
     "m_fwd_pe": 8.926218,
     "m_pb": 6.4452615,
     "m_ev_ebitda": 10.095,
@@ -1606,7 +1606,7 @@
     "market_cap": 6113241088.0,
     "sector": "Communication Services",
     "industry": "Advertising Agencies",
-    "fetched_at": "2026-11-07T14:20Z",
+    "fetched_at": "2026-11-07T14:27Z",
     "m_fwd_pe": 12.7400465,
     "m_pb": 2.3586283,
     "m_ev_ebitda": 7.198,
@@ -1695,7 +1695,7 @@
     "market_cap": 5302699520.0,
     "sector": "Technology",
     "industry": "Software - Application",
-    "fetched_at": "2026-11-07T14:21Z",
+    "fetched_at": "2026-11-07T14:28Z",
     "m_fwd_pe": 13.648082,
     "m_pb": 9.651475,
     "m_ev_ebitda": 22.155,
@@ -1784,7 +1784,7 @@
     "market_cap": 86609035264.0,
     "sector": "Communication Services",
     "industry": "Telecom Services",
-    "fetched_at": "2026-11-07T14:15Z",
+    "fetched_at": "2026-11-07T14:24Z",
     "m_fwd_pe": 6.925298,
     "m_pb": 0.93552226,
     "m_ev_ebitda": 4.965,
@@ -1884,7 +1884,7 @@
     "market_cap": 13449138176.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T14:17Z",
+    "fetched_at": "2026-11-07T14:25Z",
     "m_fwd_pe": 8.512337,
     "m_pb": 1.4276862,
     "m_ev_ebitda": 8.173,
@@ -1978,7 +1978,7 @@
     "market_cap": 7112991232.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T14:19Z",
+    "fetched_at": "2026-11-07T14:27Z",
     "m_fwd_pe": 6.0726695,
     "m_pb": 1.6274865,
     "m_ev_ebitda": 3.373,
@@ -2057,7 +2057,7 @@
      "value": 3.37,
      "vs_median_pct": -29.0
     },
-    "rank": 68
+    "rank": 69
    }
   ]
  },
@@ -2093,7 +2093,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.9994173,
    "m_pb": 1.9767724,
    "m_ev_ebitda": null,
@@ -2187,7 +2187,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.458209,
    "m_pb": 1.3464848,
    "m_ev_ebitda": null,
@@ -2281,7 +2281,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.245092,
    "m_pb": 1.6593182,
    "m_ev_ebitda": null,
@@ -2370,7 +2370,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 5.198147,
    "m_pb": 2.3404922,
    "m_ev_ebitda": null,
@@ -2459,7 +2459,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 3.482386,
    "m_pb": 0.9064744,
    "m_ev_ebitda": 3.79,
@@ -2553,7 +2553,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.315206,
    "m_pb": 1.7402893,
    "m_ev_ebitda": null,
@@ -2642,7 +2642,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 4.344666,
    "m_pb": 1.2480016,
    "m_ev_ebitda": null,
@@ -2731,7 +2731,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 3.8435724,
    "m_pb": 4.1011443,
    "m_ev_ebitda": null,
@@ -2818,7 +2818,7 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 7.4705296,
    "m_pb": 1.283553,
    "m_ev_ebitda": 6.212,
@@ -2912,7 +2912,7 @@
    "market_cap": 39313055744.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.2370224,
    "m_pb": 1.1924037,
    "m_ev_ebitda": null,
@@ -3006,7 +3006,7 @@
    "market_cap": 17673695232.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.926218,
    "m_pb": 6.4452615,
    "m_ev_ebitda": 10.095,
@@ -3112,7 +3112,7 @@
    "market_cap": 169270951936.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 8.376261,
    "m_pb": 1.3283631,
    "m_ev_ebitda": null,
@@ -3196,7 +3196,7 @@
    "market_cap": 72691580928.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 8.647785,
    "m_pb": 1.1860651,
    "m_ev_ebitda": null,
@@ -3280,7 +3280,7 @@
    "market_cap": 18262890496.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 10.697348,
    "m_pb": 1.3987627,
    "m_ev_ebitda": null,
@@ -3369,7 +3369,7 @@
    "market_cap": 49324290048.0,
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 6.4068546,
    "m_pb": 1.2730157,
    "m_ev_ebitda": null,
@@ -3458,14 +3458,14 @@
    "market_cap": 18242287616.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T14:17Z",
-   "m_fwd_pe": 8.205998,
+   "fetched_at": "2026-11-07T14:25Z",
+   "m_fwd_pe": 8.430527,
    "m_pb": 1.4817085,
    "m_ev_ebitda": 4.851,
    "m_fx_mismatch": false,
    "m_financial": false,
    "financial": false,
-   "fwd_pe": 8.205998,
+   "fwd_pe": 8.430527,
    "pb": 1.4817085,
    "roe": 13.949998999999998,
    "roic": 9.53035403011311,
@@ -3476,7 +3476,7 @@
    "dilution_pct": 6.816438574104811,
    "short_pct_float": 3.82,
    "fcf_payout_pct": 117.00219243283276,
-   "fwd_eps_growth_pct": 37.331620114945196,
+   "fwd_eps_growth_pct": 33.67408704105923,
    "analyst_rec": "strong_buy",
    "analyst_upside_pct": 32.67650574712644,
    "score": 11,
@@ -3547,7 +3547,7 @@
    "market_cap": 9506588672.0,
    "sector": "Basic Materials",
    "industry": "Specialty Chemicals",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 5.140488,
    "m_pb": 0.9743658,
    "m_ev_ebitda": null,
@@ -3634,7 +3634,7 @@
    "market_cap": 6113241088.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 12.7400465,
    "m_pb": 2.3586283,
    "m_ev_ebitda": 7.198,
@@ -3723,7 +3723,7 @@
    "market_cap": 5302699520.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 13.648082,
    "m_pb": 9.651475,
    "m_ev_ebitda": 22.155,
@@ -3812,7 +3812,7 @@
    "market_cap": 86609035264.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 6.925298,
    "m_pb": 0.93552226,
    "m_ev_ebitda": 4.965,
@@ -3910,7 +3910,7 @@
    "market_cap": 24063500288.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.9361925,
    "m_pb": 1.4603322,
    "m_ev_ebitda": null,
@@ -3989,15 +3989,15 @@
    "market_cap": 10949623808.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.936911,
-   "m_pb": null,
+   "m_pb": 0.008032378,
    "m_ev_ebitda": null,
    "m_fx_mismatch": true,
    "m_financial": false,
    "financial": false,
    "fwd_pe": 9.936911,
-   "pb": null,
+   "pb": 0.008032378,
    "roe": 16.298000000000002,
    "roic": 15.508867247754596,
    "fcf_yield": 293224.6926585188,
@@ -4078,7 +4078,7 @@
    "market_cap": 10631292928.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.455592,
    "m_pb": 2.3018405,
    "m_ev_ebitda": 4.786,
@@ -4172,7 +4172,7 @@
    "market_cap": 9580390400.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 10.492602,
    "m_pb": 1.5704129,
    "m_ev_ebitda": null,
@@ -4261,7 +4261,7 @@
    "market_cap": 8967168000.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 5.066881,
    "m_pb": 0.64594346,
    "m_ev_ebitda": null,
@@ -4350,7 +4350,7 @@
    "market_cap": 5829334016.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 6.5231323,
    "m_pb": 1.3387691,
    "m_ev_ebitda": 7.064,
@@ -4444,7 +4444,7 @@
    "market_cap": 74227728384.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.0879664,
    "m_pb": 0.87651914,
    "m_ev_ebitda": null,
@@ -4528,7 +4528,7 @@
    "market_cap": 64596844544.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.6052103,
    "m_pb": 0.724133,
    "m_ev_ebitda": null,
@@ -4607,7 +4607,7 @@
    "market_cap": 61543723008.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.276119,
    "m_pb": 1.1974946,
    "m_ev_ebitda": null,
@@ -4686,7 +4686,7 @@
    "market_cap": 26335703040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 10.842508,
    "m_pb": 2.3683426,
    "m_ev_ebitda": 7.909,
@@ -4775,7 +4775,7 @@
    "market_cap": 22017179648.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.585898,
    "m_pb": 1.3934371,
    "m_ev_ebitda": null,
@@ -4867,7 +4867,7 @@
    "market_cap": 15231159296.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 10.840809,
    "m_pb": 1.3266312,
    "m_ev_ebitda": null,
@@ -4946,7 +4946,7 @@
    "market_cap": 10848701440.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.903161,
    "m_pb": 1.3403141,
    "m_ev_ebitda": null,
@@ -5025,7 +5025,7 @@
    "market_cap": 25664970752.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.024178,
    "m_pb": -279.0196,
    "m_ev_ebitda": 6.867,
@@ -5114,7 +5114,7 @@
    "market_cap": 10873708544.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.330038,
    "m_pb": 3.4975095,
    "m_ev_ebitda": 35.795,
@@ -5203,7 +5203,7 @@
    "market_cap": 76786417664.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 12.42344,
    "m_pb": 3.5722969,
    "m_ev_ebitda": null,
@@ -5297,7 +5297,7 @@
    "market_cap": 26199568384.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.437058,
    "m_pb": 2.6275992,
    "m_ev_ebitda": 4.568,
@@ -5386,7 +5386,7 @@
    "market_cap": 7721975296.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 11.84074,
    "m_pb": 2.1587155,
    "m_ev_ebitda": null,
@@ -5475,7 +5475,7 @@
    "market_cap": 7474668032.0,
    "sector": "Basic Materials",
    "industry": "Silver",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 15.6692505,
    "m_pb": 2.451884,
    "m_ev_ebitda": 6.884,
@@ -5571,7 +5571,7 @@
    "market_cap": 7203036672.0,
    "sector": "Industrials",
    "industry": "Security & Protection Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.007814,
    "m_pb": 1.9787277,
    "m_ev_ebitda": 5.538,
@@ -5681,7 +5681,7 @@
    "market_cap": 6002266624.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 5.804502,
    "m_pb": 1.433847,
    "m_ev_ebitda": 6.761,
@@ -5770,14 +5770,14 @@
    "market_cap": 31178041344.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
-   "m_fwd_pe": 8.842779,
+   "fetched_at": "2026-11-07T14:25Z",
+   "m_fwd_pe": 8.852445,
    "m_pb": 1.0641811,
    "m_ev_ebitda": null,
    "m_fx_mismatch": false,
    "m_financial": true,
    "financial": true,
-   "fwd_pe": 8.842779,
+   "fwd_pe": 8.852445,
    "pb": 1.0641811,
    "roe": 9.192,
    "roic": null,
@@ -5788,7 +5788,7 @@
    "dilution_pct": 7.849056572050905,
    "short_pct_float": 3.36,
    "fcf_payout_pct": null,
-   "fwd_eps_growth_pct": 43.39753373911075,
+   "fwd_eps_growth_pct": 43.24095772410901,
    "analyst_rec": "buy",
    "analyst_upside_pct": 21.389463477698744,
    "score": 9,
@@ -5849,7 +5849,7 @@
    "market_cap": 17286625280.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.45276,
    "m_pb": 1.4583423,
    "m_ev_ebitda": null,
@@ -5928,7 +5928,7 @@
    "market_cap": 13815588864.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.849857,
    "m_pb": 0.99037063,
    "m_ev_ebitda": null,
@@ -6025,10 +6025,10 @@
    "name": "Columbia Banking System, Inc.",
    "exchange": "Nasdaq",
    "price": 30.48,
-   "market_cap": 8622861312.0,
+   "market_cap": 8620261376.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.111426,
    "m_pb": 1.1897885,
    "m_ev_ebitda": null,
@@ -6091,7 +6091,7 @@
    "total_cash": 1736999936.0,
    "ebitda": null,
    "free_cash_flow": null,
-   "shares_out": 282902268.0,
+   "shares_out": 282817000.0,
    "next_earnings": "2026-10-22",
    "peer": {
     "metric": "m_pb",
@@ -6112,7 +6112,7 @@
    "market_cap": 7740701696.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 9.194502,
    "m_pb": 1.0278872,
    "m_ev_ebitda": null,
@@ -6204,7 +6204,7 @@
    "market_cap": 6280054784.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 9.457389,
    "m_pb": 0.9217776,
    "m_ev_ebitda": null,
@@ -6283,7 +6283,7 @@
    "market_cap": 5775660544.0,
    "sector": "Energy",
    "industry": "Oil & Gas Refining & Marketing",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 9.255781,
    "m_pb": 1.6238644,
    "m_ev_ebitda": null,
@@ -6372,7 +6372,7 @@
    "market_cap": 5689949696.0,
    "sector": "Financial Services",
    "industry": "Insurance - Specialty",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.297864,
    "m_pb": 1.1887938,
    "m_ev_ebitda": 6.727,
@@ -6451,7 +6451,7 @@
    "market_cap": 5663627264.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.732575,
    "m_pb": 1.7376927,
    "m_ev_ebitda": 4.715,
@@ -6561,7 +6561,7 @@
    "market_cap": 7682686976.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 6.144878,
    "m_pb": 1.5553046,
    "m_ev_ebitda": null,
@@ -6640,7 +6640,7 @@
    "market_cap": 6164262912.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": null,
    "m_pb": 2.309217,
    "m_ev_ebitda": 3.47,
@@ -6738,7 +6738,7 @@
    "market_cap": 15808846848.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.624198,
    "m_pb": 1.5186021,
    "m_ev_ebitda": 8.528,
@@ -6832,7 +6832,7 @@
    "market_cap": 13449138176.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.512337,
    "m_pb": 1.4276862,
    "m_ev_ebitda": 8.173,
@@ -6926,7 +6926,7 @@
    "market_cap": 6006751232.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 12.463078,
    "m_pb": 3.228958,
    "m_ev_ebitda": 10.261,
@@ -7015,7 +7015,7 @@
    "market_cap": 5635764736.0,
    "sector": "Consumer Defensive",
    "industry": "Education & Training Services",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.244745,
    "m_pb": 1.3435599,
    "m_ev_ebitda": 5.217,
@@ -7104,7 +7104,7 @@
    "market_cap": 20657475584.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 14.824571,
    "m_pb": 2.131424,
    "m_ev_ebitda": null,
@@ -7193,7 +7193,7 @@
    "market_cap": 15468450816.0,
    "sector": "Basic Materials",
    "industry": "Building Materials",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 11.991052,
    "m_pb": 1.2044945,
    "m_ev_ebitda": 6.253,
@@ -7282,7 +7282,7 @@
    "market_cap": 12145038336.0,
    "sector": "Healthcare",
    "industry": "Medical Care Facilities",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.57877,
    "m_pb": 0.8450687,
    "m_ev_ebitda": null,
@@ -7371,7 +7371,7 @@
    "market_cap": 12089828352.0,
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.867521,
    "m_pb": 1.2305387,
    "m_ev_ebitda": null,
@@ -7450,7 +7450,7 @@
    "market_cap": 9429971968.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.914364,
    "m_pb": 1.1704775,
    "m_ev_ebitda": null,
@@ -7529,7 +7529,7 @@
    "market_cap": 7600355840.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.634019,
    "m_pb": 1.0834175,
    "m_ev_ebitda": 5.936,
@@ -7623,7 +7623,7 @@
    "market_cap": 5060581376.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Parts",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.584811,
    "m_pb": 0.80389714,
    "m_ev_ebitda": 7.565,
@@ -7717,7 +7717,7 @@
    "market_cap": 137774563328.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 9.38139,
    "m_pb": 2.1161604,
    "m_ev_ebitda": null,
@@ -7796,7 +7796,7 @@
    "market_cap": 113480548352.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 6.76259,
    "m_pb": 1.5712769,
    "m_ev_ebitda": null,
@@ -7884,7 +7884,7 @@
    "market_cap": 81452769280.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 7.620756,
    "m_pb": 1.7857679,
    "m_ev_ebitda": null,
@@ -7956,6 +7956,87 @@
    "rank": 66
   },
   {
+   "ticker": "IX",
+   "name": "ORIX Corporation",
+   "exchange": "NYSE",
+   "price": 34.85,
+   "market_cap": 37297004544.0,
+   "sector": "Financial Services",
+   "industry": "Financial Conglomerates",
+   "fetched_at": "2026-11-07T14:24Z",
+   "m_fwd_pe": 2.9684837,
+   "m_pb": 1.2815627,
+   "m_ev_ebitda": null,
+   "m_fx_mismatch": true,
+   "m_financial": false,
+   "financial": false,
+   "fwd_pe": 2.9684837,
+   "pb": 1.2815627,
+   "roe": 14.035,
+   "roic": null,
+   "fcf_yield": null,
+   "debt_ebitda": 5.473321498737035,
+   "net_cash": false,
+   "altman": null,
+   "dilution_pct": -3.318056478930087,
+   "short_pct_float": 0.08,
+   "fcf_payout_pct": null,
+   "fwd_eps_growth_pct": 226.11110514098493,
+   "analyst_rec": "none",
+   "analyst_upside_pct": 17.91586800573888,
+   "score": 8,
+   "score_parts": {
+    "valuation": 4,
+    "returns": 2,
+    "balance": 0,
+    "fcf": 0,
+    "growth": 2
+   },
+   "risks": {
+    "debt": "\u274c",
+    "fcfy": "\u2753",
+    "divpay": "\u2753",
+    "eps": "\u2705",
+    "dilution": "\u2705",
+    "short": "\u2705",
+    "altman": "\u2753",
+    "analyst": "\u26a0\ufe0f",
+    "margin": "\u2753",
+    "steady": "\u2705",
+    "deal": "\u2705",
+    "peer": "\u2753"
+   },
+   "after_risk": 7,
+   "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "ebitda_margin": {
+    "margins_pct_latest_first": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "earnings_steadiness": {
+    "years": 4,
+    "latest_vs_avg": 1.25,
+    "normalized_pe": 12.1,
+    "losses_in_window": 0
+   },
+   "total_debt": 6308802068480.0,
+   "total_cash": 968923021312.0,
+   "ebitda": 1152645988352.0,
+   "free_cash_flow": null,
+   "shares_out": 1070215450.0,
+   "next_earnings": "2026-11-09",
+   "peer": {
+    "metric": "m_fwd_pe",
+    "note": "too few peers in the screened set"
+   },
+   "rank": 67
+  },
+  {
    "ticker": "HBM",
    "name": "Hudbay Minerals Inc.",
    "exchange": "NYSE",
@@ -7963,7 +8044,7 @@
    "market_cap": 9287066624.0,
    "sector": "Basic Materials",
    "industry": "Copper",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 10.347796,
    "m_pb": 1.9359319,
    "m_ev_ebitda": 8.638,
@@ -8042,7 +8123,7 @@
     "value": 8.64,
     "vs_median_pct": 14.7
    },
-   "rank": 67
+   "rank": 68
   },
   {
    "ticker": "BTG",
@@ -8052,7 +8133,7 @@
    "market_cap": 7112991232.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 6.0726695,
    "m_pb": 1.6274865,
    "m_ev_ebitda": 3.373,
@@ -8131,7 +8212,7 @@
     "value": 3.37,
     "vs_median_pct": -29.0
    },
-   "rank": 68
+   "rank": 69
   },
   {
    "ticker": "BVN",
@@ -8141,7 +8222,7 @@
    "market_cap": 7109092352.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 7.5346856,
    "m_pb": 1.5557779,
    "m_ev_ebitda": 5.572,
@@ -8220,7 +8301,7 @@
     "value": 5.57,
     "vs_median_pct": -33.3
    },
-   "rank": 69
+   "rank": 70
   },
   {
    "ticker": "VIPS",
@@ -8230,7 +8311,7 @@
    "market_cap": 6590429696.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 5.500385,
    "m_pb": 1.138385,
    "m_ev_ebitda": null,
@@ -8309,7 +8390,7 @@
     "value": 5.5,
     "vs_median_pct": -58.3
    },
-   "rank": 70
+   "rank": 71
   },
   {
    "ticker": "BXSL",
@@ -8319,7 +8400,7 @@
    "market_cap": 5619825664.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 9.458223,
    "m_pb": 0.8948072,
    "m_ev_ebitda": null,
@@ -8388,7 +8469,7 @@
     "value": 0.89,
     "vs_median_pct": -23.9
    },
-   "rank": 71
+   "rank": 72
   },
   {
    "ticker": "ING",
@@ -8398,7 +8479,7 @@
    "market_cap": 90367664128.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 10.33637,
    "m_pb": 1.6115285,
    "m_ev_ebitda": null,
@@ -8467,7 +8548,7 @@
     "value": 1.61,
     "vs_median_pct": 11.2
    },
-   "rank": 72
+   "rank": 73
   },
   {
    "ticker": "GTES",
@@ -8477,7 +8558,7 @@
    "market_cap": 6052411392.0,
    "sector": "Industrials",
    "industry": "Specialty Industrial Machinery",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 12.428895,
    "m_pb": 1.7006563,
    "m_ev_ebitda": 10.391,
@@ -8556,7 +8637,7 @@
     "value": 12.43,
     "vs_median_pct": -21.1
    },
-   "rank": 73
+   "rank": 74
   },
   {
    "ticker": "HOMB",
@@ -8566,7 +8647,7 @@
    "market_cap": 5948410880.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 11.48603,
    "m_pb": 1.3131624,
    "m_ev_ebitda": null,
@@ -8635,7 +8716,7 @@
     "value": 1.31,
     "vs_median_pct": 4.0
    },
-   "rank": 74
+   "rank": 75
   },
   {
    "ticker": "OCTV",
@@ -8645,7 +8726,7 @@
    "market_cap": 5596928000.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 13.946115,
    "m_pb": 1.1017755,
    "m_ev_ebitda": 12.49,
@@ -8724,7 +8805,7 @@
     "value": 13.95,
     "vs_median_pct": -14.6
    },
-   "rank": 75
+   "rank": 76
   },
   {
    "ticker": "T",
@@ -8734,7 +8815,7 @@
    "market_cap": 145709924352.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 8.332691,
    "m_pb": 1.3696808,
    "m_ev_ebitda": 7.26,
@@ -8813,7 +8894,7 @@
     "value": 8.33,
     "vs_median_pct": -16.5
    },
-   "rank": 76
+   "rank": 77
   },
   {
    "ticker": "EC",
@@ -8823,7 +8904,7 @@
    "market_cap": 31968231424.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.007539,
    "m_pb": 0.0079213595,
    "m_ev_ebitda": null,
@@ -8902,7 +8983,7 @@
     "value": 8.01,
     "vs_median_pct": -20.5
    },
-   "rank": 77
+   "rank": 78
   },
   {
    "ticker": "RCI",
@@ -8912,7 +8993,7 @@
    "market_cap": 18011111424.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 10.015398,
    "m_pb": 1.5298845,
    "m_ev_ebitda": null,
@@ -9004,7 +9085,7 @@
     "value": 10.02,
     "vs_median_pct": 1.2
    },
-   "rank": 78
+   "rank": 79
   },
   {
    "ticker": "PAA",
@@ -9014,7 +9095,7 @@
    "market_cap": 16877150208.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 12.287776,
    "m_pb": 1.8665627,
    "m_ev_ebitda": 11.548,
@@ -9098,7 +9179,7 @@
     "value": 11.55,
     "vs_median_pct": 49.3
    },
-   "rank": 79
+   "rank": 80
   },
   {
    "ticker": "UMC",
@@ -9108,7 +9189,7 @@
    "market_cap": 34732945408.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 15.395218,
    "m_pb": 2.3894806,
    "m_ev_ebitda": null,
@@ -9187,7 +9268,7 @@
     "value": 15.4,
     "vs_median_pct": 4.9
    },
-   "rank": 80
+   "rank": 81
   },
   {
    "ticker": "SUZ",
@@ -9197,7 +9278,7 @@
    "market_cap": 11896876032.0,
    "sector": "Basic Materials",
    "industry": "Paper & Paper Products",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 6.5270267,
    "m_pb": 1.1582712,
    "m_ev_ebitda": null,
@@ -9276,7 +9357,7 @@
     "value": 6.53,
     "vs_median_pct": -23.8
    },
-   "rank": 81
+   "rank": 82
   },
   {
    "ticker": "PSO",
@@ -9286,7 +9367,7 @@
    "market_cap": 10380831744.0,
    "sector": "Communication Services",
    "industry": "Publishing",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 17.783957,
    "m_pb": 2.3771462,
    "m_ev_ebitda": null,
@@ -9370,7 +9451,7 @@
     "value": 17.78,
     "vs_median_pct": 71.8
    },
-   "rank": 82
+   "rank": 83
   },
   {
    "ticker": "AM",
@@ -9380,7 +9461,7 @@
    "market_cap": 8965126144.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 11.74643,
    "m_pb": 4.0625,
    "m_ev_ebitda": null,
@@ -9472,7 +9553,7 @@
     "value": 11.75,
     "vs_median_pct": -5.1
    },
-   "rank": 83
+   "rank": 84
   },
   {
    "ticker": "CAE",
@@ -9482,7 +9563,7 @@
    "market_cap": 8604250112.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 25.443626,
    "m_pb": 2.240164,
    "m_ev_ebitda": null,
@@ -9561,7 +9642,7 @@
     "value": 25.44,
     "vs_median_pct": 73.1
    },
-   "rank": 84
+   "rank": 85
   },
   {
    "ticker": "PATH",
@@ -9571,7 +9652,7 @@
    "market_cap": 6775020544.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 14.093515,
    "m_pb": 3.475936,
    "m_ev_ebitda": 30.175,
@@ -9648,7 +9729,7 @@
     "value": 14.09,
     "vs_median_pct": -28.6
    },
-   "rank": 85
+   "rank": 86
   },
   {
    "ticker": "OBDC",
@@ -9658,7 +9739,7 @@
    "market_cap": 5360924160.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.186417,
    "m_pb": 0.7386402,
    "m_ev_ebitda": null,
@@ -9727,7 +9808,7 @@
     "value": 0.74,
     "vs_median_pct": -37.2
    },
-   "rank": 86
+   "rank": 87
   },
   {
    "ticker": "EBC",
@@ -9737,7 +9818,7 @@
    "market_cap": 5219204096.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 10.599837,
    "m_pb": 1.1741724,
    "m_ev_ebitda": null,
@@ -9806,7 +9887,7 @@
     "value": 1.17,
     "vs_median_pct": -11.0
    },
-   "rank": 87
+   "rank": 88
   },
   {
    "ticker": "INFY",
@@ -9816,7 +9897,7 @@
    "market_cap": 50629705728.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 14.83979,
    "m_pb": 9.800078,
    "m_ev_ebitda": 20.055,
@@ -9900,7 +9981,7 @@
     "value": 14.84,
     "vs_median_pct": -0.7
    },
-   "rank": 88
+   "rank": 89
   },
   {
    "ticker": "LEVI",
@@ -9910,7 +9991,7 @@
    "market_cap": 8769952768.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 13.667685,
    "m_pb": 3.6313117,
    "m_ev_ebitda": 11.007,
@@ -9989,7 +10070,7 @@
     "value": 13.67,
     "vs_median_pct": 8.3
    },
-   "rank": 89
+   "rank": 90
   },
   {
    "ticker": "NOV",
@@ -9999,7 +10080,7 @@
    "market_cap": 6260359168.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 13.898672,
    "m_pb": 1.0021114,
    "m_ev_ebitda": 7.737,
@@ -10078,7 +10159,7 @@
     "value": 7.74,
     "vs_median_pct": -2.2
    },
-   "rank": 90
+   "rank": 91
   },
   {
    "ticker": "NWSA",
@@ -10088,7 +10169,7 @@
    "market_cap": 14164215808.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 17.094046,
    "m_pb": 1.6761959,
    "m_ev_ebitda": 11.467,
@@ -10167,7 +10248,7 @@
     "value": 17.09,
     "vs_median_pct": -1.4
    },
-   "rank": 91
+   "rank": 92
   },
   {
    "ticker": "IVZ",
@@ -10177,7 +10258,7 @@
    "market_cap": 11902443520.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 8.21146,
    "m_pb": 1.176215,
    "m_ev_ebitda": 9.807,
@@ -10243,7 +10324,7 @@
     "value": 1.18,
     "vs_median_pct": 18.8
    },
-   "rank": 92
+   "rank": 93
   },
   {
    "ticker": "LYFT",
@@ -10253,7 +10334,7 @@
    "market_cap": 6480801280.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 7.8937645,
    "m_pb": 2.1740236,
    "m_ev_ebitda": 561.004,
@@ -10332,7 +10413,7 @@
     "value": 7.89,
     "vs_median_pct": -52.1
    },
-   "rank": 93
+   "rank": 94
   },
   {
    "ticker": "SIRI",
@@ -10342,7 +10423,7 @@
    "market_cap": 10902170624.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 9.929513,
    "m_pb": 0.89882654,
    "m_ev_ebitda": 7.952,
@@ -10421,7 +10502,7 @@
     "value": 9.93,
     "vs_median_pct": -44.6
    },
-   "rank": 94
+   "rank": 95
   },
   {
    "ticker": "DBX",
@@ -10431,7 +10512,7 @@
    "market_cap": 7536561152.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.294795,
    "m_pb": -3.4577014,
    "m_ev_ebitda": 12.405,
@@ -10523,7 +10604,7 @@
     "value": 10.29,
     "vs_median_pct": -47.9
    },
-   "rank": 95
+   "rank": 96
   },
   {
    "ticker": "SONY",
@@ -10533,7 +10614,7 @@
    "market_cap": 157362847744.0,
    "sector": "Technology",
    "industry": "Consumer Electronics",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 22.689075,
    "m_pb": 2.9164672,
    "m_ev_ebitda": null,
@@ -10617,7 +10698,7 @@
     "value": 22.69,
     "vs_median_pct": 54.7
    },
-   "rank": 96
+   "rank": 97
   },
   {
    "ticker": "SMCI",
@@ -10627,7 +10708,7 @@
    "market_cap": 18959380480.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 4.277954,
    "m_pb": 1.5983106,
    "m_ev_ebitda": 5.413,
@@ -10706,7 +10787,7 @@
     "value": 4.28,
     "vs_median_pct": -71.7
    },
-   "rank": 97
+   "rank": 98
   },
   {
    "ticker": "M",
@@ -10716,7 +10797,7 @@
    "market_cap": 6027956736.0,
    "sector": "Consumer Cyclical",
    "industry": "Department Stores",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 9.73392,
    "m_pb": 1.2232351,
    "m_ev_ebitda": 7.016,
@@ -10800,7 +10881,7 @@
     "value": 9.73,
     "vs_median_pct": -26.1
    },
-   "rank": 98
+   "rank": 99
   },
   {
    "ticker": "AMTM",
@@ -10810,7 +10891,7 @@
    "market_cap": 5195761152.0,
    "sector": "Industrials",
    "industry": "Engineering & Construction",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 8.050675,
    "m_pb": 1.1057918,
    "m_ev_ebitda": 8.604,
@@ -10887,7 +10968,7 @@
     "value": 8.05,
     "vs_median_pct": -48.9
    },
-   "rank": 99
+   "rank": 100
   },
   {
    "ticker": "NU",
@@ -10897,7 +10978,7 @@
    "market_cap": 58113183744.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 10.861518,
    "m_pb": 4.385709,
    "m_ev_ebitda": null,
@@ -10971,7 +11052,7 @@
     "value": 4.39,
     "vs_median_pct": 249.4
    },
-   "rank": 100
+   "rank": 101
   },
   {
    "ticker": "CCL",
@@ -10981,7 +11062,7 @@
    "market_cap": 39773569024.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 11.488673,
    "m_pb": 2.8187535,
    "m_ev_ebitda": 8.74,
@@ -11058,7 +11139,7 @@
     "value": 11.49,
     "vs_median_pct": -12.8
    },
-   "rank": 101
+   "rank": 102
   },
   {
    "ticker": "VTRS",
@@ -11068,7 +11149,7 @@
    "market_cap": 22825914368.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 7.2379994,
    "m_pb": 1.6679232,
    "m_ev_ebitda": 7.86,
@@ -11165,7 +11246,7 @@
     "value": 7.24,
     "vs_median_pct": -66.0
    },
-   "rank": 102
+   "rank": 103
   },
   {
    "ticker": "NLY",
@@ -11175,7 +11256,7 @@
    "market_cap": 14772430848.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 6.0222774,
    "m_pb": 1.0495969,
    "m_ev_ebitda": null,
@@ -11251,7 +11332,7 @@
     "value": 6.02,
     "vs_median_pct": -76.8
    },
-   "rank": 103
+   "rank": 104
   },
   {
    "ticker": "CHWY",
@@ -11261,7 +11342,7 @@
    "market_cap": 9067479040.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 12.06714,
    "m_pb": 24.442038,
    "m_ev_ebitda": 22.24,
@@ -11340,7 +11421,7 @@
     "value": 12.07,
     "vs_median_pct": -8.4
    },
-   "rank": 104
+   "rank": 105
   },
   {
    "ticker": "AMKR",
@@ -11350,7 +11431,7 @@
    "market_cap": 8133130240.0,
    "sector": "Technology",
    "industry": "Semiconductor Equipment & Materials",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 11.82349,
    "m_pb": 1.6944603,
    "m_ev_ebitda": 6.023,
@@ -11429,7 +11510,7 @@
     "value": 11.82,
     "vs_median_pct": -21.8
    },
-   "rank": 105
+   "rank": 106
   },
   {
    "ticker": "ELPC",
@@ -11439,7 +11520,7 @@
    "market_cap": 7943708160.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 14.738292,
    "m_pb": 7.0749063,
    "m_ev_ebitda": null,
@@ -11518,7 +11599,7 @@
     "metric": "m_fwd_pe",
     "note": "too few peers in the screened set"
    },
-   "rank": 106
+   "rank": 107
   },
   {
    "ticker": "PPC",
@@ -11528,7 +11609,7 @@
    "market_cap": 6793335808.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 11.232284,
    "m_pb": 1.7528878,
    "m_ev_ebitda": 6.603,
@@ -11612,7 +11693,7 @@
     "value": 11.23,
     "vs_median_pct": -6.0
    },
-   "rank": 107
+   "rank": 108
   },
   {
    "ticker": "HAFN",
@@ -11622,7 +11703,7 @@
    "market_cap": 5016052736.0,
    "sector": "Industrials",
    "industry": "Marine Shipping",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 13.197184,
    "m_pb": 1.7672576,
    "m_ev_ebitda": 7.363,
@@ -11701,7 +11782,7 @@
     "value": 13.2,
     "vs_median_pct": -16.3
    },
-   "rank": 108
+   "rank": 109
   },
   {
    "ticker": "PFE",
@@ -11711,7 +11792,7 @@
    "market_cap": 167518699520.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 10.006673,
    "m_pb": 1.882285,
    "m_ev_ebitda": 8.7,
@@ -11790,17 +11871,17 @@
     "value": 10.01,
     "vs_median_pct": -39.5
    },
-   "rank": 109
+   "rank": 110
   },
   {
    "ticker": "MBGL",
    "name": "Mobility Global Inc.",
    "exchange": "NYSE",
    "price": 19.64,
-   "market_cap": 6284800000.0,
+   "market_cap": 5795315200.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 12.22678,
    "m_pb": 0.5887466,
    "m_ev_ebitda": 10.632,
@@ -11868,7 +11949,7 @@
    "total_cash": 186000000.0,
    "ebitda": 716000000.0,
    "free_cash_flow": null,
-   "shares_out": 320000000.0,
+   "shares_out": 295077160.0,
    "next_earnings": "2026-11-12",
    "peer": {
     "metric": "m_fwd_pe",
@@ -11879,7 +11960,7 @@
     "value": 12.23,
     "vs_median_pct": -38.1
    },
-   "rank": 110
+   "rank": 111
   },
   {
    "ticker": "SGHC",
@@ -11889,7 +11970,7 @@
    "market_cap": 5771752448.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 13.179571,
    "m_pb": 6.0554366,
    "m_ev_ebitda": 8.431,
@@ -11968,7 +12049,7 @@
     "value": 13.18,
     "vs_median_pct": 4.5
    },
-   "rank": 111
+   "rank": 112
   },
   {
    "ticker": "RITM",
@@ -11978,7 +12059,7 @@
    "market_cap": 5154096640.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 3.9021542,
    "m_pb": 0.7376329,
    "m_ev_ebitda": null,
@@ -12054,7 +12135,7 @@
     "value": 3.9,
     "vs_median_pct": -85.0
    },
-   "rank": 112
+   "rank": 113
   },
   {
    "ticker": "REYN",
@@ -12064,7 +12145,7 @@
    "market_cap": 5084293632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 14.172767,
    "m_pb": 2.180519,
    "m_ev_ebitda": 10.26,
@@ -12143,7 +12224,7 @@
     "value": 14.17,
     "vs_median_pct": 12.3
    },
-   "rank": 113
+   "rank": 114
   },
   {
    "ticker": "NOK",
@@ -12153,7 +12234,7 @@
    "market_cap": 43347447808.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 15.839864,
    "m_pb": 1.8168039,
    "m_ev_ebitda": null,
@@ -12232,7 +12313,7 @@
     "value": 15.84,
     "vs_median_pct": 8.0
    },
-   "rank": 114
+   "rank": 115
   },
   {
    "ticker": "HLN",
@@ -12242,7 +12323,7 @@
    "market_cap": 40173969408.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 15.121185,
    "m_pb": 1.8502845,
    "m_ev_ebitda": null,
@@ -12321,7 +12402,7 @@
     "value": 15.12,
     "vs_median_pct": -28.9
    },
-   "rank": 115
+   "rank": 116
   },
   {
    "ticker": "VICI",
@@ -12331,7 +12412,7 @@
    "market_cap": 27295911936.0,
    "sector": "Real Estate",
    "industry": "REIT - Diversified",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 8.346802,
    "m_pb": 0.94086844,
    "m_ev_ebitda": 14.07,
@@ -12410,7 +12491,7 @@
     "value": 8.35,
     "vs_median_pct": -67.8
    },
-   "rank": 116
+   "rank": 117
   },
   {
    "ticker": "OWL",
@@ -12420,7 +12501,7 @@
    "market_cap": 15476584448.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.082964,
    "m_pb": 3.5387385,
    "m_ev_ebitda": 10.968,
@@ -12489,7 +12570,7 @@
     "value": 3.54,
     "vs_median_pct": 257.3
    },
-   "rank": 117
+   "rank": 118
   },
   {
    "ticker": "FIS",
@@ -12499,7 +12580,7 @@
    "market_cap": 14809459712.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 5.1101265,
    "m_pb": 0.9135135,
    "m_ev_ebitda": 9.43,
@@ -12581,7 +12662,7 @@
     "value": 5.11,
     "vs_median_pct": -66.2
    },
-   "rank": 118
+   "rank": 119
   },
   {
    "ticker": "KEP",
@@ -12591,7 +12672,7 @@
    "market_cap": 14379995136.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 3.9747603,
    "m_pb": 0.37684518,
    "m_ev_ebitda": null,
@@ -12663,95 +12744,6 @@
     "metric": "m_fwd_pe",
     "note": "too few peers in the screened set"
    },
-   "rank": 119
-  },
-  {
-   "ticker": "JBS",
-   "name": "JBS N.V.",
-   "exchange": "NYSE",
-   "price": 12.48,
-   "market_cap": 13364966400.0,
-   "sector": "Consumer Defensive",
-   "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:18Z",
-   "m_fwd_pe": 8.920884,
-   "m_pb": 1.625,
-   "m_ev_ebitda": 6.579,
-   "m_fx_mismatch": false,
-   "m_financial": false,
-   "financial": false,
-   "fwd_pe": 8.920884,
-   "pb": 1.625,
-   "roe": 13.378,
-   "roic": 12.276957894550298,
-   "fcf_yield": 6.1549258814447905,
-   "debt_ebitda": 4.638281638349714,
-   "net_cash": false,
-   "altman": 2.6956516820739456,
-   "dilution_pct": 48.17190348764253,
-   "short_pct_float": 17.75,
-   "fcf_payout_pct": 191.3260120994144,
-   "fwd_eps_growth_pct": 30.744329822022152,
-   "analyst_rec": "buy",
-   "analyst_upside_pct": 37.51753205128205,
-   "score": 8,
-   "score_parts": {
-    "valuation": 2,
-    "returns": 2,
-    "balance": 0,
-    "fcf": 2,
-    "growth": 2
-   },
-   "risks": {
-    "debt": "\u274c",
-    "fcfy": "\u2705",
-    "divpay": "\u274c",
-    "eps": "\u2705",
-    "dilution": "\u274c",
-    "short": "\u274c",
-    "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705",
-    "margin": "\u2705",
-    "steady": "\u2705",
-    "deal": "\u2705",
-    "peer": "\u2705"
-   },
-   "after_risk": 4,
-   "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
-   "ebitda_margin": {
-    "latest_pct": 7.7,
-    "prior_avg_pct": 7.6,
-    "change_pts": 0.1,
-    "margins_pct_latest_first": [
-     7.7,
-     8.5,
-     5.0,
-     9.4
-    ]
-   },
-   "earnings_steadiness": {
-    "years": 4,
-    "latest_vs_avg": 1.23,
-    "normalized_pe": 14.3,
-    "losses_in_window": 1
-   },
-   "total_debt": 25640454144.0,
-   "total_cash": 3469120000.0,
-   "ebitda": 5528007168.0,
-   "free_cash_flow": 822603776.0,
-   "shares_out": 776068594.0,
-   "next_earnings": "2026-11-09",
-   "peer": {
-    "metric": "m_fwd_pe",
-    "group": "industry",
-    "group_name": "Packaged Foods",
-    "peers": 7,
-    "peer_median": 11.95,
-    "value": 8.92,
-    "vs_median_pct": -25.3
-   },
    "rank": 120
   },
   {
@@ -12762,7 +12754,7 @@
    "market_cap": 8010555392.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 14.535611,
    "m_pb": 3.939218,
    "m_ev_ebitda": 12.161,
@@ -12849,7 +12841,7 @@
    "market_cap": 6898168320.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 12.592346,
    "m_pb": 1.7903862,
    "m_ev_ebitda": 8.803,
@@ -12943,7 +12935,7 @@
    "market_cap": 28565514240.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 7.1983175,
    "m_pb": 0.8657633,
    "m_ev_ebitda": 8.893,
@@ -13032,7 +13024,7 @@
    "market_cap": 7837651456.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 14.656695,
    "m_pb": 2.5,
    "m_ev_ebitda": 19.279,
@@ -13119,7 +13111,7 @@
    "market_cap": 6213824000.0,
    "sector": "Industrials",
    "industry": "Electrical Equipment & Parts",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 9.635597,
    "m_pb": 8.972823,
    "m_ev_ebitda": 24.324,
@@ -13208,7 +13200,7 @@
    "market_cap": 5454303744.0,
    "sector": "Healthcare",
    "industry": "Health Information Services",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 14.980105,
    "m_pb": 1.3503214,
    "m_ev_ebitda": 15.059,
@@ -13295,7 +13287,7 @@
    "market_cap": 33246873600.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 16.266607,
    "m_pb": 0.33321425,
    "m_ev_ebitda": null,
@@ -13384,7 +13376,7 @@
    "market_cap": 30282971136.0,
    "sector": "Financial Services",
    "industry": "Insurance - Life",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 15.504265,
    "m_pb": 6.2890525,
    "m_ev_ebitda": 21.17,
@@ -13463,7 +13455,7 @@
    "market_cap": 11872924672.0,
    "sector": "Industrials",
    "industry": "Specialty Business Services",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 16.031235,
    "m_pb": 2.162088,
    "m_ev_ebitda": 12.456,
@@ -13552,7 +13544,7 @@
    "market_cap": 7001402880.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 13.398466,
    "m_pb": 5.2997017,
    "m_ev_ebitda": 19.884,
@@ -13641,7 +13633,7 @@
    "market_cap": 6017470464.0,
    "sector": "Consumer Defensive",
    "industry": "Grocery Stores",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 7.7335634,
    "m_pb": 4.2505813,
    "m_ev_ebitda": 6.321,
@@ -13745,10 +13737,10 @@
    "name": "Grifols, S.A.",
    "exchange": "Nasdaq",
    "price": 8.43,
-   "market_cap": 5737293824.0,
+   "market_cap": 5737284608.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 6.775874,
    "m_pb": 1.7645789,
    "m_ev_ebitda": null,
@@ -13759,10 +13751,10 @@
    "pb": 1.7645789,
    "roe": 7.333,
    "roic": 7.0394983642311875,
-   "fcf_yield": 3.389252528545416,
+   "fcf_yield": 3.389257972819744,
    "debt_ebitda": 5.321872665057295,
    "net_cash": false,
-   "altman": 1.0726499507484237,
+   "altman": 1.0726494940963467,
    "dilution_pct": 0.024427656688152943,
    "short_pct_float": null,
    "fcf_payout_pct": 65.82622485530779,
@@ -13837,7 +13829,7 @@
    "market_cap": 5189195264.0,
    "sector": "Utilities",
    "industry": "Utilities - Renewable",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 15.14695,
    "m_pb": 6.386052,
    "m_ev_ebitda": 10.39,
@@ -13919,7 +13911,7 @@
    "market_cap": 27530807296.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 16.821428,
    "m_pb": 1.1533016,
    "m_ev_ebitda": null,
@@ -14003,7 +13995,7 @@
    "market_cap": 15546548224.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 18.76231,
    "m_pb": 1.8397814,
    "m_ev_ebitda": 12.455,
@@ -14092,7 +14084,7 @@
    "market_cap": 13342410752.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 12.608103,
    "m_pb": 2.052037,
    "m_ev_ebitda": 10.991,
@@ -14178,7 +14170,7 @@
    "market_cap": 12080199680.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 14.009536,
    "m_pb": 1.5401348,
    "m_ev_ebitda": 11.133,
@@ -14276,7 +14268,7 @@
    "market_cap": 6846807040.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.259391,
    "m_pb": 1.6196319,
    "m_ev_ebitda": 30.352,
@@ -14362,7 +14354,7 @@
    "market_cap": 6664135168.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.443025,
    "m_pb": 1.5764203,
    "m_ev_ebitda": 29.514,
@@ -14448,7 +14440,7 @@
    "market_cap": 5156576768.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 17.300158,
    "m_pb": 2.1124573,
    "m_ev_ebitda": -115.979,
@@ -14517,6 +14509,95 @@
    "rank": 140
   },
   {
+   "ticker": "JBS",
+   "name": "JBS N.V.",
+   "exchange": "NYSE",
+   "price": 12.48,
+   "market_cap": 41051258880.0,
+   "sector": "Consumer Defensive",
+   "industry": "Packaged Foods",
+   "fetched_at": "2026-11-07T14:24Z",
+   "m_fwd_pe": 8.920884,
+   "m_pb": 1.625,
+   "m_ev_ebitda": 6.579,
+   "m_fx_mismatch": false,
+   "m_financial": false,
+   "financial": false,
+   "fwd_pe": 8.920884,
+   "pb": 1.625,
+   "roe": 13.378,
+   "roic": 12.276957894550298,
+   "fcf_yield": 2.003845432376665,
+   "debt_ebitda": 4.638281638349714,
+   "net_cash": false,
+   "altman": 3.1618333533263936,
+   "dilution_pct": 48.17190348764253,
+   "short_pct_float": 17.75,
+   "fcf_payout_pct": 191.3260120994144,
+   "fwd_eps_growth_pct": 30.744329822022152,
+   "analyst_rec": "buy",
+   "analyst_upside_pct": 37.51753205128205,
+   "score": 7,
+   "score_parts": {
+    "valuation": 2,
+    "returns": 2,
+    "balance": 0,
+    "fcf": 1,
+    "growth": 2
+   },
+   "risks": {
+    "debt": "\u274c",
+    "fcfy": "\u26a0\ufe0f",
+    "divpay": "\u274c",
+    "eps": "\u2705",
+    "dilution": "\u274c",
+    "short": "\u274c",
+    "altman": "\u2705",
+    "analyst": "\u2705",
+    "margin": "\u2705",
+    "steady": "\u2705",
+    "deal": "\u2705",
+    "peer": "\u2705"
+   },
+   "after_risk": 3,
+   "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "ebitda_margin": {
+    "latest_pct": 7.7,
+    "prior_avg_pct": 7.6,
+    "change_pts": 0.1,
+    "margins_pct_latest_first": [
+     7.7,
+     8.5,
+     5.0,
+     9.4
+    ]
+   },
+   "earnings_steadiness": {
+    "years": 4,
+    "latest_vs_avg": 1.23,
+    "normalized_pe": 14.3,
+    "losses_in_window": 1
+   },
+   "total_debt": 25640454144.0,
+   "total_cash": 3469120000.0,
+   "ebitda": 5528007168.0,
+   "free_cash_flow": 822603776.0,
+   "shares_out": 776405057.0,
+   "next_earnings": "2026-11-09",
+   "peer": {
+    "metric": "m_fwd_pe",
+    "group": "industry",
+    "group_name": "Packaged Foods",
+    "peers": 7,
+    "peer_median": 11.95,
+    "value": 8.92,
+    "vs_median_pct": -25.3
+   },
+   "rank": 141
+  },
+  {
    "ticker": "BCE",
    "name": "BCE, Inc.",
    "exchange": "NYSE",
@@ -14524,7 +14605,7 @@
    "market_cap": 20161208320.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 11.362848,
    "m_pb": 1.3531401,
    "m_ev_ebitda": null,
@@ -14603,7 +14684,7 @@
     "value": 11.36,
     "vs_median_pct": 14.8
    },
-   "rank": 141
+   "rank": 142
   },
   {
    "ticker": "FIGR",
@@ -14613,7 +14694,7 @@
    "market_cap": 5098987008.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 12.023809,
    "m_pb": 3.596297,
    "m_ev_ebitda": null,
@@ -14682,7 +14763,7 @@
     "value": 3.6,
     "vs_median_pct": 119.5
    },
-   "rank": 142
+   "rank": 143
   },
   {
    "ticker": "VOD",
@@ -14692,7 +14773,7 @@
    "market_cap": 36096741376.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 9.860196,
    "m_pb": 1.2647849,
    "m_ev_ebitda": null,
@@ -14773,7 +14854,7 @@
     "value": 9.86,
     "vs_median_pct": -1.2
    },
-   "rank": 143
+   "rank": 144
   },
   {
    "ticker": "KHC",
@@ -14783,7 +14864,7 @@
    "market_cap": 29134032896.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 11.945964,
    "m_pb": 0.8099658,
    "m_ev_ebitda": 8.398,
@@ -14859,7 +14940,7 @@
     "value": 11.95,
     "vs_median_pct": 6.4
    },
-   "rank": 144
+   "rank": 145
   },
   {
    "ticker": "WMG",
@@ -14869,7 +14950,7 @@
    "market_cap": 16373335040.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 15.910616,
    "m_pb": 19.167177,
    "m_ev_ebitda": 12.504,
@@ -14953,7 +15034,7 @@
     "value": 15.91,
     "vs_median_pct": -11.3
    },
-   "rank": 145
+   "rank": 146
   },
   {
    "ticker": "AGNC",
@@ -14963,7 +15044,7 @@
    "market_cap": 11184013312.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 6.083745,
    "m_pb": 1.1549592,
    "m_ev_ebitda": null,
@@ -15044,7 +15125,7 @@
     "value": 6.08,
     "vs_median_pct": -76.6
    },
-   "rank": 146
+   "rank": 147
   },
   {
    "ticker": "WSE",
@@ -15054,7 +15135,7 @@
    "market_cap": 10758958080.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 15.865335,
    "m_pb": 5.937167,
    "m_ev_ebitda": 5.755,
@@ -15133,7 +15214,7 @@
     "value": 15.87,
     "vs_median_pct": 8.2
    },
-   "rank": 147
+   "rank": 148
   },
   {
    "ticker": "SARO",
@@ -15143,7 +15224,7 @@
    "market_cap": 9081979904.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 15.486192,
    "m_pb": 3.1846473,
    "m_ev_ebitda": 14.005,
@@ -15222,7 +15303,7 @@
     "value": 15.49,
     "vs_median_pct": 3.4
    },
-   "rank": 148
+   "rank": 149
   },
   {
    "ticker": "BILI",
@@ -15232,7 +15313,7 @@
    "market_cap": 5860307456.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 11.441711,
    "m_pb": 2.568605,
    "m_ev_ebitda": null,
@@ -15309,7 +15390,7 @@
     "value": 11.44,
     "vs_median_pct": 11.5
    },
-   "rank": 149
+   "rank": 150
   },
   {
    "ticker": "SMFG",
@@ -15319,7 +15400,7 @@
    "market_cap": 146205671424.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 56.853657,
    "m_pb": 1.4495668,
    "m_ev_ebitda": null,
@@ -15385,7 +15466,7 @@
     "value": 1.45,
     "vs_median_pct": -10.1
    },
-   "rank": 150
+   "rank": 151
   },
   {
    "ticker": "PHG",
@@ -15395,7 +15476,7 @@
    "market_cap": 29670586368.0,
    "sector": "Healthcare",
    "industry": "Medical Devices",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 15.040836,
    "m_pb": 2.28077,
    "m_ev_ebitda": null,
@@ -15472,7 +15553,7 @@
     "value": 15.04,
     "vs_median_pct": -9.1
    },
-   "rank": 151
+   "rank": 152
   },
   {
    "ticker": "HST",
@@ -15482,7 +15563,7 @@
    "market_cap": 17099915264.0,
    "sector": "Real Estate",
    "industry": "REIT - Hotel & Motel",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 23.46013,
    "m_pb": 2.6598966,
    "m_ev_ebitda": 12.39,
@@ -15561,84 +15642,6 @@
     "value": 23.46,
     "vs_median_pct": -9.6
    },
-   "rank": 152
-  },
-  {
-   "ticker": "IX",
-   "name": "ORIX Corporation",
-   "exchange": "NYSE",
-   "price": 34.85,
-   "market_cap": 37297004544.0,
-   "sector": "Financial Services",
-   "industry": "Financial Conglomerates",
-   "fetched_at": "2026-11-07T14:16Z",
-   "m_fwd_pe": null,
-   "m_pb": 1.2815627,
-   "m_ev_ebitda": null,
-   "m_fx_mismatch": true,
-   "m_financial": false,
-   "financial": false,
-   "fwd_pe": null,
-   "pb": 1.2815627,
-   "roe": 14.035,
-   "roic": null,
-   "fcf_yield": null,
-   "debt_ebitda": 5.473321498737035,
-   "net_cash": false,
-   "altman": null,
-   "dilution_pct": -3.318056478930087,
-   "short_pct_float": 0.08,
-   "fcf_payout_pct": null,
-   "fwd_eps_growth_pct": null,
-   "analyst_rec": "none",
-   "analyst_upside_pct": 17.91586800573888,
-   "score": 4,
-   "score_parts": {
-    "valuation": 2,
-    "returns": 2,
-    "balance": 0,
-    "fcf": 0,
-    "growth": 0
-   },
-   "risks": {
-    "debt": "\u274c",
-    "fcfy": "\u2753",
-    "divpay": "\u2753",
-    "eps": "\u2753",
-    "dilution": "\u2705",
-    "short": "\u2705",
-    "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f",
-    "margin": "\u2753",
-    "steady": "\u2705",
-    "deal": "\u2705",
-    "peer": "\u2753"
-   },
-   "after_risk": 3,
-   "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
-   "ebitda_margin": {
-    "margins_pct_latest_first": [
-     null,
-     null,
-     null,
-     null
-    ]
-   },
-   "earnings_steadiness": {
-    "years": 4,
-    "latest_vs_avg": 1.25,
-    "normalized_pe": 12.1,
-    "losses_in_window": 0
-   },
-   "total_debt": 6308802068480.0,
-   "total_cash": 968923021312.0,
-   "ebitda": 1152645988352.0,
-   "free_cash_flow": null,
-   "shares_out": 1070215450.0,
-   "next_earnings": "2026-11-09",
-   "peer": null,
    "rank": 153
   },
   {
@@ -15649,7 +15652,7 @@
    "market_cap": 12291405824.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 17.266716,
    "m_pb": 1.5395857,
    "m_ev_ebitda": 23.262,
@@ -15751,7 +15754,7 @@
    "market_cap": 67156754432.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 39.66038,
    "m_pb": 1.4321415,
    "m_ev_ebitda": null,
@@ -15849,7 +15852,7 @@
    "market_cap": 18287173632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 12.556409,
    "m_pb": 1.3908244,
    "m_ev_ebitda": 7.002,
@@ -15935,7 +15938,7 @@
    "market_cap": 5880120832.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 7.2153816,
    "m_pb": 8.42388,
    "m_ev_ebitda": null,
@@ -16021,7 +16024,7 @@
    "market_cap": 69825552384.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 14.499464,
    "m_pb": 5.335182,
    "m_ev_ebitda": null,
@@ -16110,7 +16113,7 @@
    "market_cap": 11316527104.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 19.957447,
    "m_pb": 0.9374844,
    "m_ev_ebitda": -37.333,
@@ -16191,7 +16194,7 @@
    "market_cap": 7146372608.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 16.741484,
    "m_pb": 1.1095077,
    "m_ev_ebitda": 12.91,
@@ -16277,7 +16280,7 @@
    "market_cap": 6089300992.0,
    "sector": "Industrials",
    "industry": "Conglomerates",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.43662,
    "m_pb": 1.0997329,
    "m_ev_ebitda": 8.756,
@@ -16363,7 +16366,7 @@
    "market_cap": 6066148352.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 35.265713,
    "m_pb": 18.718502,
    "m_ev_ebitda": -665.357,
@@ -16449,7 +16452,7 @@
    "market_cap": 236033376256.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T14:15Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 20.359222,
    "m_pb": 1.6444774,
    "m_ev_ebitda": null,
@@ -16530,7 +16533,7 @@
    "market_cap": 6177117184.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 20.795538,
    "m_pb": 1.356779,
    "m_ev_ebitda": 15.706,
@@ -16619,7 +16622,7 @@
    "market_cap": 21037991936.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 18.018919,
    "m_pb": 1.8608654,
    "m_ev_ebitda": null,
@@ -16698,7 +16701,7 @@
    "market_cap": 7545282560.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Retail",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 8.214777,
    "m_pb": 1.9083155,
    "m_ev_ebitda": 7.344,
@@ -16787,7 +16790,7 @@
    "market_cap": 5957281792.0,
    "sector": "Consumer Cyclical",
    "industry": "Resorts & Casinos",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 525.05835,
    "m_pb": 1.8195966,
    "m_ev_ebitda": 9.038,
@@ -16894,7 +16897,7 @@
    "market_cap": 49675624448.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 6.5903444,
    "m_pb": 1.3454466,
    "m_ev_ebitda": 24.251,
@@ -16985,7 +16988,7 @@
    "market_cap": 14709140480.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 144.71428,
    "m_pb": 1.7759467,
    "m_ev_ebitda": 16.385,
@@ -17074,7 +17077,7 @@
    "market_cap": 14484899840.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 16.845415,
    "m_pb": 1.2559892,
    "m_ev_ebitda": null,
@@ -17160,7 +17163,7 @@
    "market_cap": 12245249024.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 32.37053,
    "m_pb": 1.2622612,
    "m_ev_ebitda": null,
@@ -17246,7 +17249,7 @@
    "market_cap": 18590314496.0,
    "sector": "Industrials",
    "industry": "Farm & Heavy Construction Machinery",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 16.810389,
    "m_pb": 1.8448772,
    "m_ev_ebitda": 37.289,
@@ -17335,7 +17338,7 @@
    "market_cap": 12673064960.0,
    "sector": "Consumer Cyclical",
    "industry": "Specialty Retail",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 16.258902,
    "m_pb": 1.8369287,
    "m_ev_ebitda": 23.618,
@@ -17429,7 +17432,7 @@
    "market_cap": 8095060992.0,
    "sector": "Consumer Defensive",
    "industry": "Beverages - Non-Alcoholic",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 15.212562,
    "m_pb": 2.6563056,
    "m_ev_ebitda": 9.763,
@@ -17529,7 +17532,7 @@
    "market_cap": 6663946240.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 480.00003,
    "m_pb": 1.5998666,
    "m_ev_ebitda": 15.536,
@@ -17615,7 +17618,7 @@
    "market_cap": 10967212032.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 47.671043,
    "m_pb": 1.5983026,
    "m_ev_ebitda": -1128.694,
@@ -17687,9 +17690,9 @@
     "group": "industry",
     "group_name": "Software - Infrastructure",
     "peers": 9,
-    "peer_median": 19.66,
+    "peer_median": 19.64,
     "value": 47.67,
-    "vs_median_pct": 142.5
+    "vs_median_pct": 142.7
    },
    "rank": 176
   },
@@ -17701,7 +17704,7 @@
    "market_cap": 10482715648.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 17.441599,
    "m_pb": 1.7965393,
    "m_ev_ebitda": 14.46,
@@ -17790,7 +17793,7 @@
    "market_cap": 9189364736.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 10.704062,
    "m_pb": 51.27424,
    "m_ev_ebitda": -119.408,
@@ -17876,7 +17879,7 @@
    "market_cap": 7275751424.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.178525,
    "m_pb": 1.135957,
    "m_ev_ebitda": 8.845,
@@ -17962,7 +17965,7 @@
    "market_cap": 6538903552.0,
    "sector": "Basic Materials",
    "industry": "Steel",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 6.71861,
    "m_pb": 1.1497943,
    "m_ev_ebitda": 14.15,
@@ -18053,7 +18056,7 @@
    "market_cap": 5852670976.0,
    "sector": "Energy",
    "industry": "Oil & Gas Drilling",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 17.49641,
    "m_pb": 0.692389,
    "m_ev_ebitda": 7.114,
@@ -18145,7 +18148,7 @@
    "market_cap": 40387846144.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 146.14122,
    "m_pb": 0.76285714,
    "m_ev_ebitda": 7.432,
@@ -18244,7 +18247,7 @@
    "market_cap": 22729891840.0,
    "sector": "Basic Materials",
    "industry": "Chemicals",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 17.134687,
    "m_pb": 1.4071883,
    "m_ev_ebitda": 8.569,
@@ -18330,7 +18333,7 @@
    "market_cap": 16957750272.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 28.75493,
    "m_pb": 1.6695015,
    "m_ev_ebitda": 18.643,
@@ -18419,7 +18422,7 @@
    "market_cap": 10610706432.0,
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 6.2397194,
    "m_pb": 1.857589,
    "m_ev_ebitda": 11.589,
@@ -18508,7 +18511,7 @@
    "market_cap": 7939632640.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 10.587659,
    "m_pb": 0.97990775,
    "m_ev_ebitda": 16.29,
@@ -18602,7 +18605,7 @@
    "market_cap": 7108325888.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 15.44263,
    "m_pb": 0.62913257,
    "m_ev_ebitda": 10.735,
@@ -18688,7 +18691,7 @@
    "market_cap": 42738720768.0,
    "sector": "Financial Services",
    "industry": "Mortgage Finance",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:24Z",
    "m_fwd_pe": 23.033863,
    "m_pb": 1.757293,
    "m_ev_ebitda": 17.871,
@@ -18766,7 +18769,7 @@
    "market_cap": 9183093760.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": -5.4337726,
    "m_pb": 1.7210115,
    "m_ev_ebitda": -517.93,
@@ -18842,7 +18845,7 @@
    "market_cap": 7329226240.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 180.65454,
    "m_pb": 2.5910087,
    "m_ev_ebitda": 22.332,
@@ -18925,7 +18928,7 @@
    "market_cap": 6038316032.0,
    "sector": "Consumer Cyclical",
    "industry": "Restaurants",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 25.140514,
    "m_pb": 1.3429884,
    "m_ev_ebitda": 28.347,
@@ -19016,7 +19019,7 @@
    "market_cap": 6022999040.0,
    "sector": null,
    "industry": null,
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 15.813889,
    "m_pb": 6.6406503,
    "m_ev_ebitda": null,
@@ -19102,7 +19105,7 @@
    "market_cap": 5506429952.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 25.950617,
    "m_pb": 1.9391145,
    "m_ev_ebitda": 20.174,
@@ -19191,7 +19194,7 @@
    "market_cap": 15673315328.0,
    "sector": "Real Estate",
    "industry": "REIT - Residential",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 37.05527,
    "m_pb": 1.7874811,
    "m_ev_ebitda": 16.368,
@@ -19280,7 +19283,7 @@
    "market_cap": 8230216192.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 12.616609,
    "m_pb": 2.613769,
    "m_ev_ebitda": 9.567,
@@ -19367,7 +19370,7 @@
    "market_cap": 8733310976.0,
    "sector": "Industrials",
    "industry": "Airlines",
-   "fetched_at": "2026-11-07T14:19Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 13.919105,
    "m_pb": -2.067451,
    "m_ev_ebitda": 10.939,
@@ -19453,7 +19456,7 @@
    "market_cap": 28826071040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T14:16Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 9.310626,
    "m_pb": 3.3595572,
    "m_ev_ebitda": 9.804,
@@ -19542,7 +19545,7 @@
    "market_cap": 6411387392.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T14:20Z",
+   "fetched_at": "2026-11-07T14:27Z",
    "m_fwd_pe": 37.980263,
    "m_pb": 1.2184778,
    "m_ev_ebitda": 19.28,
@@ -19628,10 +19631,10 @@
    "name": "Elanco Animal Health Incorporat",
    "exchange": "NYSE",
    "price": 25.74,
-   "market_cap": 12855831552.0,
+   "market_cap": 12860265472.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 20.035648,
    "m_pb": 1.9517744,
    "m_ev_ebitda": 15.626,
@@ -19645,7 +19648,7 @@
    "fcf_yield": null,
    "debt_ebitda": 3.9933961660377357,
    "net_cash": false,
-   "altman": 1.4229836993930516,
+   "altman": 1.423374295781247,
    "dilution_pct": 0.5115454111446205,
    "short_pct_float": 9.8900005,
    "fcf_payout_pct": 0.0,
@@ -19696,7 +19699,7 @@
    "total_cash": 530000000.0,
    "ebitda": 1060000000.0,
    "free_cash_flow": null,
-   "shares_out": 499449583.0,
+   "shares_out": 499621830.0,
    "next_earnings": "2026-11-06",
    "peer": {
     "metric": "m_fwd_pe",
@@ -19717,7 +19720,7 @@
    "market_cap": 11993393152.0,
    "sector": "Industrials",
    "industry": "Industrial Distribution",
-   "fetched_at": "2026-11-07T14:18Z",
+   "fetched_at": "2026-11-07T14:26Z",
    "m_fwd_pe": 21.828619,
    "m_pb": 0.899681,
    "m_ev_ebitda": 32.564,
@@ -19824,7 +19827,7 @@
    "market_cap": 15112816640.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T14:17Z",
+   "fetched_at": "2026-11-07T14:25Z",
    "m_fwd_pe": 48.349926,
    "m_pb": 1.6108721,
    "m_ev_ebitda": 27.44,
@@ -19913,7 +19916,7 @@
    "market_cap": 5173335040.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T14:21Z",
+   "fetched_at": "2026-11-07T14:28Z",
    "m_fwd_pe": 74.85294,
    "m_pb": 1.8370147,
    "m_ev_ebitda": 16.983,
