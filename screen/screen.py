@@ -72,6 +72,23 @@ def peer_check(r, pool):
                             "value": round(mine, 2), "vs_median_pct": round(rel, 1)}
     return "❓", {"metric": metric, "note": "too few peers in the screened set"}
 
+NO_WATCH = ("peer", "margin")   # these two checks can mark a stock bad (-1 point) but their watch marks do not raise the risk level
+
+def margin_check(fs, fin):
+    """EBITDA margin: latest annual year vs the average of up to 3 prior annual years (percentage points).
+    good: held or improved (drop under 2 pts); watch: fell 2-5 pts; bad: fell more than 5 pts or latest margin is negative."""
+    if fin: return "❓", None
+    ms = []
+    for c in range(4):
+        e = row_val(fs, ["EBITDA", "Normalized EBITDA"], c); rev = row_val(fs, ["Total Revenue"], c)
+        ms.append((e / rev * 100) if (e is not None and rev and rev > 0) else None)
+    latest = ms[0]; prior = [m for m in ms[1:] if m is not None]
+    if latest is None or not prior: return "❓", {"margins_pct_latest_first": [None if m is None else round(m, 1) for m in ms]}
+    avg = sum(prior) / len(prior); chg = latest - avg
+    rating = "❌" if (latest < 0 or chg < -5) else "⚠️" if chg < -2 else "✅"
+    return rating, {"latest_pct": round(latest, 1), "prior_avg_pct": round(avg, 1), "change_pts": round(chg, 1),
+                    "margins_pct_latest_first": [None if m is None else round(m, 1) for m in ms]}
+
 def num(x):
     try:
         if x is None: return None
@@ -187,7 +204,8 @@ def analyze(sym, quote):
              "short": rate("short", short), "altman": rate("altman", z)}
     analyst = "❓" if (rec is None and tgt is None) else ("❌" if (up is not None and up < 0) else "✅" if (rec in ("buy", "strong_buy") and up is not None and up >= 15) else "⚠️")
     risks["analyst"] = analyst
-    nred = sum(1 for k, x in risks.items() if x == "❌"); nwatch = sum(1 for x in risks.values() if x == "⚠️")
+    mrate, mdet = margin_check(fs, fin); risks["margin"] = mrate
+    nred = sum(1 for k, x in risks.items() if x == "❌"); nwatch = sum(1 for k, x in risks.items() if x == "⚠️" and k not in NO_WATCH)
     lvl = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
     dflag, dhits = deal_scan(t)
     risks["deal"] = "❓" if dflag == "possible" else ("✅" if dflag == "none_found" else "❓")
@@ -197,7 +215,7 @@ def analyze(sym, quote):
               "fwd_eps_growth_pct": fgrowth, "analyst_rec": rec, "analyst_upside_pct": up,
               "score": score, "score_parts": {"valuation": v, "returns": ret, "balance": bal, "fcf": fc, "growth": gr},
               "risks": risks, "after_risk": score - nred, "risk_level": lvl,
-              "deal_flag": dflag, "deal_headlines": dhits,
+              "deal_flag": dflag, "deal_headlines": dhits, "ebitda_margin": mdet,
               "total_debt": debt, "total_cash": cash, "ebitda": ebitda, "free_cash_flow": fcf,
               "shares_out": num(info.get("sharesOutstanding")),
               "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
@@ -220,7 +238,7 @@ def main():
     for r in scored:
         rt, det = peer_check(r, pool)
         r["risks"]["peer"] = rt; r["peer"] = det
-        nred = sum(1 for x in r["risks"].values() if x == "❌"); nwatch = sum(1 for k, x in r["risks"].items() if x == "⚠️" and k != "peer")
+        nred = sum(1 for x in r["risks"].values() if x == "❌"); nwatch = sum(1 for k, x in r["risks"].items() if x == "⚠️" and k not in NO_WATCH)
         r["after_risk"] = r["score"] - nred
         r["risk_level"] = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
     scored.sort(key=lambda r: (-r["after_risk"], -r["score"], -(r["market_cap"] or 0)))
