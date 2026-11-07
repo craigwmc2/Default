@@ -1,6 +1,6 @@
 {
  "run_date": "2026-11-07",
- "generated_at": "2026-11-07T12:42Z",
+ "generated_at": "2026-11-07T13:05Z",
  "source": "Yahoo Finance via yfinance, fetched live during this run",
  "risk_setting": {
   "master": 2,
@@ -12,8 +12,8 @@
   "skipped": 70,
   "skip_reasons": {
    "not cheap": 46,
-   "penny stock": 5,
-   "market value below floor": 19
+   "market value below floor": 19,
+   "penny stock": 5
   }
  },
  "excluded": {
@@ -28,7 +28,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 7.9994173,
    "pb": 1.9767724,
@@ -60,10 +60,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 11550000128.0,
+   "total_cash": 5548000256.0,
+   "ebitda": 17213999104.0,
+   "free_cash_flow": 10272374784.0,
+   "shares_out": 1807322000.0,
    "next_earnings": "2026-11-04",
    "rank": 1
   },
@@ -75,7 +83,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 9.458209,
    "pb": 1.3464848,
@@ -107,10 +115,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16883999744.0,
+   "total_cash": 30653999104.0,
+   "ebitda": 11276000256.0,
+   "free_cash_flow": 7135625216.0,
+   "shares_out": 797290469.0,
    "next_earnings": "2026-11-17",
    "rank": 2
   },
@@ -122,7 +138,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 9.245092,
    "pb": 1.6593182,
@@ -154,10 +170,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 22039842816.0,
+   "total_cash": 31307786240.0,
+   "ebitda": 14943898624.0,
+   "free_cash_flow": 6433000960.0,
+   "shares_out": 540540876.0,
    "next_earnings": "2026-11-17",
    "rank": 3
   },
@@ -169,7 +193,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 5.198147,
    "pb": 2.3404922,
@@ -201,10 +225,18 @@
     "dilution": "\u2753",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9475999744.0,
+   "total_cash": 8624000000.0,
+   "ebitda": 45229998080.0,
+   "free_cash_flow": 9850250240.0,
+   "shares_out": 627033514.0,
    "next_earnings": "2026-08-27",
    "rank": 4
   },
@@ -216,7 +248,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 3.4862854,
    "pb": 0.9064744,
@@ -248,10 +280,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "SM Energy Q3 Cash Flow More Than Doubles as Merger Synergies Hit $400 Million"
+    }
+   ],
+   "total_debt": 7080999936.0,
+   "total_cash": 442000000.0,
+   "ebitda": 3607000064.0,
+   "free_cash_flow": 2006536960.0,
+   "shares_out": 235019304.0,
    "next_earnings": "2026-11-03",
    "rank": 5
   },
@@ -263,7 +308,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 9.315206,
    "pb": 1.7402893,
@@ -295,10 +340,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16497486848.0,
+   "total_cash": 4529852928.0,
+   "ebitda": 11373073408.0,
+   "free_cash_flow": 4423418880.0,
+   "shares_out": 475355111.0,
    "next_earnings": "2026-11-09",
    "rank": 6
   },
@@ -310,7 +363,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 3.8435724,
    "pb": 4.1011443,
@@ -342,10 +395,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 37340999680.0,
+   "total_cash": 22434000896.0,
+   "ebitda": 61248000000.0,
+   "free_cash_flow": 27958999040.0,
+   "shares_out": 707641816.0,
    "next_earnings": "2026-09-01",
    "rank": 7
   },
@@ -357,9 +418,9 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
-   "fwd_pe": 7.504185,
+   "fwd_pe": 7.4705296,
    "pb": 1.283553,
    "roe": 13.881999,
    "roic": 15.203722598361313,
@@ -370,9 +431,9 @@
    "dilution_pct": -4.291387650774203,
    "short_pct_float": 11.82,
    "fcf_payout_pct": 16.27545254208362,
-   "fwd_eps_growth_pct": 46.02962213751394,
+   "fwd_eps_growth_pct": 46.68749856770529,
    "analyst_rec": "buy",
-   "analyst_upside_pct": 39.66548373468524,
+   "analyst_upside_pct": 41.05994930291508,
    "score": 12,
    "score_parts": {
     "valuation": 4,
@@ -389,10 +450,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1937799040.0,
+   "total_cash": 17493000.0,
+   "ebitda": 1187905024.0,
+   "free_cash_flow": 694886976.0,
+   "shares_out": 266311001.0,
    "next_earnings": "2026-11-04",
    "rank": 8
   },
@@ -404,7 +473,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 4.344666,
    "pb": 1.2480016,
@@ -436,10 +505,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 366532984832.0,
+   "total_cash": 53764001792.0,
+   "ebitda": 243035996160.0,
+   "free_cash_flow": 94240129024.0,
+   "shares_out": 3721115691.0,
    "next_earnings": "2026-11-10",
    "rank": 9
   },
@@ -451,7 +528,7 @@
    "market_cap": 49324290048.0,
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 6.4068546,
    "pb": 1.2730157,
@@ -483,10 +560,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 109950001152.0,
+   "total_cash": 26094000128.0,
+   "ebitda": 70049996800.0,
+   "free_cash_flow": 8636250112.0,
+   "shares_out": 4255762783.0,
    "next_earnings": "2026-10-29",
    "rank": 10
   }
@@ -501,7 +586,7 @@
     "market_cap": 49610989568.0,
     "sector": "Energy",
     "industry": "Oil & Gas Integrated",
-    "fetched_at": "2026-11-07T12:40Z",
+    "fetched_at": "2026-11-07T13:02Z",
     "financial": false,
     "fwd_pe": 7.9994173,
     "pb": 1.9767724,
@@ -533,10 +618,18 @@
      "dilution": "\u26a0\ufe0f",
      "short": "\u2753",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 12,
     "risk_level": "Low",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 11550000128.0,
+    "total_cash": 5548000256.0,
+    "ebitda": 17213999104.0,
+    "free_cash_flow": 10272374784.0,
+    "shares_out": 1807322000.0,
     "next_earnings": "2026-11-04",
     "rank": 1
    },
@@ -548,7 +641,7 @@
     "market_cap": 15580555264.0,
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "fetched_at": "2026-11-07T12:40Z",
+    "fetched_at": "2026-11-07T13:02Z",
     "financial": false,
     "fwd_pe": 9.458209,
     "pb": 1.3464848,
@@ -580,10 +673,18 @@
      "dilution": "\u26a0\ufe0f",
      "short": "\u26a0\ufe0f",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 12,
     "risk_level": "Low",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 16883999744.0,
+    "total_cash": 30653999104.0,
+    "ebitda": 11276000256.0,
+    "free_cash_flow": 7135625216.0,
+    "shares_out": 797290469.0,
     "next_earnings": "2026-11-17",
     "rank": 2
    },
@@ -595,7 +696,7 @@
     "market_cap": 15530130432.0,
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics",
-    "fetched_at": "2026-11-07T12:41Z",
+    "fetched_at": "2026-11-07T13:03Z",
     "financial": false,
     "fwd_pe": 9.245092,
     "pb": 1.6593182,
@@ -627,10 +728,18 @@
      "dilution": "\u2705",
      "short": "\u2705",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 12,
     "risk_level": "Low",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 22039842816.0,
+    "total_cash": 31307786240.0,
+    "ebitda": 14943898624.0,
+    "free_cash_flow": 6433000960.0,
+    "shares_out": 540540876.0,
     "next_earnings": "2026-11-17",
     "rank": 3
    },
@@ -642,7 +751,7 @@
     "market_cap": 10766166016.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T12:41Z",
+    "fetched_at": "2026-11-07T13:03Z",
     "financial": false,
     "fwd_pe": 5.198147,
     "pb": 2.3404922,
@@ -674,10 +783,18 @@
      "dilution": "\u2753",
      "short": "\u2705",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 12,
     "risk_level": "Low",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 9475999744.0,
+    "total_cash": 8624000000.0,
+    "ebitda": 45229998080.0,
+    "free_cash_flow": 9850250240.0,
+    "shares_out": 627033514.0,
     "next_earnings": "2026-08-27",
     "rank": 4
    },
@@ -689,7 +806,7 @@
     "market_cap": 7031777280.0,
     "sector": "Energy",
     "industry": "Oil & Gas E&P",
-    "fetched_at": "2026-11-07T12:41Z",
+    "fetched_at": "2026-11-07T13:04Z",
     "financial": false,
     "fwd_pe": 3.4862854,
     "pb": 0.9064744,
@@ -721,10 +838,23 @@
      "dilution": "\u26a0\ufe0f",
      "short": "\u26a0\ufe0f",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2753"
     },
     "after_risk": 12,
     "risk_level": "Low",
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-11-04",
+      "title": "SM Energy Q3 Cash Flow More Than Doubles as Merger Synergies Hit $400 Million"
+     }
+    ],
+    "total_debt": 7080999936.0,
+    "total_cash": 442000000.0,
+    "ebitda": 3607000064.0,
+    "free_cash_flow": 2006536960.0,
+    "shares_out": 235019304.0,
     "next_earnings": "2026-11-03",
     "rank": 5
    }
@@ -738,7 +868,7 @@
     "market_cap": 39313055744.0,
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "fetched_at": "2026-11-07T12:40Z",
+    "fetched_at": "2026-11-07T13:02Z",
     "financial": false,
     "fwd_pe": 7.2370224,
     "pb": 1.1924037,
@@ -770,10 +900,23 @@
      "dilution": "\u2705",
      "short": "\u2705",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2753"
     },
     "after_risk": 10,
     "risk_level": "Medium",
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-11-04",
+      "title": "EU conditionally approves JD.com\u2019s Ceconomy acquisition"
+     }
+    ],
+    "total_debt": 105307996160.0,
+    "total_cash": 221662003200.0,
+    "ebitda": 11797999616.0,
+    "free_cash_flow": 16130499584.0,
+    "shares_out": 1350500000.0,
     "next_earnings": "2026-11-17",
     "rank": 11
    },
@@ -785,7 +928,7 @@
     "market_cap": 17673695232.0,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "fetched_at": "2026-11-07T12:40Z",
+    "fetched_at": "2026-11-07T13:02Z",
     "financial": false,
     "fwd_pe": 8.926218,
     "pb": 6.4452615,
@@ -817,10 +960,18 @@
      "dilution": "\u2705",
      "short": "\u26a0\ufe0f",
      "altman": "\u274c",
-     "analyst": "\u26a0\ufe0f"
+     "analyst": "\u26a0\ufe0f",
+     "deal": "\u2705"
     },
     "after_risk": 10,
     "risk_level": "Medium",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 8115999744.0,
+    "total_cash": 583000000.0,
+    "ebitda": 2496999936.0,
+    "free_cash_flow": 1811250048.0,
+    "shares_out": 593276080.0,
     "next_earnings": "2026-10-28",
     "rank": 12
    },
@@ -832,7 +983,7 @@
     "market_cap": 6113241088.0,
     "sector": "Communication Services",
     "industry": "Advertising Agencies",
-    "fetched_at": "2026-11-07T12:42Z",
+    "fetched_at": "2026-11-07T13:04Z",
     "financial": false,
     "fwd_pe": 12.7400465,
     "pb": 2.3586283,
@@ -864,10 +1015,18 @@
      "dilution": "\u2705",
      "short": "\u274c",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u26a0\ufe0f"
+     "analyst": "\u26a0\ufe0f",
+     "deal": "\u2705"
     },
     "after_risk": 10,
     "risk_level": "Medium",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 434110016.0,
+    "total_cash": 1485332992.0,
+    "ebitda": 697982016.0,
+    "free_cash_flow": 582992768.0,
+    "shares_out": 429686475.0,
     "next_earnings": "2026-11-09",
     "rank": 14
    },
@@ -879,7 +1038,7 @@
     "market_cap": 5302699520.0,
     "sector": "Technology",
     "industry": "Software - Application",
-    "fetched_at": "2026-11-07T12:42Z",
+    "fetched_at": "2026-11-07T13:05Z",
     "financial": false,
     "fwd_pe": 13.648082,
     "pb": 9.651475,
@@ -911,10 +1070,18 @@
      "dilution": "\u2705",
      "short": "\u274c",
      "altman": "\u2705",
-     "analyst": "\u26a0\ufe0f"
+     "analyst": "\u26a0\ufe0f",
+     "deal": "\u2705"
     },
     "after_risk": 10,
     "risk_level": "Medium",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 69025000.0,
+    "total_cash": 309711008.0,
+    "ebitda": 228482000.0,
+    "free_cash_flow": 498074496.0,
+    "shares_out": 163663545.0,
     "next_earnings": "2026-10-20",
     "rank": 15
    },
@@ -926,7 +1093,7 @@
     "market_cap": 86609035264.0,
     "sector": "Communication Services",
     "industry": "Telecom Services",
-    "fetched_at": "2026-11-07T12:40Z",
+    "fetched_at": "2026-11-07T13:01Z",
     "financial": false,
     "fwd_pe": 6.925298,
     "pb": 0.93552226,
@@ -958,10 +1125,18 @@
      "dilution": "\u2705",
      "short": "\u2705",
      "altman": "\u274c",
-     "analyst": "\u26a0\ufe0f"
+     "analyst": "\u26a0\ufe0f",
+     "deal": "\u2705"
     },
     "after_risk": 9,
     "risk_level": "Medium",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 87366000640.0,
+    "total_cash": 7596000256.0,
+    "ebitda": 33540999168.0,
+    "free_cash_flow": 13077499904.0,
+    "shares_out": 3541561960.0,
     "next_earnings": "2026-10-22",
     "rank": 22
    }
@@ -975,7 +1150,7 @@
     "market_cap": 13449138176.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T12:41Z",
+    "fetched_at": "2026-11-07T13:03Z",
     "financial": false,
     "fwd_pe": 8.512337,
     "pb": 1.4276862,
@@ -1007,10 +1182,18 @@
      "dilution": "\u274c",
      "short": "\u2753",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 9,
     "risk_level": "Medium",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 839054976.0,
+    "total_cash": 481577984.0,
+    "ebitda": 1689364992.0,
+    "free_cash_flow": 288838752.0,
+    "shares_out": 1167459822.0,
     "next_earnings": "2026-11-09",
     "rank": 27
    },
@@ -1022,7 +1205,7 @@
     "market_cap": 7112991232.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T12:41Z",
+    "fetched_at": "2026-11-07T13:04Z",
     "financial": false,
     "fwd_pe": 6.0726695,
     "pb": 1.6274865,
@@ -1054,10 +1237,18 @@
      "dilution": "\u26a0\ufe0f",
      "short": "\u2753",
      "altman": "\u26a0\ufe0f",
-     "analyst": "\u2705"
+     "analyst": "\u2705",
+     "deal": "\u2705"
     },
     "after_risk": 8,
     "risk_level": "Low",
+    "deal_flag": "none_found",
+    "deal_headlines": [],
+    "total_debt": 546203008.0,
+    "total_cash": 297065984.0,
+    "ebitda": 2193712128.0,
+    "free_cash_flow": 344702016.0,
+    "shares_out": 1317220545.0,
     "next_earnings": "2026-11-04",
     "rank": 65
    }
@@ -1083,21 +1274,9 @@
   "BTG"
  ],
  "changes": {
-  "entered": [
-   "MGY",
-   "PEGA"
-  ],
-  "exited": [
-   {
-    "ticker": "IAG",
-    "reason": "ranked 29 (score 10, after risk 9), crowded out of the top lists"
-   },
-   {
-    "ticker": "BZ",
-    "reason": "ranked 31 (score 10, after risk 9), crowded out of the top lists"
-   }
-  ],
-  "compared_with": "2026-11-06"
+  "entered": [],
+  "exited": [],
+  "compared_with": "2026-11-07"
  },
  "all_scored": [
   {
@@ -1108,7 +1287,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 7.9994173,
    "pb": 1.9767724,
@@ -1140,10 +1319,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 11550000128.0,
+   "total_cash": 5548000256.0,
+   "ebitda": 17213999104.0,
+   "free_cash_flow": 10272374784.0,
+   "shares_out": 1807322000.0,
    "next_earnings": "2026-11-04",
    "rank": 1
   },
@@ -1155,7 +1342,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 9.458209,
    "pb": 1.3464848,
@@ -1187,10 +1374,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16883999744.0,
+   "total_cash": 30653999104.0,
+   "ebitda": 11276000256.0,
+   "free_cash_flow": 7135625216.0,
+   "shares_out": 797290469.0,
    "next_earnings": "2026-11-17",
    "rank": 2
   },
@@ -1202,7 +1397,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 9.245092,
    "pb": 1.6593182,
@@ -1234,10 +1429,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 22039842816.0,
+   "total_cash": 31307786240.0,
+   "ebitda": 14943898624.0,
+   "free_cash_flow": 6433000960.0,
+   "shares_out": 540540876.0,
    "next_earnings": "2026-11-17",
    "rank": 3
   },
@@ -1249,7 +1452,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 5.198147,
    "pb": 2.3404922,
@@ -1281,10 +1484,18 @@
     "dilution": "\u2753",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9475999744.0,
+   "total_cash": 8624000000.0,
+   "ebitda": 45229998080.0,
+   "free_cash_flow": 9850250240.0,
+   "shares_out": 627033514.0,
    "next_earnings": "2026-08-27",
    "rank": 4
   },
@@ -1296,7 +1507,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 3.4862854,
    "pb": 0.9064744,
@@ -1328,10 +1539,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "SM Energy Q3 Cash Flow More Than Doubles as Merger Synergies Hit $400 Million"
+    }
+   ],
+   "total_debt": 7080999936.0,
+   "total_cash": 442000000.0,
+   "ebitda": 3607000064.0,
+   "free_cash_flow": 2006536960.0,
+   "shares_out": 235019304.0,
    "next_earnings": "2026-11-03",
    "rank": 5
   },
@@ -1343,7 +1567,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 9.315206,
    "pb": 1.7402893,
@@ -1375,10 +1599,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16497486848.0,
+   "total_cash": 4529852928.0,
+   "ebitda": 11373073408.0,
+   "free_cash_flow": 4423418880.0,
+   "shares_out": 475355111.0,
    "next_earnings": "2026-11-09",
    "rank": 6
   },
@@ -1390,7 +1622,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 3.8435724,
    "pb": 4.1011443,
@@ -1422,10 +1654,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 37340999680.0,
+   "total_cash": 22434000896.0,
+   "ebitda": 61248000000.0,
+   "free_cash_flow": 27958999040.0,
+   "shares_out": 707641816.0,
    "next_earnings": "2026-09-01",
    "rank": 7
   },
@@ -1437,9 +1677,9 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
-   "fwd_pe": 7.504185,
+   "fwd_pe": 7.4705296,
    "pb": 1.283553,
    "roe": 13.881999,
    "roic": 15.203722598361313,
@@ -1450,9 +1690,9 @@
    "dilution_pct": -4.291387650774203,
    "short_pct_float": 11.82,
    "fcf_payout_pct": 16.27545254208362,
-   "fwd_eps_growth_pct": 46.02962213751394,
+   "fwd_eps_growth_pct": 46.68749856770529,
    "analyst_rec": "buy",
-   "analyst_upside_pct": 39.66548373468524,
+   "analyst_upside_pct": 41.05994930291508,
    "score": 12,
    "score_parts": {
     "valuation": 4,
@@ -1469,10 +1709,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1937799040.0,
+   "total_cash": 17493000.0,
+   "ebitda": 1187905024.0,
+   "free_cash_flow": 694886976.0,
+   "shares_out": 266311001.0,
    "next_earnings": "2026-11-04",
    "rank": 8
   },
@@ -1484,7 +1732,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 4.344666,
    "pb": 1.2480016,
@@ -1516,10 +1764,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 11,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 366532984832.0,
+   "total_cash": 53764001792.0,
+   "ebitda": 243035996160.0,
+   "free_cash_flow": 94240129024.0,
+   "shares_out": 3721115691.0,
    "next_earnings": "2026-11-10",
    "rank": 9
   },
@@ -1531,7 +1787,7 @@
    "market_cap": 49324290048.0,
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 6.4068546,
    "pb": 1.2730157,
@@ -1563,10 +1819,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 109950001152.0,
+   "total_cash": 26094000128.0,
+   "ebitda": 70049996800.0,
+   "free_cash_flow": 8636250112.0,
+   "shares_out": 4255762783.0,
    "next_earnings": "2026-10-29",
    "rank": 10
   },
@@ -1578,7 +1842,7 @@
    "market_cap": 39313055744.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 7.2370224,
    "pb": 1.1924037,
@@ -1610,10 +1874,23 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "EU conditionally approves JD.com\u2019s Ceconomy acquisition"
+    }
+   ],
+   "total_debt": 105307996160.0,
+   "total_cash": 221662003200.0,
+   "ebitda": 11797999616.0,
+   "free_cash_flow": 16130499584.0,
+   "shares_out": 1350500000.0,
    "next_earnings": "2026-11-17",
    "rank": 11
   },
@@ -1625,7 +1902,7 @@
    "market_cap": 17673695232.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.926218,
    "pb": 6.4452615,
@@ -1657,10 +1934,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8115999744.0,
+   "total_cash": 583000000.0,
+   "ebitda": 2496999936.0,
+   "free_cash_flow": 1811250048.0,
+   "shares_out": 593276080.0,
    "next_earnings": "2026-10-28",
    "rank": 12
   },
@@ -1672,7 +1957,7 @@
    "market_cap": 9506588672.0,
    "sector": "Basic Materials",
    "industry": "Specialty Chemicals",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 5.140488,
    "pb": 0.9743658,
@@ -1704,10 +1989,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 111084003328.0,
+   "total_cash": 47135997952.0,
+   "ebitda": 57721999360.0,
+   "free_cash_flow": 5584999936.0,
+   "shares_out": 634706335.0,
    "next_earnings": "2026-09-01",
    "rank": 13
   },
@@ -1719,7 +2012,7 @@
    "market_cap": 6113241088.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 12.7400465,
    "pb": 2.3586283,
@@ -1751,10 +2044,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 434110016.0,
+   "total_cash": 1485332992.0,
+   "ebitda": 697982016.0,
+   "free_cash_flow": 582992768.0,
+   "shares_out": 429686475.0,
    "next_earnings": "2026-11-09",
    "rank": 14
   },
@@ -1766,7 +2067,7 @@
    "market_cap": 5302699520.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 13.648082,
    "pb": 9.651475,
@@ -1798,10 +2099,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 69025000.0,
+   "total_cash": 309711008.0,
+   "ebitda": 228482000.0,
+   "free_cash_flow": 498074496.0,
+   "shares_out": 163663545.0,
    "next_earnings": "2026-10-20",
    "rank": 15
   },
@@ -1813,7 +2122,7 @@
    "market_cap": 169270951936.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 8.376261,
    "pb": 1.3283631,
@@ -1845,10 +2154,23 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 10,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "Gencom acquires Rosewood London hotel in UK"
+    }
+   ],
+   "total_debt": 423242989568.0,
+   "total_cash": 345949011968.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 14418310410.0,
    "next_earnings": "2026-10-28",
    "rank": 16
   },
@@ -1860,7 +2182,7 @@
    "market_cap": 72691580928.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 8.647785,
    "pb": 1.1860651,
@@ -1892,10 +2214,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 168198995968.0,
+   "total_cash": 334627995648.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 14281253322.0,
    "next_earnings": "2026-10-29",
    "rank": 17
   },
@@ -1907,7 +2237,7 @@
    "market_cap": 18262890496.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 10.697348,
    "pb": 1.3987627,
@@ -1939,10 +2269,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 19848372224.0,
+   "total_cash": 8576167936.0,
+   "ebitda": 20136968192.0,
+   "free_cash_flow": 12585449472.0,
+   "shares_out": 1597803176.0,
    "next_earnings": "2026-11-10",
    "rank": 18
   },
@@ -1954,7 +2292,7 @@
    "market_cap": 9580390400.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 10.492602,
    "pb": 1.5704129,
@@ -1986,10 +2324,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 10,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-09",
+     "title": "Full Truck Alliance (YMM) Upgraded to Buy: Here's Why"
+    }
+   ],
+   "total_debt": 24858000.0,
+   "total_cash": 23554768896.0,
+   "ebitda": 4407259648.0,
+   "free_cash_flow": 6012681216.0,
+   "shares_out": 932510215.0,
    "next_earnings": "2026-11-19",
    "rank": 19
   },
@@ -2001,7 +2352,7 @@
    "market_cap": 18242287616.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.430527,
    "pb": 1.4817085,
@@ -2033,10 +2384,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3223600896.0,
+   "total_cash": 95033000.0,
+   "ebitda": 4404825088.0,
+   "free_cash_flow": 382654368.0,
+   "shares_out": 838725798.0,
    "next_earnings": "2026-11-04",
    "rank": 20
   },
@@ -2048,7 +2407,7 @@
    "market_cap": 10873708544.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 8.330038,
    "pb": 3.4975095,
@@ -2080,10 +2439,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1196333056.0,
+   "total_cash": 1470020992.0,
+   "ebitda": 296132000.0,
+   "free_cash_flow": 1207924608.0,
+   "shares_out": 500526454.0,
    "next_earnings": "2026-10-29",
    "rank": 21
   },
@@ -2095,7 +2462,7 @@
    "market_cap": 86609035264.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 6.925298,
    "pb": 0.93552226,
@@ -2127,10 +2494,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 87366000640.0,
+   "total_cash": 7596000256.0,
+   "ebitda": 33540999168.0,
+   "free_cash_flow": 13077499904.0,
+   "shares_out": 3541561960.0,
    "next_earnings": "2026-10-22",
    "rank": 22
   },
@@ -2142,7 +2517,7 @@
    "market_cap": 76786417664.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 12.42344,
    "pb": 3.5722969,
@@ -2174,10 +2549,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 702901125120.0,
+   "total_cash": 85520293888.0,
+   "ebitda": 324744380416.0,
+   "free_cash_flow": 166892290048.0,
+   "shares_out": 2985475000.0,
    "next_earnings": "2026-10-20",
    "rank": 23
   },
@@ -2189,7 +2572,7 @@
    "market_cap": 26199568384.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.437058,
    "pb": 2.6275992,
@@ -2221,10 +2604,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 754200000.0,
+   "total_cash": 2638400000.0,
+   "ebitda": 5328300032.0,
+   "free_cash_flow": 2464037376.0,
+   "shares_out": 1178038135.0,
    "next_earnings": "2026-10-28",
    "rank": 24
   },
@@ -2236,7 +2627,7 @@
    "market_cap": 24063500288.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 9.9361925,
    "pb": 1.4603322,
@@ -2268,10 +2659,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 10481999872.0,
+   "total_cash": 10328999936.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 850000000.0,
    "next_earnings": "2027-01-22",
    "rank": 25
   },
@@ -2283,7 +2682,7 @@
    "market_cap": 15808846848.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.624198,
    "pb": 1.5186021,
@@ -2315,10 +2714,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 709315968.0,
+   "total_cash": 1172732032.0,
+   "ebitda": 1799406976.0,
+   "free_cash_flow": 836206720.0,
+   "shares_out": 1021903475.0,
    "next_earnings": "2026-11-04",
    "rank": 26
   },
@@ -2330,7 +2737,7 @@
    "market_cap": 13449138176.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 8.512337,
    "pb": 1.4276862,
@@ -2362,10 +2769,18 @@
     "dilution": "\u274c",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 839054976.0,
+   "total_cash": 481577984.0,
+   "ebitda": 1689364992.0,
+   "free_cash_flow": 288838752.0,
+   "shares_out": 1167459822.0,
    "next_earnings": "2026-11-09",
    "rank": 27
   },
@@ -2377,10 +2792,10 @@
    "market_cap": 10949623808.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 9.936911,
-   "pb": 0.008032378,
+   "pb": null,
    "roe": 16.298000000000002,
    "roic": 15.508867247754596,
    "fcf_yield": 293224.6926585188,
@@ -2409,10 +2824,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": 62779000094720.0,
+   "free_cash_flow": 32107000758272.0,
+   "shares_out": 979518173.0,
    "next_earnings": "2026-10-30",
    "rank": 28
   },
@@ -2424,7 +2847,7 @@
    "market_cap": 10631292928.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 8.455592,
    "pb": 2.3018405,
@@ -2456,10 +2879,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 548700032.0,
+   "total_cash": 767600000.0,
+   "ebitda": 2191200000.0,
+   "free_cash_flow": 1242599936.0,
+   "shares_out": 566700000.0,
    "next_earnings": "2026-11-05",
    "rank": 29
   },
@@ -2471,7 +2902,7 @@
    "market_cap": 8967168000.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 5.066881,
    "pb": 0.64594346,
@@ -2485,7 +2916,7 @@
    "short_pct_float": 0.8500000000000001,
    "fcf_payout_pct": 67.36043345596977,
    "fwd_eps_growth_pct": 103.15215612918477,
-   "analyst_rec": "buy",
+   "analyst_rec": "none",
    "analyst_upside_pct": 15.863674762407577,
    "score": 10,
    "score_parts": {
@@ -2503,10 +2934,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 12615180877824.0,
+   "total_cash": 4943225815040.0,
+   "ebitda": 5755091025920.0,
+   "free_cash_flow": 857782484992.0,
+   "shares_out": 473451322.0,
    "next_earnings": "2026-11-10",
    "rank": 30
   },
@@ -2518,7 +2957,7 @@
    "market_cap": 7721975296.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 11.84074,
    "pb": 2.1587155,
@@ -2550,10 +2989,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 216090000.0,
+   "total_cash": 20996089856.0,
+   "ebitda": 3591553024.0,
+   "free_cash_flow": 4073789952.0,
+   "shares_out": 382007310.0,
    "next_earnings": "2026-08-25",
    "rank": 31
   },
@@ -2565,7 +3012,7 @@
    "market_cap": 7474668032.0,
    "sector": "Basic Materials",
    "industry": "Silver",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 15.6692505,
    "pb": 2.451884,
@@ -2597,10 +3044,18 @@
     "dilution": "\u274c",
     "short": "\u2753",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 335388000.0,
+   "total_cash": 1248564992.0,
+   "ebitda": 1011564992.0,
+   "free_cash_flow": 771286144.0,
+   "shares_out": 493052012.0,
    "next_earnings": "2026-11-05",
    "rank": 32
   },
@@ -2612,7 +3067,7 @@
    "market_cap": 6006751232.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 12.463078,
    "pb": 3.228958,
@@ -2644,10 +3099,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-15",
+     "title": "5 Value Stocks to Buy as Core Inflation Rises and Rate Hike Odds Climb"
+    }
+   ],
+   "total_debt": 8634999808.0,
+   "total_cash": 1060000000.0,
+   "ebitda": 2574000128.0,
+   "free_cash_flow": 1436000000.0,
+   "shares_out": 197904124.0,
    "next_earnings": "2026-11-06",
    "rank": 33
   },
@@ -2659,7 +3127,7 @@
    "market_cap": 5829334016.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 6.637474,
    "pb": 1.3387691,
@@ -2691,10 +3159,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-06",
+     "title": "Best Growth Stocks to Buy for November 6th"
+    }
+   ],
+   "total_debt": 4338768896.0,
+   "total_cash": 1003505984.0,
+   "ebitda": 1300928000.0,
+   "free_cash_flow": 620930496.0,
+   "shares_out": 229050442.0,
    "next_earnings": "2026-10-29",
    "rank": 34
   },
@@ -2706,7 +3187,7 @@
    "market_cap": 74227728384.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 7.0879664,
    "pb": 0.87651914,
@@ -2738,10 +3219,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 784599023616.0,
+   "total_cash": 790296985600.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 3324125757.0,
    "next_earnings": "2026-10-22",
    "rank": 35
   },
@@ -2753,7 +3242,7 @@
    "market_cap": 64596844544.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 7.6052103,
    "pb": 0.724133,
@@ -2785,10 +3274,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 561774002176.0,
+   "total_cash": 657327980544.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 1854100000.0,
    "next_earnings": "2027-01-28",
    "rank": 36
   },
@@ -2800,7 +3297,7 @@
    "market_cap": 61543723008.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 7.276119,
    "pb": 1.1974946,
@@ -2832,10 +3329,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 141152993280.0,
+   "total_cash": 232877998080.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 3945110169.0,
    "next_earnings": "2026-10-30",
    "rank": 37
   },
@@ -2847,7 +3352,7 @@
    "market_cap": 26335703040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 10.842508,
    "pb": 2.3683426,
@@ -2879,10 +3384,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8198000128.0,
+   "total_cash": 1843000064.0,
+   "ebitda": 4139000064.0,
+   "free_cash_flow": 1632999936.0,
+   "shares_out": 827126342.0,
    "next_earnings": "2026-10-20",
    "rank": 38
   },
@@ -2894,7 +3407,7 @@
    "market_cap": 22017179648.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 9.585898,
    "pb": 1.3934371,
@@ -2926,10 +3439,27 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "Will the Atlantic-Pacific Buyout Aid KeyCorp's IB Business Expansion?"
+    },
+    {
+     "date": "2026-11-03",
+     "title": "Can Lazard's Campbell Lutyens Buyout Drive Long-Term Growth?"
+    }
+   ],
+   "total_debt": 17984999424.0,
+   "total_cash": 2807000064.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 1055979769.0,
    "next_earnings": "2027-01-20",
    "rank": 39
   },
@@ -2941,7 +3471,7 @@
    "market_cap": 17286625280.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 9.474187,
    "pb": 1.4583423,
@@ -2973,10 +3503,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": 1537833216.0,
+   "free_cash_flow": null,
+   "shares_out": 512500000.0,
    "next_earnings": "2026-11-06",
    "rank": 40
   },
@@ -2988,7 +3526,7 @@
    "market_cap": 15231159296.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 10.840809,
    "pb": 1.3266312,
@@ -3020,10 +3558,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 471115317.0,
    "next_earnings": "2026-10-30",
    "rank": 41
   },
@@ -3035,7 +3581,7 @@
    "market_cap": 10848701440.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 9.903161,
    "pb": 1.3403141,
@@ -3067,10 +3613,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4123000064.0,
+   "total_cash": 5708000256.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 470863790.0,
    "next_earnings": "2026-10-15",
    "rank": 42
   },
@@ -3082,7 +3636,7 @@
    "market_cap": 5663627264.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 8.732575,
    "pb": 1.7376927,
@@ -3114,10 +3668,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2369000.0,
+   "total_cash": 1621031040.0,
+   "ebitda": 857892992.0,
+   "free_cash_flow": 332291616.0,
+   "shares_out": 199564031.0,
    "next_earnings": "2026-11-03",
    "rank": 43
   },
@@ -3129,7 +3691,7 @@
    "market_cap": 25664970752.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 9.024178,
    "pb": -279.0196,
@@ -3161,10 +3723,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 10339000320.0,
+   "total_cash": 4168999936.0,
+   "ebitda": 4636000256.0,
+   "free_cash_flow": 3389874944.0,
+   "shares_out": 901790969.0,
    "next_earnings": "2026-11-24",
    "rank": 44
   },
@@ -3176,7 +3746,7 @@
    "market_cap": 7203036672.0,
    "sector": "Industrials",
    "industry": "Security & Protection Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.007814,
    "pb": 1.9787277,
@@ -3208,10 +3778,23 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "ADT Inc (ADT) (Q3 2026) Earnings Call Highlights: $10-Per-Share Thrive Holdings Buyout and $1 ..."
+    }
+   ],
+   "total_debt": 7878776832.0,
+   "total_cash": 259992992.0,
+   "ebitda": 2676488960.0,
+   "free_cash_flow": 1308371456.0,
+   "shares_out": 675786587.0,
    "next_earnings": "2026-11-03",
    "rank": 45
   },
@@ -3223,7 +3806,7 @@
    "market_cap": 6002266624.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 5.804502,
    "pb": 1.433847,
@@ -3255,10 +3838,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5969446912.0,
+   "total_cash": 985724032.0,
+   "ebitda": 1608942976.0,
+   "free_cash_flow": 1523071232.0,
+   "shares_out": 241539906.0,
    "next_earnings": "2026-11-05",
    "rank": 46
   },
@@ -3270,7 +3861,7 @@
    "market_cap": 5635764736.0,
    "sector": "Consumer Defensive",
    "industry": "Education & Training Services",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 8.244745,
    "pb": 1.3435599,
@@ -3302,10 +3893,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 416881984.0,
+   "total_cash": 2748567040.0,
+   "ebitda": 627596480.0,
+   "free_cash_flow": 369129120.0,
+   "shares_out": 407225695.0,
    "next_earnings": "2026-10-29",
    "rank": 47
   },
@@ -3317,7 +3916,7 @@
    "market_cap": 31178041344.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 8.852445,
    "pb": 1.0641811,
@@ -3349,10 +3948,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 24746000384.0,
+   "total_cash": 18239000576.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 2015387251.0,
    "next_earnings": "2026-10-22",
    "rank": 48
   },
@@ -3364,7 +3971,7 @@
    "market_cap": 20657475584.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 14.824571,
    "pb": 2.131424,
@@ -3396,10 +4003,39 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-16",
+     "title": "Best Growth Stocks to Buy for October 16th"
+    },
+    {
+     "date": "2026-10-14",
+     "title": "Best Growth Stocks to Buy for October 14th"
+    },
+    {
+     "date": "2026-10-12",
+     "title": "Best Growth Stocks to Buy for October 12th"
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Best Growth Stocks to Buy for October 8th"
+    },
+    {
+     "date": "2026-10-06",
+     "title": "NVIDIA & 2 Momentum Stocks to Buy in October for Big Upside"
+    }
+   ],
+   "total_debt": 14388197376.0,
+   "total_cash": 46972940288.0,
+   "ebitda": 5878432768.0,
+   "free_cash_flow": 4347729408.0,
+   "shares_out": 1051171154.0,
    "next_earnings": "2026-11-16",
    "rank": 49
   },
@@ -3411,7 +4047,7 @@
    "market_cap": 16877150208.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 12.287776,
    "pb": 1.8665627,
@@ -3443,10 +4079,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "Best Income Stocks to Buy for November 3rd"
+    }
+   ],
+   "total_debt": 8634999808.0,
+   "total_cash": 1059000000.0,
+   "ebitda": 2572000000.0,
+   "free_cash_flow": 1402625024.0,
+   "shares_out": 705566460.0,
    "next_earnings": "2026-11-06",
    "rank": 50
   },
@@ -3458,7 +4107,7 @@
    "market_cap": 15468450816.0,
    "sector": "Basic Materials",
    "industry": "Building Materials",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 11.991052,
    "pb": 1.2044945,
@@ -3490,10 +4139,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 6075282944.0,
+   "total_cash": 651974976.0,
+   "ebitda": 3399719936.0,
+   "free_cash_flow": 1370054144.0,
+   "shares_out": 1442952453.0,
    "next_earnings": "2026-10-26",
    "rank": 51
   },
@@ -3505,7 +4162,7 @@
    "market_cap": 13815588864.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 9.849857,
    "pb": 0.99037063,
@@ -3537,10 +4194,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 15123999744.0,
+   "total_cash": 722000000.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 722194973.0,
    "next_earnings": "2026-10-27",
    "rank": 52
   },
@@ -3552,7 +4217,7 @@
    "market_cap": 12089828352.0,
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 8.867521,
    "pb": 1.2305387,
@@ -3584,10 +4249,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3835000064.0,
+   "total_cash": 3515000064.0,
+   "ebitda": null,
+   "free_cash_flow": -4314749952.0,
+   "shares_out": 1456605803.0,
    "next_earnings": "2026-08-20",
    "rank": 53
   },
@@ -3596,10 +4269,10 @@
    "name": "Columbia Banking System, Inc.",
    "exchange": "Nasdaq",
    "price": 30.48,
-   "market_cap": 8620261376.0,
+   "market_cap": 8622861312.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": true,
    "fwd_pe": 9.111426,
    "pb": 1.1897885,
@@ -3631,10 +4304,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4160999936.0,
+   "total_cash": 1736999936.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 282902268.0,
    "next_earnings": "2026-10-22",
    "rank": 54
   },
@@ -3646,7 +4327,7 @@
    "market_cap": 7740701696.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": true,
    "fwd_pe": 9.194502,
    "pb": 1.0278872,
@@ -3678,10 +4359,23 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-28",
+     "title": "Valley National (VLY) Upgraded to Buy: What Does It Mean for the Stock?"
+    }
+   ],
+   "total_debt": 3064463872.0,
+   "total_cash": 1151751040.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 549765755.0,
    "next_earnings": "2026-10-22",
    "rank": 55
   },
@@ -3693,7 +4387,7 @@
    "market_cap": 6280054784.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": true,
    "fwd_pe": 9.457389,
    "pb": 0.9217776,
@@ -3725,10 +4419,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5395999744.0,
+   "total_cash": 2684999936.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 350841041.0,
    "next_earnings": "2026-10-19",
    "rank": 56
   },
@@ -3740,7 +4442,7 @@
    "market_cap": 5775660544.0,
    "sector": "Energy",
    "industry": "Oil & Gas Refining & Marketing",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 9.255781,
    "pb": 1.6238644,
@@ -3772,10 +4474,35 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "Best Income Stocks to Buy for November 3rd"
+    },
+    {
+     "date": "2026-11-03",
+     "title": "Best Value Stocks to Buy for November 3rd"
+    },
+    {
+     "date": "2026-11-02",
+     "title": "5 Valuable Price-to-Book Stocks to Buy in November"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Best Growth Stocks to Buy for October 23rd"
+    }
+   ],
+   "total_debt": 19563366400.0,
+   "total_cash": 9250765824.0,
+   "ebitda": 9134960640.0,
+   "free_cash_flow": 5826124800.0,
+   "shares_out": 1065620026.0,
    "next_earnings": "2026-11-11",
    "rank": 57
   },
@@ -3787,7 +4514,7 @@
    "market_cap": 5689949696.0,
    "sector": "Financial Services",
    "industry": "Insurance - Specialty",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 8.297864,
    "pb": 1.1887938,
@@ -3819,10 +4546,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 647241024.0,
+   "total_cash": 215376000.0,
+   "ebitda": 910017024.0,
+   "free_cash_flow": 509074624.0,
+   "shares_out": 198949274.0,
    "next_earnings": "2026-11-04",
    "rank": 58
   },
@@ -3834,7 +4569,7 @@
    "market_cap": 137774563328.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 9.38139,
    "pb": 2.1161604,
@@ -3866,10 +4601,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 202106994688.0,
+   "total_cash": 171946999808.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 5499983056.0,
    "next_earnings": "2026-10-29",
    "rank": 59
   },
@@ -3881,7 +4624,7 @@
    "market_cap": 113480548352.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 6.76259,
    "pb": 1.5712769,
@@ -3913,10 +4656,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 75297177206784.0,
+   "total_cash": 119449818497024.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 12072398815.0,
    "next_earnings": "2026-11-13",
    "rank": 60
   },
@@ -3928,7 +4679,7 @@
    "market_cap": 81452769280.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 7.620756,
    "pb": 1.7857679,
@@ -3960,10 +4711,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1172952973312.0,
+   "total_cash": 602050985984.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 5404282925.0,
    "next_earnings": "2027-02-03",
    "rank": 61
   },
@@ -3975,7 +4734,7 @@
    "market_cap": 9287066624.0,
    "sector": "Basic Materials",
    "industry": "Copper",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 10.347796,
    "pb": 1.9359319,
@@ -4007,10 +4766,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1044499968.0,
+   "total_cash": 890899968.0,
+   "ebitda": 1146599936.0,
+   "free_cash_flow": 450237504.0,
+   "shares_out": 444144760.0,
    "next_earnings": "2026-11-12",
    "rank": 62
   },
@@ -4022,7 +4789,7 @@
    "market_cap": 8604250112.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 25.443626,
    "pb": 2.240164,
@@ -4054,10 +4821,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3214899968.0,
+   "total_cash": 568700032.0,
+   "ebitda": 928400000.0,
+   "free_cash_flow": 694649984.0,
+   "shares_out": 320456259.0,
    "next_earnings": "2026-11-11",
    "rank": 63
   },
@@ -4069,7 +4844,7 @@
    "market_cap": 7682686976.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": true,
    "fwd_pe": 6.144878,
    "pb": 1.5553046,
@@ -4101,10 +4876,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 159541297152.0,
+   "total_cash": 287425691648.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 405690510.0,
    "next_earnings": "2026-11-16",
    "rank": 64
   },
@@ -4116,7 +4899,7 @@
    "market_cap": 7112991232.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 6.0726695,
    "pb": 1.6274865,
@@ -4148,10 +4931,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 546203008.0,
+   "total_cash": 297065984.0,
+   "ebitda": 2193712128.0,
+   "free_cash_flow": 344702016.0,
+   "shares_out": 1317220545.0,
    "next_earnings": "2026-11-04",
    "rank": 65
   },
@@ -4163,7 +4954,7 @@
    "market_cap": 6164262912.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": null,
    "pb": 2.309217,
@@ -4195,10 +4986,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 49100000.0,
+   "total_cash": 728700032.0,
+   "ebitda": 1610499968.0,
+   "free_cash_flow": 665162496.0,
+   "shares_out": 220467223.0,
    "next_earnings": "2026-11-04",
    "rank": 66
   },
@@ -4210,7 +5009,7 @@
    "market_cap": 145709924352.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 8.332691,
    "pb": 1.3696808,
@@ -4242,10 +5041,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 180612005888.0,
+   "total_cash": 10766999552.0,
+   "ebitda": 45940998144.0,
+   "free_cash_flow": 11961749504.0,
+   "shares_out": 6736473433.0,
    "next_earnings": "2026-10-21",
    "rank": 67
   },
@@ -4257,7 +5064,7 @@
    "market_cap": 31968231424.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.007539,
    "pb": 0.0079213595,
@@ -4289,10 +5096,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": 49268001865728.0,
+   "free_cash_flow": 12150163636224.0,
+   "shares_out": 2055834735.0,
    "next_earnings": "2026-11-10",
    "rank": 68
   },
@@ -4304,7 +5119,7 @@
    "market_cap": 18011111424.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 10.015398,
    "pb": 1.5298845,
@@ -4336,10 +5151,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 46637998080.0,
+   "total_cash": 3652000000.0,
+   "ebitda": 9525000192.0,
+   "free_cash_flow": 4535750144.0,
+   "shares_out": 429076558.0,
    "next_earnings": "2026-10-23",
    "rank": 69
   },
@@ -4351,7 +5174,7 @@
    "market_cap": 12145038336.0,
    "sector": "Healthcare",
    "industry": "Medical Care Facilities",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 9.8097105,
    "pb": 0.8450687,
@@ -4383,10 +5206,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 10902354944.0,
+   "total_cash": 1099113984.0,
+   "ebitda": 2697829888.0,
+   "free_cash_flow": 1493011968.0,
+   "shares_out": 519018730.0,
    "next_earnings": "2026-11-03",
    "rank": 70
   },
@@ -4398,7 +5229,7 @@
    "market_cap": 9429971968.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 8.914364,
    "pb": 1.1704775,
@@ -4430,10 +5261,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7857585152.0,
+   "total_cash": 1998141056.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 378258000.0,
    "next_earnings": "2026-10-21",
    "rank": 71
   },
@@ -4445,7 +5284,7 @@
    "market_cap": 7600355840.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.634019,
    "pb": 1.0834175,
@@ -4477,10 +5316,23 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-23",
+     "title": "Nathan\u2019s Famous Shareholders Approve Smithfield Merger, Closing Set for Monday"
+    }
+   ],
+   "total_debt": 2390000128.0,
+   "total_cash": 1263000064.0,
+   "ebitda": 1516000000.0,
+   "free_cash_flow": 676000000.0,
+   "shares_out": 393800826.0,
    "next_earnings": "2026-10-27",
    "rank": 72
   },
@@ -4492,7 +5344,7 @@
    "market_cap": 5060581376.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Parts",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 8.584811,
    "pb": 0.80389714,
@@ -4524,59 +5376,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5078000128.0,
+   "total_cash": 319000000.0,
+   "ebitda": 1300999936.0,
+   "free_cash_flow": 1061000000.0,
+   "shares_out": 252398077.0,
    "next_earnings": "2026-10-29",
    "rank": 73
-  },
-  {
-   "ticker": "IX",
-   "name": "ORIX Corporation",
-   "exchange": "NYSE",
-   "price": 34.85,
-   "market_cap": 37297004544.0,
-   "sector": "Financial Services",
-   "industry": "Financial Conglomerates",
-   "fetched_at": "2026-11-07T12:40Z",
-   "financial": false,
-   "fwd_pe": 2.9684837,
-   "pb": 1.2815627,
-   "roe": 14.035,
-   "roic": null,
-   "fcf_yield": null,
-   "debt_ebitda": 5.473321498737035,
-   "net_cash": false,
-   "altman": null,
-   "dilution_pct": -3.318056478930087,
-   "short_pct_float": 0.08,
-   "fcf_payout_pct": null,
-   "fwd_eps_growth_pct": 226.11110514098493,
-   "analyst_rec": "none",
-   "analyst_upside_pct": 17.91586800573888,
-   "score": 8,
-   "score_parts": {
-    "valuation": 4,
-    "returns": 2,
-    "balance": 0,
-    "fcf": 0,
-    "growth": 2
-   },
-   "risks": {
-    "debt": "\u274c",
-    "fcfy": "\u2753",
-    "divpay": "\u2753",
-    "eps": "\u2705",
-    "dilution": "\u2705",
-    "short": "\u2705",
-    "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
-   },
-   "after_risk": 7,
-   "risk_level": "Medium",
-   "next_earnings": "2026-11-09",
-   "rank": 74
   },
   {
    "ticker": "PSO",
@@ -4586,7 +5399,7 @@
    "market_cap": 10380831744.0,
    "sector": "Communication Services",
    "industry": "Publishing",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 17.783957,
    "pb": 2.3771462,
@@ -4618,12 +5431,29 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2705",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-18",
+     "title": "Pearson acquires ITS as it bets on verified skills in the AI era"
+    },
+    {
+     "date": "2026-09-08",
+     "title": "All You Need to Know About Pearson (PSO) Rating Upgrade to Buy"
+    }
+   ],
+   "total_debt": 1760999936.0,
+   "total_cash": 339000000.0,
+   "ebitda": 604000000.0,
+   "free_cash_flow": 838499968.0,
+   "shares_out": 601090414.0,
    "next_earnings": "2026-07-31",
-   "rank": 75
+   "rank": 74
   },
   {
    "ticker": "AM",
@@ -4633,7 +5463,7 @@
    "market_cap": 8965126144.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 11.74643,
    "pb": 4.0625,
@@ -4665,12 +5495,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3204377088.0,
+   "total_cash": null,
+   "ebitda": 967737024.0,
+   "free_cash_flow": 457459360.0,
+   "shares_out": 472346000.0,
    "next_earnings": "2026-10-28",
-   "rank": 76
+   "rank": 75
   },
   {
    "ticker": "BVN",
@@ -4680,7 +5518,7 @@
    "market_cap": 7109092352.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 7.5346856,
    "pb": 1.5557779,
@@ -4712,12 +5550,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 693348992.0,
+   "total_cash": 1000617024.0,
+   "ebitda": 1264123008.0,
+   "free_cash_flow": 407102752.0,
+   "shares_out": 253715190.0,
    "next_earnings": "2026-10-29",
-   "rank": 77
+   "rank": 76
   },
   {
    "ticker": "PATH",
@@ -4727,7 +5573,7 @@
    "market_cap": 6775020544.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 14.093515,
    "pb": 3.475936,
@@ -4759,12 +5605,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 79760000.0,
+   "total_cash": 1283990016.0,
+   "ebitda": 184616992.0,
+   "free_cash_flow": 474257632.0,
+   "shares_out": 456464703.0,
    "next_earnings": "2026-12-03",
-   "rank": 78
+   "rank": 77
   },
   {
    "ticker": "VIPS",
@@ -4774,7 +5628,7 @@
    "market_cap": 6590429696.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 5.500385,
    "pb": 1.138385,
@@ -4806,12 +5660,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 11568864256.0,
+   "total_cash": 32864909312.0,
+   "ebitda": 9613927424.0,
+   "free_cash_flow": null,
+   "shares_out": 397698210.0,
    "next_earnings": "2026-08-25",
-   "rank": 79
+   "rank": 78
   },
   {
    "ticker": "BXSL",
@@ -4821,7 +5683,7 @@
    "market_cap": 5619825664.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 9.458223,
    "pb": 0.8948072,
@@ -4853,12 +5715,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7536067072.0,
+   "total_cash": 183418000.0,
+   "ebitda": null,
+   "free_cash_flow": 409021760.0,
+   "shares_out": 233284585.0,
    "next_earnings": "2025-08-05",
-   "rank": 80
+   "rank": 79
   },
   {
    "ticker": "ING",
@@ -4868,7 +5738,7 @@
    "market_cap": 90367664128.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 10.33637,
    "pb": 1.6115285,
@@ -4900,12 +5770,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 306458984448.0,
+   "total_cash": 135527997440.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 2839964297.0,
    "next_earnings": "2027-01-28",
-   "rank": 81
+   "rank": 80
   },
   {
    "ticker": "NU",
@@ -4915,7 +5793,7 @@
    "market_cap": 58113183744.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 10.861518,
    "pb": 4.385709,
@@ -4947,12 +5825,25 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-02",
+     "title": "Latest News In Digital Payment - Transuite Expands AI Via Key Acquisition and China Growth"
+    }
+   ],
+   "total_debt": 5896687104.0,
+   "total_cash": 15170837504.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 3808087961.0,
    "next_earnings": "2026-11-12",
-   "rank": 82
+   "rank": 81
   },
   {
    "ticker": "GTES",
@@ -4962,7 +5853,7 @@
    "market_cap": 6052411392.0,
    "sector": "Industrials",
    "industry": "Specialty Industrial Machinery",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 12.428895,
    "pb": 1.7006563,
@@ -4994,12 +5885,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2345900032.0,
+   "total_cash": 838400000.0,
+   "ebitda": 764300032.0,
+   "free_cash_flow": 396675008.0,
+   "shares_out": 251137390.0,
    "next_earnings": "2026-10-30",
-   "rank": 83
+   "rank": 82
   },
   {
    "ticker": "HOMB",
@@ -5009,7 +5908,7 @@
    "market_cap": 5948410880.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 11.48603,
    "pb": 1.3131624,
@@ -5041,12 +5940,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 691204992.0,
+   "total_cash": 863076992.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 199210000.0,
    "next_earnings": "2026-10-14",
-   "rank": 84
+   "rank": 83
   },
   {
    "ticker": "OCTV",
@@ -5056,7 +5963,7 @@
    "market_cap": 5596928000.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 13.946115,
    "pb": 1.1017755,
@@ -5088,12 +5995,20 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 7,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 697782016.0,
+   "total_cash": 304147008.0,
+   "ebitda": 479609984.0,
+   "free_cash_flow": null,
+   "shares_out": 257412788.0,
    "next_earnings": "2026-11-12",
-   "rank": 85
+   "rank": 84
   },
   {
    "ticker": "LYFT",
@@ -5103,7 +6018,7 @@
    "market_cap": 6480801280.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 7.8937645,
    "pb": 2.1740236,
@@ -5135,12 +6050,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1179398016.0,
+   "total_cash": 1904861952.0,
+   "ebitda": 10259000.0,
+   "free_cash_flow": 1058470528.0,
+   "shares_out": 379216000.0,
    "next_earnings": "2026-11-05",
-   "rank": 86
+   "rank": 85
   },
   {
    "ticker": "SIRI",
@@ -5150,7 +6073,7 @@
    "market_cap": 10902170624.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 9.929513,
    "pb": 0.89882654,
@@ -5182,12 +6105,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9507000320.0,
+   "total_cash": 210000000.0,
+   "ebitda": 2540000000.0,
+   "free_cash_flow": 1261624960.0,
+   "shares_out": 336486715.0,
    "next_earnings": "2026-10-29",
-   "rank": 87
+   "rank": 86
   },
   {
    "ticker": "SONY",
@@ -5197,7 +6128,7 @@
    "market_cap": 157362847744.0,
    "sector": "Technology",
    "industry": "Consumer Electronics",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 22.689075,
    "pb": 2.9164672,
@@ -5229,12 +6160,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2086850002944.0,
+   "total_cash": 2009334022144.0,
+   "ebitda": 2300307046400.0,
+   "free_cash_flow": 2302711955456.0,
+   "shares_out": 5828253872.0,
    "next_earnings": "2027-02-04",
-   "rank": 88
+   "rank": 87
   },
   {
    "ticker": "UMC",
@@ -5244,7 +6183,7 @@
    "market_cap": 34732945408.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 15.395218,
    "pb": 2.3894806,
@@ -5276,12 +6215,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 79640264704.0,
+   "total_cash": 151577100288.0,
+   "ebitda": 119086800896.0,
+   "free_cash_flow": 44955643904.0,
+   "shares_out": 2507793896.0,
    "next_earnings": "2026-10-28",
-   "rank": 89
+   "rank": 88
   },
   {
    "ticker": "OWL",
@@ -5291,7 +6238,7 @@
    "market_cap": 15476584448.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": true,
    "fwd_pe": 10.082964,
    "pb": 3.5387385,
@@ -5323,12 +6270,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4161686016.0,
+   "total_cash": 213607008.0,
+   "ebitda": 1298077056.0,
+   "free_cash_flow": 1760697728.0,
+   "shares_out": 692779154.0,
    "next_earnings": "2026-10-29",
-   "rank": 90
+   "rank": 89
   },
   {
    "ticker": "SUZ",
@@ -5338,7 +6293,7 @@
    "market_cap": 11896876032.0,
    "sector": "Basic Materials",
    "industry": "Paper & Paper Products",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 6.5270267,
    "pb": 1.1582712,
@@ -5370,12 +6325,25 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-29",
+     "title": "4 Value Stocks to Buy With Attractive PEG Ratios and Growth Potential"
+    }
+   ],
+   "total_debt": 104970092544.0,
+   "total_cash": 21187938304.0,
+   "ebitda": 19565334528.0,
+   "free_cash_flow": -919503616.0,
+   "shares_out": 1231560722.0,
    "next_earnings": "2026-11-05",
-   "rank": 91
+   "rank": 90
   },
   {
    "ticker": "OBDC",
@@ -5385,7 +6353,7 @@
    "market_cap": 5360924160.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 8.186417,
    "pb": 0.7386402,
@@ -5417,12 +6385,20 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7903533056.0,
+   "total_cash": 217650000.0,
+   "ebitda": null,
+   "free_cash_flow": 482505888.0,
+   "shares_out": 490029642.0,
    "next_earnings": "2026-11-04",
-   "rank": 92
+   "rank": 91
   },
   {
    "ticker": "EBC",
@@ -5432,7 +6408,7 @@
    "market_cap": 5219204096.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 10.599837,
    "pb": 1.1741724,
@@ -5464,12 +6440,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 904000000.0,
+   "total_cash": 547100032.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 228511552.0,
    "next_earnings": "2026-10-22",
-   "rank": 93
+   "rank": 92
   },
   {
    "ticker": "AMTM",
@@ -5479,7 +6463,7 @@
    "market_cap": 5195761152.0,
    "sector": "Industrials",
    "industry": "Engineering & Construction",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 8.050675,
    "pb": 1.1057918,
@@ -5511,12 +6495,25 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-24",
+     "title": "3 Industrial Stocks Under $50 to Buy in October"
+    }
+   ],
+   "total_debt": 3824999936.0,
+   "total_cash": 459000000.0,
+   "ebitda": 1006000000.0,
+   "free_cash_flow": 484249984.0,
+   "shares_out": 244506413.0,
    "next_earnings": "2026-11-23",
-   "rank": 94
+   "rank": 93
   },
   {
    "ticker": "INFY",
@@ -5526,7 +6523,7 @@
    "market_cap": 50629705728.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 14.83979,
    "pb": 9.800078,
@@ -5558,12 +6555,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 890000000.0,
+   "total_cash": 3976999936.0,
+   "ebitda": 4897999872.0,
+   "free_cash_flow": 3300624896.0,
+   "shares_out": 4050376561.0,
    "next_earnings": "2026-10-23",
-   "rank": 95
+   "rank": 94
   },
   {
    "ticker": "CCL",
@@ -5573,7 +6578,7 @@
    "market_cap": 39773569024.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 11.488673,
    "pb": 2.8187535,
@@ -5605,12 +6610,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 25162000384.0,
+   "total_cash": 1220000000.0,
+   "ebitda": 7292000256.0,
+   "free_cash_flow": 1807624960.0,
+   "shares_out": 1344610129.0,
    "next_earnings": "2026-09-29",
-   "rank": 96
+   "rank": 95
   },
   {
    "ticker": "VTRS",
@@ -5620,7 +6633,7 @@
    "market_cap": 22825914368.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 7.2379994,
    "pb": 1.6679232,
@@ -5652,12 +6665,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 13579299840.0,
+   "total_cash": 2006300032.0,
+   "ebitda": 4376399872.0,
+   "free_cash_flow": 3158449920.0,
+   "shares_out": 1146454729.0,
    "next_earnings": "2026-11-05",
-   "rank": 97
+   "rank": 96
   },
   {
    "ticker": "NLY",
@@ -5667,7 +6688,7 @@
    "market_cap": 14772430848.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 6.0222774,
    "pb": 1.0495969,
@@ -5699,12 +6720,25 @@
     "dilution": "\u274c",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
+    }
+   ],
+   "total_debt": 127570345984.0,
+   "total_cash": 1647788032.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 787862972.0,
    "next_earnings": "2026-10-20",
-   "rank": 98
+   "rank": 97
   },
   {
    "ticker": "CHWY",
@@ -5714,7 +6748,7 @@
    "market_cap": 9067479040.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 12.06714,
    "pb": 24.442038,
@@ -5746,12 +6780,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1161200000.0,
+   "total_cash": 612200000.0,
+   "ebitda": 432400000.0,
+   "free_cash_flow": 449075008.0,
+   "shares_out": 225449020.0,
    "next_earnings": "2026-09-09",
-   "rank": 99
+   "rank": 98
   },
   {
    "ticker": "LEVI",
@@ -5761,7 +6803,7 @@
    "market_cap": 8769952768.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 13.667685,
    "pb": 3.6313117,
@@ -5793,12 +6835,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2330500096.0,
+   "total_cash": 779299968.0,
+   "ebitda": 937699968.0,
+   "free_cash_flow": 340512512.0,
+   "shares_out": 99502081.0,
    "next_earnings": "2026-10-07",
-   "rank": 100
+   "rank": 99
   },
   {
    "ticker": "PPC",
@@ -5808,7 +6858,7 @@
    "market_cap": 6793335808.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 11.232284,
    "pb": 1.7528878,
@@ -5840,12 +6890,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3726504960.0,
+   "total_cash": 935771008.0,
+   "ebitda": 1453252352.0,
+   "free_cash_flow": 196614432.0,
+   "shares_out": 238112010.0,
    "next_earnings": "2026-10-28",
-   "rank": 101
+   "rank": 100
   },
   {
    "ticker": "NOV",
@@ -5855,7 +6913,7 @@
    "market_cap": 6260359168.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 13.898672,
    "pb": 1.0021114,
@@ -5887,12 +6945,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2319000064.0,
+   "total_cash": 1058000000.0,
+   "ebitda": 980000000.0,
+   "free_cash_flow": 311750016.0,
+   "shares_out": 356512491.0,
    "next_earnings": "2026-10-27",
-   "rank": 102
+   "rank": 101
   },
   {
    "ticker": "HAFN",
@@ -5902,7 +6968,7 @@
    "market_cap": 5016052736.0,
    "sector": "Industrials",
    "industry": "Marine Shipping",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 13.197184,
    "pb": 1.7672576,
@@ -5934,12 +7000,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 885363008.0,
+   "total_cash": 270983008.0,
+   "ebitda": 719406976.0,
+   "free_cash_flow": 363743136.0,
+   "shares_out": 535331154.0,
    "next_earnings": "2026-11-18",
-   "rank": 103
+   "rank": 102
   },
   {
    "ticker": "PFE",
@@ -5949,7 +7023,7 @@
    "market_cap": 167518699520.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 10.006673,
    "pb": 1.882285,
@@ -5981,12 +7055,25 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-06",
+     "title": "3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market"
+    }
+   ],
+   "total_debt": 63408001024.0,
+   "total_cash": 14279000064.0,
+   "ebitda": 24937000960.0,
+   "free_cash_flow": 13006999552.0,
+   "shares_out": 5699853733.0,
    "next_earnings": "2026-11-03",
-   "rank": 104
+   "rank": 103
   },
   {
    "ticker": "NWSA",
@@ -5996,7 +7083,7 @@
    "market_cap": 14164215808.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 17.094046,
    "pb": 1.6761959,
@@ -6028,12 +7115,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2934000128.0,
+   "total_cash": 1782000000.0,
+   "ebitda": 1400000000.0,
+   "free_cash_flow": 754249984.0,
+   "shares_out": 358013153.0,
    "next_earnings": "2026-11-04",
-   "rank": 105
+   "rank": 104
   },
   {
    "ticker": "IVZ",
@@ -6043,7 +7138,7 @@
    "market_cap": 11902443520.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 8.21146,
    "pb": 1.176215,
@@ -6075,22 +7170,30 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1281299968.0,
+   "total_cash": 965500032.0,
+   "ebitda": 1603699968.0,
+   "free_cash_flow": 1319750016.0,
+   "shares_out": 439528938.0,
    "next_earnings": "2026-10-27",
-   "rank": 106
+   "rank": 105
   },
   {
    "ticker": "MBGL",
    "name": "Mobility Global Inc.",
    "exchange": "NYSE",
    "price": 19.64,
-   "market_cap": 5795315200.0,
+   "market_cap": 6284800000.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 12.22678,
    "pb": 0.5887466,
@@ -6122,12 +7225,20 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2008000000.0,
+   "total_cash": 186000000.0,
+   "ebitda": 716000000.0,
+   "free_cash_flow": null,
+   "shares_out": 320000000.0,
    "next_earnings": "2026-11-12",
-   "rank": 107
+   "rank": 106
   },
   {
    "ticker": "DBX",
@@ -6137,7 +7248,7 @@
    "market_cap": 7536561152.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.294795,
    "pb": -3.4577014,
@@ -6169,12 +7280,25 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-06",
+     "title": "Dropbox to acquire object storage service Tigris Data for $350m"
+    }
+   ],
+   "total_debt": 3955800064.0,
+   "total_cash": 1142200064.0,
+   "ebitda": 836499968.0,
+   "free_cash_flow": 763425024.0,
+   "shares_out": 142295014.0,
    "next_earnings": "2026-11-05",
-   "rank": 108
+   "rank": 107
   },
   {
    "ticker": "SMCI",
@@ -6184,7 +7308,7 @@
    "market_cap": 18959380480.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 4.277954,
    "pb": 1.5983106,
@@ -6216,12 +7340,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9234062336.0,
+   "total_cash": 6897497088.0,
+   "ebitda": 4709094912.0,
+   "free_cash_flow": -8065135104.0,
+   "shares_out": 659227367.0,
    "next_earnings": "2026-11-03",
-   "rank": 109
+   "rank": 108
   },
   {
    "ticker": "FIS",
@@ -6231,7 +7363,7 @@
    "market_cap": 14809459712.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 5.1101265,
    "pb": 0.9135135,
@@ -6263,12 +7395,20 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 20846000128.0,
+   "total_cash": 740000000.0,
+   "ebitda": 3703000064.0,
+   "free_cash_flow": 2316499968.0,
+   "shares_out": 515470244.0,
    "next_earnings": "2026-11-04",
-   "rank": 110
+   "rank": 109
   },
   {
    "ticker": "KEP",
@@ -6278,7 +7418,7 @@
    "market_cap": 14379995136.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 3.9747603,
    "pb": 0.37684518,
@@ -6310,12 +7450,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 136451656253440.0,
+   "total_cash": 5792483246080.0,
+   "ebitda": 25479981563904.0,
+   "free_cash_flow": 690140872704.0,
+   "shares_out": 1283928154.0,
    "next_earnings": "2026-08-12",
-   "rank": 111
+   "rank": 110
   },
   {
    "ticker": "VFC",
@@ -6325,7 +7473,7 @@
    "market_cap": 8010555392.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 14.535611,
    "pb": 3.939218,
@@ -6357,12 +7505,29 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "Is Lululemon's Cash Reason Enough To Buy The Stock?"
+    },
+    {
+     "date": "2026-11-03",
+     "title": "V.F. (VFC) Moves to Buy: Rationale Behind the Upgrade"
+    }
+   ],
+   "total_debt": 5000814080.0,
+   "total_cash": 442951008.0,
+   "ebitda": 1033516992.0,
+   "free_cash_flow": 648260224.0,
+   "shares_out": 393639062.0,
    "next_earnings": "2026-10-28",
-   "rank": 112
+   "rank": 111
   },
   {
    "ticker": "M",
@@ -6372,7 +7537,7 @@
    "market_cap": 6027956736.0,
    "sector": "Consumer Cyclical",
    "industry": "Department Stores",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 9.73392,
    "pb": 1.2232351,
@@ -6404,12 +7569,25 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-26",
+     "title": "DoorDash in advanced talks to acquire Instacart: WSJ"
+    }
+   ],
+   "total_debt": 5088999936.0,
+   "total_cash": 1294000000.0,
+   "ebitda": 1400000000.0,
+   "free_cash_flow": 605000000.0,
+   "shares_out": 261176646.0,
    "next_earnings": "2026-09-10",
-   "rank": 113
+   "rank": 112
   },
   {
    "ticker": "AMKR",
@@ -6419,7 +7597,7 @@
    "market_cap": 8133130240.0,
    "sector": "Technology",
    "industry": "Semiconductor Equipment & Materials",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 11.82349,
    "pb": 1.6944603,
@@ -6451,12 +7629,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2712275968.0,
+   "total_cash": 2376196096.0,
+   "ebitda": 1412280064.0,
+   "free_cash_flow": -590768128.0,
+   "shares_out": 247810189.0,
    "next_earnings": "2026-10-26",
-   "rank": 114
+   "rank": 113
   },
   {
    "ticker": "ELPC",
@@ -6466,7 +7652,7 @@
    "market_cap": 7943708160.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 14.738292,
    "pb": 7.0749063,
@@ -6498,12 +7684,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 23569670144.0,
+   "total_cash": 3272766976.0,
+   "ebitda": 6831488000.0,
+   "free_cash_flow": 3834806272.0,
+   "shares_out": 742402648.0,
    "next_earnings": "2026-11-12",
-   "rank": 115
+   "rank": 114
   },
   {
    "ticker": "COMP",
@@ -6513,7 +7707,7 @@
    "market_cap": 7837651456.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 14.656695,
    "pb": 2.5,
@@ -6528,7 +7722,7 @@
    "fcf_payout_pct": 0.0,
    "fwd_eps_growth_pct": 364.4066482928109,
    "analyst_rec": "buy",
-   "analyst_upside_pct": 33.85572967678745,
+   "analyst_upside_pct": 28.550440744368256,
    "score": 7,
    "score_parts": {
     "valuation": 2,
@@ -6545,12 +7739,25 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-07",
+     "title": "5 Best 52-Week Low NASDAQ Stocks to Buy According to Billionaires"
+    }
+   ],
+   "total_debt": 4167000064.0,
+   "total_cash": 841000000.0,
+   "ebitda": 580000000.0,
+   "free_cash_flow": 867675008.0,
+   "shares_out": 757522197.0,
    "next_earnings": "2026-11-05",
-   "rank": 116
+   "rank": 115
   },
   {
    "ticker": "FPS",
@@ -6560,7 +7767,7 @@
    "market_cap": 6213824000.0,
    "sector": "Industrials",
    "industry": "Electrical Equipment & Parts",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 9.635597,
    "pb": 8.972823,
@@ -6592,12 +7799,20 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 703771008.0,
+   "total_cash": 97477000.0,
+   "ebitda": 249188000.0,
+   "free_cash_flow": -87482752.0,
+   "shares_out": 274527094.0,
    "next_earnings": "2026-11-12",
-   "rank": 117
+   "rank": 116
   },
   {
    "ticker": "WAY",
@@ -6607,7 +7822,7 @@
    "market_cap": 5454303744.0,
    "sector": "Healthcare",
    "industry": "Health Information Services",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 14.980105,
    "pb": 1.3503214,
@@ -6639,12 +7854,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1480594944.0,
+   "total_cash": 278908992.0,
+   "ebitda": 442007008.0,
+   "free_cash_flow": 350879872.0,
+   "shares_out": 192391658.0,
    "next_earnings": "2026-11-02",
-   "rank": 118
+   "rank": 117
   },
   {
    "ticker": "FIGR",
@@ -6654,7 +7877,7 @@
    "market_cap": 5098987008.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 12.023809,
    "pb": 3.596297,
@@ -6686,12 +7909,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1474456960.0,
+   "total_cash": 1437511040.0,
+   "ebitda": null,
+   "free_cash_flow": -254025504.0,
+   "shares_out": 185672153.0,
    "next_earnings": "2026-11-12",
-   "rank": 119
+   "rank": 118
   },
   {
    "ticker": "ERIC",
@@ -6701,7 +7932,7 @@
    "market_cap": 33246873600.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 16.266607,
    "pb": 0.33321425,
@@ -6733,12 +7964,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": 37270999040.0,
+   "free_cash_flow": 28756250624.0,
+   "shares_out": 2978679858.0,
    "next_earnings": "2026-10-15",
-   "rank": 120
+   "rank": 119
   },
   {
    "ticker": "PUK",
@@ -6748,7 +7987,7 @@
    "market_cap": 30282971136.0,
    "sector": "Financial Services",
    "industry": "Insurance - Life",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 15.504265,
    "pb": 6.2890525,
@@ -6780,12 +8019,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5919000064.0,
+   "total_cash": 5888999936.0,
+   "ebitda": 5922999808.0,
+   "free_cash_flow": 4138874880.0,
+   "shares_out": 1223060285.0,
    "next_earnings": "2026-08-27",
-   "rank": 121
+   "rank": 120
   },
   {
    "ticker": "RTO",
@@ -6795,7 +8042,7 @@
    "market_cap": 11872924672.0,
    "sector": "Industrials",
    "industry": "Specialty Business Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 16.031235,
    "pb": 2.162088,
@@ -6827,12 +8074,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 6140000256.0,
+   "total_cash": 2471000064.0,
+   "ebitda": 1252000000.0,
+   "free_cash_flow": 1050875008.0,
+   "shares_out": 502876932.0,
    "next_earnings": "2026-07-30",
-   "rank": 122
+   "rank": 121
   },
   {
    "ticker": "SGHC",
@@ -6842,7 +8097,7 @@
    "market_cap": 5771752448.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 13.179571,
    "pb": 6.0554366,
@@ -6874,12 +8129,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 78000000.0,
+   "total_cash": 618000000.0,
+   "ebitda": 621000000.0,
+   "free_cash_flow": null,
+   "shares_out": 508076788.0,
    "next_earnings": "2026-11-03",
-   "rank": 123
+   "rank": 122
   },
   {
    "ticker": "MWH",
@@ -6889,7 +8152,7 @@
    "market_cap": 5189195264.0,
    "sector": "Utilities",
    "industry": "Utilities - Renewable",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 15.14695,
    "pb": 6.386052,
@@ -6921,12 +8184,20 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 83620000.0,
+   "total_cash": 363968000.0,
+   "ebitda": 312512992.0,
+   "free_cash_flow": null,
+   "shares_out": 123745401.0,
    "next_earnings": "2026-11-12",
-   "rank": 124
+   "rank": 123
   },
   {
    "ticker": "RITM",
@@ -6936,7 +8207,7 @@
    "market_cap": 5154096640.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 3.9021542,
    "pb": 0.7376329,
@@ -6968,12 +8239,25 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
+    }
+   ],
+   "total_debt": 38374985728.0,
+   "total_cash": 1927916032.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 558407031.0,
    "next_earnings": "2026-10-23",
-   "rank": 125
+   "rank": 124
   },
   {
    "ticker": "REYN",
@@ -6983,7 +8267,7 @@
    "market_cap": 5084293632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 14.172767,
    "pb": 2.180519,
@@ -7015,12 +8299,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1640000000.0,
+   "total_cash": 35000000.0,
+   "ebitda": 652000000.0,
+   "free_cash_flow": 220624992.0,
+   "shares_out": 210879018.0,
    "next_earnings": "2026-11-04",
-   "rank": 126
+   "rank": 125
   },
   {
    "ticker": "NOK",
@@ -7030,7 +8322,7 @@
    "market_cap": 43347447808.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 15.839864,
    "pb": 1.8168039,
@@ -7062,12 +8354,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3374000128.0,
+   "total_cash": 5006000128.0,
+   "ebitda": 2755000064.0,
+   "free_cash_flow": 1290749952.0,
+   "shares_out": 5658935619.0,
    "next_earnings": "2027-01-28",
-   "rank": 127
+   "rank": 126
   },
   {
    "ticker": "HLN",
@@ -7077,7 +8377,7 @@
    "market_cap": 40173969408.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 15.121185,
    "pb": 1.8502845,
@@ -7109,12 +8409,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8252000256.0,
+   "total_cash": 826000000.0,
+   "ebitda": 2848000000.0,
+   "free_cash_flow": 1801750016.0,
+   "shares_out": 4395401433.0,
    "next_earnings": "2026-07-30",
-   "rank": 128
+   "rank": 127
   },
   {
    "ticker": "NWS",
@@ -7124,7 +8432,7 @@
    "market_cap": 15546548224.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 18.76231,
    "pb": 1.8397814,
@@ -7156,12 +8464,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2934000128.0,
+   "total_cash": 1782000000.0,
+   "ebitda": 1400000000.0,
+   "free_cash_flow": 754249984.0,
+   "shares_out": 178815203.0,
    "next_earnings": "2026-11-04",
-   "rank": 129
+   "rank": 128
   },
   {
    "ticker": "KLAR",
@@ -7171,7 +8487,7 @@
    "market_cap": 5156576768.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": true,
    "fwd_pe": 17.300158,
    "pb": 2.1124573,
@@ -7203,12 +8519,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Low",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1752000000.0,
+   "total_cash": 4814000128.0,
+   "ebitda": -20000000.0,
+   "free_cash_flow": 798374976.0,
+   "shares_out": 379160066.0,
    "next_earnings": "2026-11-17",
-   "rank": 130
+   "rank": 129
   },
   {
    "ticker": "VICI",
@@ -7218,7 +8542,7 @@
    "market_cap": 27295911936.0,
    "sector": "Real Estate",
    "industry": "REIT - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 8.346802,
    "pb": 0.94086844,
@@ -7250,11 +8574,79 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "3 Dirt Cheap Dividend Stocks to Buy in November 2026"
+    }
+   ],
+   "total_debt": 17825748992.0,
+   "total_cash": 270320992.0,
+   "ebitda": 3218202112.0,
+   "free_cash_flow": 375747136.0,
+   "shares_out": 1101085584.0,
    "next_earnings": "2026-10-28",
+   "rank": 130
+  },
+  {
+   "ticker": "JBS",
+   "name": "JBS N.V.",
+   "exchange": "NYSE",
+   "price": 12.48,
+   "market_cap": 13364966400.0,
+   "sector": "Consumer Defensive",
+   "industry": "Packaged Foods",
+   "fetched_at": "2026-11-07T13:03Z",
+   "financial": false,
+   "fwd_pe": 8.920884,
+   "pb": 1.625,
+   "roe": 13.378,
+   "roic": 12.276957894550298,
+   "fcf_yield": 6.1549258814447905,
+   "debt_ebitda": 4.638281638349714,
+   "net_cash": false,
+   "altman": 2.6956516820739456,
+   "dilution_pct": 48.17190348764253,
+   "short_pct_float": 17.75,
+   "fcf_payout_pct": 191.3260120994144,
+   "fwd_eps_growth_pct": 30.744329822022152,
+   "analyst_rec": "buy",
+   "analyst_upside_pct": 37.51753205128205,
+   "score": 8,
+   "score_parts": {
+    "valuation": 2,
+    "returns": 2,
+    "balance": 0,
+    "fcf": 2,
+    "growth": 2
+   },
+   "risks": {
+    "debt": "\u274c",
+    "fcfy": "\u2705",
+    "divpay": "\u274c",
+    "eps": "\u2705",
+    "dilution": "\u274c",
+    "short": "\u274c",
+    "altman": "\u26a0\ufe0f",
+    "analyst": "\u2705",
+    "deal": "\u2705"
+   },
+   "after_risk": 4,
+   "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 25640454144.0,
+   "total_cash": 3469120000.0,
+   "ebitda": 5528007168.0,
+   "free_cash_flow": 822603776.0,
+   "shares_out": 776068594.0,
+   "next_earnings": "2026-11-09",
    "rank": 131
   },
   {
@@ -7265,7 +8657,7 @@
    "market_cap": 6898168320.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 12.592346,
    "pb": 1.7903862,
@@ -7297,10 +8689,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7449999872.0,
+   "total_cash": 394000000.0,
+   "ebitda": 1620000000.0,
+   "free_cash_flow": 634499968.0,
+   "shares_out": 298234693.0,
    "next_earnings": "2026-09-03",
    "rank": 132
   },
@@ -7312,7 +8712,7 @@
    "market_cap": 28565514240.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 7.1983175,
    "pb": 0.8657633,
@@ -7344,10 +8744,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 65478000640.0,
+   "total_cash": 902000000.0,
+   "ebitda": 10679000064.0,
+   "free_cash_flow": -6491624960.0,
+   "shares_out": 2202429703.0,
    "next_earnings": "2026-10-22",
    "rank": 133
   },
@@ -7359,7 +8767,7 @@
    "market_cap": 20161208320.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 11.362848,
    "pb": 1.3531401,
@@ -7391,10 +8799,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 41513000960.0,
+   "total_cash": 653000000.0,
+   "ebitda": 8748999680.0,
+   "free_cash_flow": 2416624896.0,
+   "shares_out": 932525817.0,
    "next_earnings": "2026-11-05",
    "rank": 134
   },
@@ -7406,7 +8822,7 @@
    "market_cap": 67156754432.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 39.66038,
    "pb": 1.4321415,
@@ -7438,10 +8854,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5357417005056.0,
+   "total_cash": 418533015552.0,
+   "ebitda": 1366422061056.0,
+   "free_cash_flow": 681377136640.0,
+   "shares_out": 3194897794.0,
    "next_earnings": "2027-01-28",
    "rank": 135
   },
@@ -7453,9 +8877,9 @@
    "market_cap": 36096741376.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
-   "fwd_pe": 9.298267,
+   "fwd_pe": 9.860196,
    "pb": 1.2647849,
    "roe": 0.10899999,
    "roic": 3.559324831372894,
@@ -7485,10 +8909,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 54448001024.0,
+   "total_cash": 14583000064.0,
+   "ebitda": 8947999744.0,
+   "free_cash_flow": 5167374848.0,
+   "shares_out": 2316863989.0,
    "next_earnings": "2026-11-10",
    "rank": 136
   },
@@ -7500,7 +8932,7 @@
    "market_cap": 29134032896.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 11.945964,
    "pb": 0.8099658,
@@ -7532,10 +8964,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 18002999296.0,
+   "total_cash": 1904000000.0,
+   "ebitda": 5400000000.0,
+   "free_cash_flow": 3191375104.0,
+   "shares_out": 1183828946.0,
    "next_earnings": "2026-11-04",
    "rank": 137
   },
@@ -7547,7 +8987,7 @@
    "market_cap": 11184013312.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 6.083745,
    "pb": 1.1549592,
@@ -7579,10 +9019,27 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
+    },
+    {
+     "date": "2026-11-02",
+     "title": "CHMI & MITT Merger Offers Long-Term Upside Potential \u2013 Quarterly Update Report"
+    }
+   ],
+   "total_debt": 97365000192.0,
+   "total_cash": 25144999936.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 1273805642.0,
    "next_earnings": "2026-10-19",
    "rank": 138
   },
@@ -7594,7 +9051,7 @@
    "market_cap": 10758958080.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 15.865335,
    "pb": 5.937167,
@@ -7626,10 +9083,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 483700000.0,
+   "total_cash": 5385999872.0,
+   "ebitda": 1134400000.0,
+   "free_cash_flow": -252487504.0,
+   "shares_out": 964929010.0,
    "next_earnings": "2026-11-12",
    "rank": 139
   },
@@ -7641,7 +9106,7 @@
    "market_cap": 9081979904.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 15.486192,
    "pb": 3.1846473,
@@ -7673,10 +9138,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2717932032.0,
+   "total_cash": 191328992.0,
+   "ebitda": 817406976.0,
+   "free_cash_flow": 121877624.0,
+   "shares_out": 328699971.0,
    "next_earnings": "2026-11-05",
    "rank": 140
   },
@@ -7688,7 +9161,7 @@
    "market_cap": 7001402880.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 13.398466,
    "pb": 5.2997017,
@@ -7720,10 +9193,23 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-05",
+     "title": "5 Best Mid-Cap US Stocks to Buy Now"
+    }
+   ],
+   "total_debt": 642499968.0,
+   "total_cash": 528800000.0,
+   "ebitda": 358649984.0,
+   "free_cash_flow": null,
+   "shares_out": 245922122.0,
    "next_earnings": "2026-11-04",
    "rank": 141
   },
@@ -7735,7 +9221,7 @@
    "market_cap": 6017470464.0,
    "sector": "Consumer Defensive",
    "industry": "Grocery Stores",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 7.7335634,
    "pb": 4.2505813,
@@ -7767,10 +9253,23 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-30",
+     "title": "Albertsons and Kroger fighting in court over failed merger"
+    }
+   ],
+   "total_debt": 15916999680.0,
+   "total_cash": 290700000.0,
+   "ebitda": 3424000000.0,
+   "free_cash_flow": 1965762560.0,
+   "shares_out": 470482423.0,
    "next_earnings": "2026-10-13",
    "rank": 142
   },
@@ -7782,7 +9281,7 @@
    "market_cap": 5860307456.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 11.441711,
    "pb": 2.568605,
@@ -7814,10 +9313,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9514290176.0,
+   "total_cash": 24299706368.0,
+   "ebitda": 4363275776.0,
+   "free_cash_flow": null,
+   "shares_out": 320048106.0,
    "next_earnings": "2026-11-24",
    "rank": 143
   },
@@ -7826,19 +9333,19 @@
    "name": "Grifols, S.A.",
    "exchange": "Nasdaq",
    "price": 8.43,
-   "market_cap": 5737284608.0,
+   "market_cap": 5737293824.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 6.775874,
    "pb": 1.7645789,
    "roe": 7.333,
    "roic": 7.0394983642311875,
-   "fcf_yield": 3.389257972819744,
+   "fcf_yield": 3.389252528545416,
    "debt_ebitda": 5.321872665057295,
    "net_cash": false,
-   "altman": 1.0726494940963467,
+   "altman": 1.0726499507484237,
    "dilution_pct": 0.024427656688152943,
    "short_pct_float": null,
    "fcf_payout_pct": 65.82622485530779,
@@ -7861,10 +9368,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9240000512.0,
+   "total_cash": 486000000.0,
+   "ebitda": 1736231040.0,
+   "free_cash_flow": 194451376.0,
+   "shares_out": 258223442.0,
    "next_earnings": "2026-07-28",
    "rank": 144
   },
@@ -7876,7 +9391,7 @@
    "market_cap": 29670586368.0,
    "sector": "Healthcare",
    "industry": "Medical Devices",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 15.040836,
    "pb": 2.28077,
@@ -7908,10 +9423,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8138999808.0,
+   "total_cash": 2751000064.0,
+   "ebitda": 2203000064.0,
+   "free_cash_flow": 1848625024.0,
+   "shares_out": 977614000.0,
    "next_earnings": "2026-11-03",
    "rank": 145
   },
@@ -7923,7 +9446,7 @@
    "market_cap": 27530807296.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 16.821428,
    "pb": 1.1533016,
@@ -7955,10 +9478,18 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 37183381569536.0,
+   "total_cash": 51602144624640.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 2922591081.0,
    "next_earnings": "2026-10-28",
    "rank": 146
   },
@@ -7970,7 +9501,7 @@
    "market_cap": 13342410752.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 12.608103,
    "pb": 2.052037,
@@ -8002,10 +9533,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8807000064.0,
+   "total_cash": 1975000064.0,
+   "ebitda": 1832999936.0,
+   "free_cash_flow": 1222499968.0,
+   "shares_out": 517348188.0,
    "next_earnings": "2026-10-29",
    "rank": 147
   },
@@ -8017,7 +9556,7 @@
    "market_cap": 12080199680.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 14.009536,
    "pb": 1.5401348,
@@ -8049,10 +9588,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2855122944.0,
+   "total_cash": 868446016.0,
+   "ebitda": 1264931968.0,
+   "free_cash_flow": 621551616.0,
+   "shares_out": 550350800.0,
    "next_earnings": "2026-12-03",
    "rank": 148
   },
@@ -8064,7 +9611,7 @@
    "market_cap": 6846807040.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.259391,
    "pb": 1.6196319,
@@ -8096,10 +9643,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 483000000.0,
+   "total_cash": 713000000.0,
+   "ebitda": 218000000.0,
+   "free_cash_flow": 491500000.0,
+   "shares_out": 41398278.0,
    "next_earnings": "2026-11-04",
    "rank": 149
   },
@@ -8111,7 +9666,7 @@
    "market_cap": 6664135168.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.443025,
    "pb": 1.5764203,
@@ -8143,10 +9698,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 483000000.0,
+   "total_cash": 713000000.0,
+   "ebitda": 218000000.0,
+   "free_cash_flow": 491500000.0,
+   "shares_out": 177904929.0,
    "next_earnings": "2026-11-04",
    "rank": 150
   },
@@ -8158,7 +9721,7 @@
    "market_cap": 12291405824.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 17.266716,
    "pb": 1.5395857,
@@ -8190,59 +9753,33 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "Low",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-30",
+     "title": "CoStar Group (CSGP) Agrees To Acquire Vexcel Group"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "CoStar\u2019s Vexcel Acquisition Adds Aerial Imagery for $730M"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "CoStar To Acquire Aerial Imagery Company For $730M"
+    }
+   ],
+   "total_debt": 1172000000.0,
+   "total_cash": 500000000.0,
+   "ebitda": 558000000.0,
+   "free_cash_flow": 442449984.0,
+   "shares_out": 402337328.0,
    "next_earnings": "2026-10-27",
    "rank": 151
-  },
-  {
-   "ticker": "JBS",
-   "name": "JBS N.V.",
-   "exchange": "NYSE",
-   "price": 12.48,
-   "market_cap": 41051258880.0,
-   "sector": "Consumer Defensive",
-   "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:40Z",
-   "financial": false,
-   "fwd_pe": 8.920884,
-   "pb": 1.625,
-   "roe": 13.378,
-   "roic": 12.276957894550298,
-   "fcf_yield": 2.003845432376665,
-   "debt_ebitda": 4.638281638349714,
-   "net_cash": false,
-   "altman": 3.1618333533263936,
-   "dilution_pct": 48.17190348764253,
-   "short_pct_float": 17.75,
-   "fcf_payout_pct": 191.3260120994144,
-   "fwd_eps_growth_pct": 30.744329822022152,
-   "analyst_rec": "buy",
-   "analyst_upside_pct": 37.51753205128205,
-   "score": 7,
-   "score_parts": {
-    "valuation": 2,
-    "returns": 2,
-    "balance": 0,
-    "fcf": 1,
-    "growth": 2
-   },
-   "risks": {
-    "debt": "\u274c",
-    "fcfy": "\u26a0\ufe0f",
-    "divpay": "\u274c",
-    "eps": "\u2705",
-    "dilution": "\u274c",
-    "short": "\u274c",
-    "altman": "\u2705",
-    "analyst": "\u2705"
-   },
-   "after_risk": 3,
-   "risk_level": "High",
-   "next_earnings": "2026-11-09",
-   "rank": 152
   },
   {
    "ticker": "IP",
@@ -8252,7 +9789,7 @@
    "market_cap": 18287173632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 12.556409,
    "pb": 1.3908244,
@@ -8284,12 +9821,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 10352000000.0,
+   "total_cash": 815000000.0,
+   "ebitda": 3974000128.0,
+   "free_cash_flow": 2291000064.0,
+   "shares_out": 529602540.0,
    "next_earnings": "2026-10-28",
-   "rank": 153
+   "rank": 152
   },
   {
    "ticker": "WMG",
@@ -8299,7 +9844,7 @@
    "market_cap": 16373335040.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 15.910616,
    "pb": 19.167177,
@@ -8331,12 +9876,25 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-28",
+     "title": "3 Reasons WMG is Risky and 1 Stock to Buy Instead"
+    }
+   ],
+   "total_debt": 4919000064.0,
+   "total_cash": 618000000.0,
+   "ebitda": 1672000000.0,
+   "free_cash_flow": 382249984.0,
+   "shares_out": 147729456.0,
    "next_earnings": "2026-11-19",
-   "rank": 154
+   "rank": 153
   },
   {
    "ticker": "WPP",
@@ -8346,7 +9904,7 @@
    "market_cap": 5880120832.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 7.2153816,
    "pb": 8.42388,
@@ -8378,12 +9936,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7182000128.0,
+   "total_cash": 2363000064.0,
+   "ebitda": 580000000.0,
+   "free_cash_flow": 744249984.0,
+   "shares_out": 215705082.0,
    "next_earnings": "2026-08-06",
-   "rank": 155
+   "rank": 154
   },
   {
    "ticker": "SMFG",
@@ -8393,7 +9959,7 @@
    "market_cap": 146205671424.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 56.853657,
    "pb": 1.4495668,
@@ -8425,12 +9991,20 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 59157176647680.0,
+   "total_cash": 114327583457280.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 6272229657.0,
    "next_earnings": "2026-11-13",
-   "rank": 156
+   "rank": 155
   },
   {
    "ticker": "ASX",
@@ -8440,7 +10014,7 @@
    "market_cap": 69825552384.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": false,
    "fwd_pe": 14.499464,
    "pb": 5.335182,
@@ -8472,12 +10046,20 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 394402988032.0,
+   "total_cash": 88420999168.0,
+   "ebitda": 165372755968.0,
+   "free_cash_flow": -192200818688.0,
+   "shares_out": 2207573869.0,
    "next_earnings": "2026-10-29",
-   "rank": 157
+   "rank": 156
   },
   {
    "ticker": "SOFI",
@@ -8487,7 +10069,7 @@
    "market_cap": 21037991936.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": true,
    "fwd_pe": 18.018919,
    "pb": 1.8608654,
@@ -8519,12 +10101,20 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 3981809920.0,
+   "total_cash": 2845937920.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 1297840447.0,
    "next_earnings": "2026-10-27",
-   "rank": 158
+   "rank": 157
   },
   {
    "ticker": "HST",
@@ -8534,7 +10124,7 @@
    "market_cap": 17099915264.0,
    "sector": "Real Estate",
    "industry": "REIT - Hotel & Motel",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 23.46013,
    "pb": 2.6598966,
@@ -8566,11 +10156,74 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5645000192.0,
+   "total_cash": 1492000000.0,
+   "ebitda": 1714000000.0,
+   "free_cash_flow": 1363500032.0,
+   "shares_out": 685156063.0,
    "next_earnings": "2026-11-04",
+   "rank": 158
+  },
+  {
+   "ticker": "IX",
+   "name": "ORIX Corporation",
+   "exchange": "NYSE",
+   "price": 34.85,
+   "market_cap": 37297004544.0,
+   "sector": "Financial Services",
+   "industry": "Financial Conglomerates",
+   "fetched_at": "2026-11-07T13:02Z",
+   "financial": false,
+   "fwd_pe": null,
+   "pb": 1.2815627,
+   "roe": 14.035,
+   "roic": null,
+   "fcf_yield": null,
+   "debt_ebitda": 5.473321498737035,
+   "net_cash": false,
+   "altman": null,
+   "dilution_pct": -3.318056478930087,
+   "short_pct_float": 0.08,
+   "fcf_payout_pct": null,
+   "fwd_eps_growth_pct": null,
+   "analyst_rec": "none",
+   "analyst_upside_pct": 17.91586800573888,
+   "score": 4,
+   "score_parts": {
+    "valuation": 2,
+    "returns": 2,
+    "balance": 0,
+    "fcf": 0,
+    "growth": 0
+   },
+   "risks": {
+    "debt": "\u274c",
+    "fcfy": "\u2753",
+    "divpay": "\u2753",
+    "eps": "\u2753",
+    "dilution": "\u2705",
+    "short": "\u2705",
+    "altman": "\u2753",
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
+   },
+   "after_risk": 3,
+   "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 6308802068480.0,
+   "total_cash": 968923021312.0,
+   "ebitda": 1152645988352.0,
+   "free_cash_flow": null,
+   "shares_out": 1070215450.0,
+   "next_earnings": "2026-11-09",
    "rank": 159
   },
   {
@@ -8581,7 +10234,7 @@
    "market_cap": 6066148352.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 35.265713,
    "pb": 18.718502,
@@ -8613,10 +10266,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 3,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1546238976.0,
+   "total_cash": 841048000.0,
+   "ebitda": -10177000.0,
+   "free_cash_flow": 849437248.0,
+   "shares_out": 224935790.0,
    "next_earnings": "2026-11-09",
    "rank": 160
   },
@@ -8628,7 +10289,7 @@
    "market_cap": 6177117184.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 20.795538,
    "pb": 1.356779,
@@ -8660,10 +10321,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2978779904.0,
+   "total_cash": 25222000.0,
+   "ebitda": 583089024.0,
+   "free_cash_flow": 344222240.0,
+   "shares_out": 220275169.0,
    "next_earnings": "2026-10-21",
    "rank": 161
   },
@@ -8675,7 +10344,7 @@
    "market_cap": 12673064960.0,
    "sector": "Consumer Cyclical",
    "industry": "Specialty Retail",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 16.258902,
    "pb": 1.8369287,
@@ -8707,10 +10376,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4333199872.0,
+   "total_cash": 5060299776.0,
+   "ebitda": 505800000.0,
+   "free_cash_flow": 85450000.0,
+   "shares_out": 504500990.0,
    "next_earnings": "2026-09-08",
    "rank": 162
   },
@@ -8722,7 +10399,7 @@
    "market_cap": 8095060992.0,
    "sector": "Consumer Defensive",
    "industry": "Beverages - Non-Alcoholic",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 15.212562,
    "pb": 2.6563056,
@@ -8754,10 +10431,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5774199808.0,
+   "total_cash": 477200000.0,
+   "ebitda": 1371699968.0,
+   "free_cash_flow": 434812512.0,
+   "shares_out": 361548061.0,
    "next_earnings": "2026-11-05",
    "rank": 163
   },
@@ -8769,7 +10454,7 @@
    "market_cap": 5957281792.0,
    "sector": "Consumer Cyclical",
    "industry": "Resorts & Casinos",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 525.05835,
    "pb": 1.8195966,
@@ -8801,10 +10486,23 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-28",
+     "title": "Caesars posts Q3 Las Vegas declines as Fertitta takeover looms"
+    }
+   ],
+   "total_debt": 25809000448.0,
+   "total_cash": 864000000.0,
+   "ebitda": 3438000128.0,
+   "free_cash_flow": 783625024.0,
+   "shares_out": 203807108.0,
    "next_earnings": "2026-10-27",
    "rank": 164
   },
@@ -8816,7 +10514,7 @@
    "market_cap": 14709140480.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 144.71428,
    "pb": 1.7759467,
@@ -8848,10 +10546,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 9670730752.0,
+   "total_cash": 544217984.0,
+   "ebitda": 1588985984.0,
+   "free_cash_flow": 1613404928.0,
+   "shares_out": 689543752.0,
    "next_earnings": "2026-11-02",
    "rank": 165
   },
@@ -8863,7 +10569,7 @@
    "market_cap": 14484899840.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 16.845415,
    "pb": 1.2559892,
@@ -8895,10 +10601,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-27",
+     "title": "Quebec\u2019s La Caisse to Buy BCE Towers Stake for $1.7 Billion"
+    }
+   ],
+   "total_debt": 31531999232.0,
+   "total_cash": 1396999936.0,
+   "ebitda": 4963999744.0,
+   "free_cash_flow": 2395749888.0,
+   "shares_out": 1590000000.0,
    "next_earnings": "2026-11-06",
    "rank": 166
   },
@@ -8910,7 +10629,7 @@
    "market_cap": 12245249024.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 32.37053,
    "pb": 1.2622612,
@@ -8942,10 +10661,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 14691901440.0,
+   "total_cash": 85592055808.0,
+   "ebitda": -1119793024.0,
+   "free_cash_flow": -9747736576.0,
+   "shares_out": 804674894.0,
    "next_earnings": "2026-08-26",
    "rank": 167
   },
@@ -8957,7 +10684,7 @@
    "market_cap": 11316527104.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
    "fwd_pe": 19.957447,
    "pb": 0.9374844,
@@ -8989,10 +10716,23 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-06",
+     "title": "1 Top Cryptocurrency to Buy Before It Soars by 11,000%, According to Bitmine's Tom Lee"
+    }
+   ],
+   "total_debt": 1320000.0,
+   "total_cash": 340288992.0,
+   "ebitda": -294062016.0,
+   "free_cash_flow": -518096224.0,
+   "shares_out": 603226394.0,
    "next_earnings": "2026-11-20",
    "rank": 168
   },
@@ -9004,7 +10744,7 @@
    "market_cap": 7146372608.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 16.741484,
    "pb": 1.1095077,
@@ -9036,10 +10776,27 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-05",
+     "title": "Midterm Election Rally: 5 Relative Price Strength Stocks to Buy"
+    },
+    {
+     "date": "2026-11-05",
+     "title": "Best Growth Stocks to Buy for November 5th"
+    }
+   ],
+   "total_debt": 5095000064.0,
+   "total_cash": 513000000.0,
+   "ebitda": 914000000.0,
+   "free_cash_flow": 404375008.0,
+   "shares_out": 357497374.0,
    "next_earnings": "2026-10-28",
    "rank": 169
   },
@@ -9051,7 +10808,7 @@
    "market_cap": 6089300992.0,
    "sector": "Industrials",
    "industry": "Conglomerates",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.43662,
    "pb": 1.0997329,
@@ -9083,10 +10840,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 45830000640.0,
+   "total_cash": 3323000064.0,
+   "ebitda": 6707999744.0,
+   "free_cash_flow": null,
+   "shares_out": 205442014.0,
    "next_earnings": "2026-11-05",
    "rank": 170
   },
@@ -9098,7 +10863,7 @@
    "market_cap": 236033376256.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:01Z",
    "financial": true,
    "fwd_pe": 20.359222,
    "pb": 1.6444774,
@@ -9130,10 +10895,23 @@
     "dilution": "\u2705",
     "short": "\u2705",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-02",
+     "title": "Lionsgate Studios Is a Takeover Target, and 3 Other Reasons to Own the Stock"
+    }
+   ],
+   "total_debt": 108380647587840.0,
+   "total_cash": 143103679791104.0,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 11255764758.0,
    "next_earnings": "2026-11-13",
    "rank": 171
   },
@@ -9145,7 +10923,7 @@
    "market_cap": 10967212032.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 47.671043,
    "pb": 1.5983026,
@@ -9177,10 +10955,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "Medium",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-23",
+     "title": "SailPoint, Inc.  (SAIL) Upgraded to Buy: Here's Why"
+    }
+   ],
+   "total_debt": 31365000.0,
+   "total_cash": 309849984.0,
+   "ebitda": -9470000.0,
+   "free_cash_flow": 339256640.0,
+   "shares_out": 570911633.0,
    "next_earnings": "2026-09-09",
    "rank": 172
   },
@@ -9192,7 +10983,7 @@
    "market_cap": 7545282560.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Retail",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 8.214777,
    "pb": 1.9083155,
@@ -9224,10 +11015,27 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-23",
+     "title": "4 Value Stocks to Buy as AI Spending Fears & Oil Prices Rattle Markets"
+    },
+    {
+     "date": "2026-10-22",
+     "title": "3 Reasons GAP is risky and 1 stock to buy instead"
+    }
+   ],
+   "total_debt": 5720000000.0,
+   "total_cash": 2484999936.0,
+   "ebitda": 1468000000.0,
+   "free_cash_flow": 246375008.0,
+   "shares_out": 351270137.0,
    "next_earnings": "2026-11-19",
    "rank": 173
   },
@@ -9239,7 +11047,7 @@
    "market_cap": 6538903552.0,
    "sector": "Basic Materials",
    "industry": "Steel",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 6.71861,
    "pb": 1.1497943,
@@ -9271,10 +11079,23 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-06",
+     "title": "Skip the steel buyout drama: Is this $14 domestic supplier a buy?"
+    }
+   ],
+   "total_debt": 7664000000.0,
+   "total_cash": 77000000.0,
+   "ebitda": 1018000000.0,
+   "free_cash_flow": 220250000.0,
+   "shares_out": 570584966.0,
    "next_earnings": "2026-10-19",
    "rank": 174
   },
@@ -9286,7 +11107,7 @@
    "market_cap": 5852670976.0,
    "sector": "Energy",
    "industry": "Oil & Gas Drilling",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 17.49641,
    "pb": 0.692389,
@@ -9318,10 +11139,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5017999872.0,
+   "total_cash": 499000000.0,
+   "ebitda": 1458000000.0,
+   "free_cash_flow": 765374976.0,
+   "shares_out": 1116921983.0,
    "next_earnings": "2026-11-02",
    "rank": 175
   },
@@ -9333,7 +11162,7 @@
    "market_cap": 49675624448.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 6.5903444,
    "pb": 1.3454466,
@@ -9365,10 +11194,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 165432999936.0,
+   "total_cash": 25088000000.0,
+   "ebitda": 7837000192.0,
+   "free_cash_flow": -6194625024.0,
+   "shares_out": 3922365390.0,
    "next_earnings": "2026-10-28",
    "rank": 176
   },
@@ -9380,7 +11217,7 @@
    "market_cap": 40387846144.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 146.14122,
    "pb": 0.76285714,
@@ -9412,10 +11249,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16202000384.0,
+   "total_cash": 1627000064.0,
+   "ebitda": 3310000128.0,
+   "free_cash_flow": 17593124864.0,
+   "shares_out": 5010678000.0,
    "next_earnings": "2026-11-09",
    "rank": 177
   },
@@ -9427,7 +11272,7 @@
    "market_cap": 6663946240.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 480.00003,
    "pb": 1.5998666,
@@ -9442,7 +11287,7 @@
    "fcf_payout_pct": 53.802586170685004,
    "fwd_eps_growth_pct": null,
    "analyst_rec": "buy",
-   "analyst_upside_pct": 10.243072916666662,
+   "analyst_upside_pct": 10.677083333333348,
    "score": 4,
    "score_parts": {
     "valuation": 2,
@@ -9459,10 +11304,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4487427072.0,
+   "total_cash": 29244000.0,
+   "ebitda": 708841984.0,
+   "free_cash_flow": 719145728.0,
+   "shares_out": 338539907.0,
    "next_earnings": "2026-10-29",
    "rank": 178
   },
@@ -9474,7 +11327,7 @@
    "market_cap": 18590314496.0,
    "sector": "Industrials",
    "industry": "Farm & Heavy Construction Machinery",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 16.810389,
    "pb": 1.8448772,
@@ -9506,10 +11359,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 26311000064.0,
+   "total_cash": 1412999936.0,
+   "ebitda": 1054000000.0,
+   "free_cash_flow": 563124992.0,
+   "shares_out": 1237725958.0,
    "next_earnings": "2026-11-09",
    "rank": 179
   },
@@ -9521,7 +11382,7 @@
    "market_cap": 10482715648.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 17.441599,
    "pb": 1.7965393,
@@ -9553,10 +11414,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-30",
+     "title": "Avantor (AVTR) Upgraded to Buy: What Does It Mean for the Stock?"
+    }
+   ],
+   "total_debt": 3683800064.0,
+   "total_cash": 464300000.0,
+   "ebitda": 947600000.0,
+   "free_cash_flow": 440875008.0,
+   "shares_out": 677615769.0,
    "next_earnings": "2026-10-28",
    "rank": 180
   },
@@ -9568,7 +11442,7 @@
    "market_cap": 7275751424.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.178525,
    "pb": 1.135957,
@@ -9600,10 +11474,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7760099840.0,
+   "total_cash": 371600000.0,
+   "ebitda": 1657900032.0,
+   "free_cash_flow": 419624992.0,
+   "shares_out": 477411517.0,
    "next_earnings": "2026-09-30",
    "rank": 181
   },
@@ -9615,7 +11497,7 @@
    "market_cap": 22729891840.0,
    "sector": "Basic Materials",
    "industry": "Chemicals",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 17.134687,
    "pb": 1.4071883,
@@ -9647,10 +11529,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 18965999616.0,
+   "total_cash": 4486000128.0,
+   "ebitda": 4514999808.0,
+   "free_cash_flow": 897625024.0,
+   "shares_out": 723881907.0,
    "next_earnings": "2027-01-28",
    "rank": 182
   },
@@ -9662,7 +11552,7 @@
    "market_cap": 16957750272.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 28.75493,
    "pb": 1.6695015,
@@ -9694,10 +11584,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8590026752.0,
+   "total_cash": 556609984.0,
+   "ebitda": 1349201024.0,
+   "free_cash_flow": 878249600.0,
+   "shares_out": 664488625.0,
    "next_earnings": "2026-10-29",
    "rank": 183
   },
@@ -9709,7 +11607,7 @@
    "market_cap": 15673315328.0,
    "sector": "Real Estate",
    "industry": "REIT - Residential",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 37.05527,
    "pb": 1.7874811,
@@ -9741,10 +11639,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 8806403072.0,
+   "total_cash": 138790000.0,
+   "ebitda": 1485821952.0,
+   "free_cash_flow": 1162354816.0,
+   "shares_out": 576154556.0,
    "next_earnings": "2026-10-28",
    "rank": 184
   },
@@ -9756,7 +11662,7 @@
    "market_cap": 7939632640.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 10.587659,
    "pb": 0.97990775,
@@ -9788,10 +11694,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4774000128.0,
+   "total_cash": 1904999936.0,
+   "ebitda": 678000000.0,
+   "free_cash_flow": null,
+   "shares_out": 667196000.0,
    "next_earnings": "2026-11-11",
    "rank": 185
   },
@@ -9803,7 +11717,7 @@
    "market_cap": 7108325888.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 15.44263,
    "pb": 0.62913257,
@@ -9835,10 +11749,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 6125000192.0,
+   "total_cash": 272600000.0,
+   "ebitda": 1223900032.0,
+   "free_cash_flow": -512462496.0,
+   "shares_out": 317903655.0,
    "next_earnings": "2026-11-03",
    "rank": 186
   },
@@ -9850,9 +11772,9 @@
    "market_cap": 9189364736.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
-   "fwd_pe": 11.130487,
+   "fwd_pe": 10.704062,
    "pb": 51.27424,
    "roe": -83.085,
    "roic": -0.4771832648926817,
@@ -9882,10 +11804,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2283206912.0,
+   "total_cash": 1100920960.0,
+   "ebitda": -87098000.0,
+   "free_cash_flow": 229698128.0,
+   "shares_out": 496454048.0,
    "next_earnings": "2026-11-05",
    "rank": 187
   },
@@ -9897,7 +11827,7 @@
    "market_cap": 7329226240.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 180.65454,
    "pb": 2.5910087,
@@ -9929,10 +11859,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5229310976.0,
+   "total_cash": 560766976.0,
+   "ebitda": 527884992.0,
+   "free_cash_flow": 405489120.0,
+   "shares_out": 283559375.0,
    "next_earnings": "2026-11-04",
    "rank": 188
   },
@@ -9944,7 +11882,7 @@
    "market_cap": 6038316032.0,
    "sector": "Consumer Cyclical",
    "industry": "Restaurants",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 25.140514,
    "pb": 1.3429884,
@@ -9976,10 +11914,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": 0,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1798000000.0,
+   "total_cash": 295000000.0,
+   "ebitda": 265000000.0,
+   "free_cash_flow": null,
+   "shares_out": 233405414.0,
    "next_earnings": "2026-10-28",
    "rank": 189
   },
@@ -9991,7 +11937,7 @@
    "market_cap": 28826071040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 9.310626,
    "pb": 3.3595572,
@@ -10023,10 +11969,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 42835001344.0,
+   "total_cash": 3151000064.0,
+   "ebitda": 7345999872.0,
+   "free_cash_flow": -8635625472.0,
+   "shares_out": 531488393.0,
    "next_earnings": "2026-11-10",
    "rank": 190
   },
@@ -10038,7 +11992,7 @@
    "market_cap": 5506429952.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 25.950617,
    "pb": 1.9391145,
@@ -10070,10 +12024,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2443017984.0,
+   "total_cash": 67646000.0,
+   "ebitda": 390767008.0,
+   "free_cash_flow": 299664992.0,
+   "shares_out": 261961461.0,
    "next_earnings": "2026-11-02",
    "rank": 191
   },
@@ -10085,7 +12047,7 @@
    "market_cap": 10610706432.0,
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 6.2397194,
    "pb": 1.857589,
@@ -10117,10 +12079,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u2705",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 33724999680.0,
+   "total_cash": 2026000000.0,
+   "ebitda": 4355999744.0,
+   "free_cash_flow": -3240499968.0,
+   "shares_out": 713564658.0,
    "next_earnings": "2026-11-04",
    "rank": 192
   },
@@ -10132,7 +12102,7 @@
    "market_cap": 8230216192.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 12.616609,
    "pb": 2.613769,
@@ -10164,10 +12134,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 16026825728.0,
+   "total_cash": 256508000.0,
+   "ebitda": 2508570880.0,
+   "free_cash_flow": -1046450624.0,
+   "shares_out": 459275445.0,
    "next_earnings": "2026-10-29",
    "rank": 193
   },
@@ -10179,7 +12157,7 @@
    "market_cap": 6411387392.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 37.980263,
    "pb": 1.2184778,
@@ -10211,10 +12189,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 1855500032.0,
+   "total_cash": 361400000.0,
+   "ebitda": 410232000.0,
+   "free_cash_flow": 172840880.0,
+   "shares_out": 295901780.0,
    "next_earnings": "2026-11-04",
    "rank": 194
   },
@@ -10226,7 +12212,7 @@
    "market_cap": 42738720768.0,
    "sector": "Financial Services",
    "industry": "Mortgage Finance",
-   "fetched_at": "2026-11-07T12:40Z",
+   "fetched_at": "2026-11-07T13:02Z",
    "financial": false,
    "fwd_pe": 23.033863,
    "pb": 1.757293,
@@ -10258,10 +12244,18 @@
     "dilution": "\u274c",
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
-    "analyst": "\u274c"
+    "analyst": "\u274c",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 30378999808.0,
+   "total_cash": 2832999936.0,
+   "ebitda": 3932999936.0,
+   "free_cash_flow": 1639153024.0,
+   "shares_out": 1913456820.0,
    "next_earnings": "2026-10-29",
    "rank": 195
   },
@@ -10273,9 +12267,9 @@
    "market_cap": 9183093760.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": true,
-   "fwd_pe": -5.4335814,
+   "fwd_pe": -5.4337726,
    "pb": 1.7210115,
    "roe": -33.799,
    "roic": -5.4640573713741,
@@ -10305,10 +12299,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u2753",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 10215000064.0,
+   "total_cash": 3521999872.0,
+   "ebitda": -30653000.0,
+   "free_cash_flow": -8780918784.0,
+   "shares_out": 424357381.0,
    "next_earnings": "2026-11-05",
    "rank": 196
   },
@@ -10320,7 +12322,7 @@
    "market_cap": 6022999040.0,
    "sector": null,
    "industry": null,
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 15.813889,
    "pb": 6.6406503,
@@ -10352,10 +12354,18 @@
     "dilution": "\u2705",
     "short": "\u2753",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -1,
    "risk_level": "Medium",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": null,
+   "total_cash": null,
+   "ebitda": null,
+   "free_cash_flow": null,
+   "shares_out": 294955864.0,
    "next_earnings": "2026-11-12",
    "rank": 197
   },
@@ -10367,7 +12377,7 @@
    "market_cap": 11993393152.0,
    "sector": "Industrials",
    "industry": "Industrial Distribution",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 21.828619,
    "pb": 0.899681,
@@ -10399,10 +12409,18 @@
     "dilution": "\u274c",
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": -2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 7037000192.0,
+   "total_cash": 2774000128.0,
+   "ebitda": 591900032.0,
+   "free_cash_flow": -2546012416.0,
+   "shares_out": 1037490709.0,
    "next_earnings": "2026-11-12",
    "rank": 198
   },
@@ -10414,7 +12432,7 @@
    "market_cap": 8733310976.0,
    "sector": "Industrials",
    "industry": "Airlines",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:04Z",
    "financial": false,
    "fwd_pe": 13.919105,
    "pb": -2.067451,
@@ -10446,10 +12464,23 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2753"
    },
    "after_risk": -2,
    "risk_level": "High",
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-29",
+     "title": "Is It Too Early To Buy American Airlines Stock?"
+    }
+   ],
+   "total_debt": 37206999040.0,
+   "total_cash": 8737999872.0,
+   "ebitda": 3400999936.0,
+   "free_cash_flow": 29250000.0,
+   "shares_out": 662618434.0,
    "next_earnings": "2026-10-22",
    "rank": 199
   },
@@ -10461,7 +12492,7 @@
    "market_cap": 15112816640.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 48.349926,
    "pb": 1.6108721,
@@ -10493,10 +12524,18 @@
     "dilution": "\u2705",
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": -2,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 5376999936.0,
+   "total_cash": 349000000.0,
+   "ebitda": 734000000.0,
+   "free_cash_flow": 583124992.0,
+   "shares_out": 720344000.0,
    "next_earnings": "2026-10-29",
    "rank": 200
   },
@@ -10508,7 +12547,7 @@
    "market_cap": 5173335040.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T12:42Z",
+   "fetched_at": "2026-11-07T13:05Z",
    "financial": false,
    "fwd_pe": 74.85294,
    "pb": 1.8370147,
@@ -10540,10 +12579,18 @@
     "dilution": "\u2705",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u26a0\ufe0f"
+    "analyst": "\u26a0\ufe0f",
+    "deal": "\u2705"
    },
    "after_risk": -3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 2840182016.0,
+   "total_cash": 32542000.0,
+   "ebitda": 469646016.0,
+   "free_cash_flow": 192568000.0,
+   "shares_out": 197966711.0,
    "next_earnings": "2026-10-30",
    "rank": 201
   },
@@ -10552,10 +12599,10 @@
    "name": "Elanco Animal Health Incorporat",
    "exchange": "NYSE",
    "price": 25.74,
-   "market_cap": 12860265472.0,
+   "market_cap": 12855831552.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T12:41Z",
+   "fetched_at": "2026-11-07T13:03Z",
    "financial": false,
    "fwd_pe": 20.035648,
    "pb": 1.9517744,
@@ -10564,7 +12611,7 @@
    "fcf_yield": null,
    "debt_ebitda": 3.9933961660377357,
    "net_cash": false,
-   "altman": 1.423374295781247,
+   "altman": 1.4229836993930516,
    "dilution_pct": 0.5115454111446205,
    "short_pct_float": 9.8900005,
    "fcf_payout_pct": 0.0,
@@ -10587,10 +12634,18 @@
     "dilution": "\u26a0\ufe0f",
     "short": "\u274c",
     "altman": "\u274c",
-    "analyst": "\u2705"
+    "analyst": "\u2705",
+    "deal": "\u2705"
    },
    "after_risk": -3,
    "risk_level": "High",
+   "deal_flag": "none_found",
+   "deal_headlines": [],
+   "total_debt": 4232999936.0,
+   "total_cash": 530000000.0,
+   "ebitda": 1060000000.0,
+   "free_cash_flow": null,
+   "shares_out": 499449583.0,
    "next_earnings": "2026-11-06",
    "rank": 202
   }
