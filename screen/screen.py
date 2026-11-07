@@ -45,6 +45,31 @@ def deal_scan(t, days=270):
         if DEAL_RE.search(title): hits.append({"date": when[:10], "title": title[:160]})
     return ("possible" if hits else "none_found"), hits[:5]
 
+PEER_METRIC = {"Energy": "m_ev_ebitda", "Basic Materials": "m_ev_ebitda"}
+
+def _median(vals):
+    v = sorted(x for x in vals if x is not None and x > 0)
+    if not v: return None, 0
+    m = len(v) // 2
+    return (v[m] if len(v) % 2 else (v[m-1] + v[m]) / 2), len(v)
+
+def peer_check(r, pool):
+    """Compare a stock's valuation to the median of its industry (or sector) among screened names.
+    Metric: price/book for banks and insurers, EV/EBITDA for energy and materials, forward P/E otherwise.
+    Peers are only the $5B+ names priced $5-$35 that the screen pulled, so this is a peer set, not the whole industry."""
+    metric = "m_pb" if r.get("m_financial") else PEER_METRIC.get(r.get("sector"), "m_fwd_pe")
+    mine = r.get(metric)
+    if not mine or mine <= 0: return "❓", None
+    for key, label, need in (("industry", "industry", 4), ("sector", "sector", 6)):
+        grp = [p.get(metric) for p in pool if p is not r and p.get(key) and p.get(key) == r.get(key) and p.get("m_financial") == r.get("m_financial")]
+        med, n = _median(grp)
+        if med and n >= need:
+            rel = (mine / med - 1) * 100
+            rating = "✅" if rel <= -10 else ("❌" if rel > 25 else "⚠️")
+            return rating, {"metric": metric, "group": label, "group_name": r.get(key), "peers": n, "peer_median": round(med, 2),
+                            "value": round(mine, 2), "vs_median_pct": round(rel, 1)}
+    return "❓", {"metric": metric, "note": "too few peers in the screened set"}
+
 def num(x):
     try:
         if x is None: return None
@@ -110,6 +135,8 @@ def analyze(sym, quote):
     if (mcap or 0) < floor: r["skip"] = "market value below floor"; return r
     fin = (info.get("sector") == "Financial Services") and any(k in (info.get("industry") or "") for k in ("Bank", "Insurance", "Credit", "Capital Markets", "Asset Management"))
     fwd, trl, pb = num(info.get("forwardPE")), num(info.get("trailingPE")), num(info.get("priceToBook"))
+    r["m_fwd_pe"], r["m_pb"], r["m_ev_ebitda"] = fwd, pb, num(info.get("enterpriseToEbitda"))
+    r["m_financial"] = fin
     fcf, debt, ebitda, cash = num(info.get("freeCashflow")), num(info.get("totalDebt")), num(info.get("ebitda")), num(info.get("totalCash"))
     roe = num(info.get("returnOnEquity")); roe = roe * 100 if roe is not None else None
     fcfy = (fcf / mcap * 100) if (fcf is not None and mcap) else None
@@ -184,6 +211,13 @@ def main():
         if i % 40 == 0: print(i, sym, flush=True)
         time.sleep(0.15)
     scored = [r for r in rows if "score" in r]
+    pool = [r for r in rows if "m_fwd_pe" in r]
+    for r in scored:
+        rt, det = peer_check(r, pool)
+        r["risks"]["peer"] = rt; r["peer"] = det
+        nred = sum(1 for x in r["risks"].values() if x == "❌"); nwatch = sum(1 for k, x in r["risks"].items() if x == "⚠️" and k != "peer")
+        r["after_risk"] = r["score"] - nred
+        r["risk_level"] = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
     scored.sort(key=lambda r: (-r["after_risk"], -r["score"], -(r["market_cap"] or 0)))
     for n, r in enumerate(scored, 1): r["rank"] = n
     top10 = scored[:10]
