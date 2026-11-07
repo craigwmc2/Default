@@ -72,7 +72,7 @@ def peer_check(r, pool):
                             "value": round(mine, 2), "vs_median_pct": round(rel, 1)}
     return "❓", {"metric": metric, "note": "too few peers in the screened set"}
 
-NO_WATCH = ("peer", "margin")   # these two checks can mark a stock bad (-1 point) but their watch marks do not raise the risk level
+NO_WATCH = ("peer", "margin", "steady")   # these two checks can mark a stock bad (-1 point) but their watch marks do not raise the risk level
 
 def margin_check(fs, fin):
     """EBITDA margin: latest annual year vs the average of up to 3 prior annual years (percentage points).
@@ -88,6 +88,23 @@ def margin_check(fs, fin):
     rating = "❌" if (latest < 0 or chg < -5) else "⚠️" if chg < -2 else "✅"
     return rating, {"latest_pct": round(latest, 1), "prior_avg_pct": round(avg, 1), "change_pts": round(chg, 1),
                     "margins_pct_latest_first": [None if m is None else round(m, 1) for m in ms]}
+
+def steadiness_check(fs, trl):
+    """Earnings steadiness: is the stock still cheap on average earnings, not just on the latest year?
+    normalized P/E = trailing P/E x (latest annual net income / average annual net income, up to 4 years).
+    Using the ratio of net incomes avoids currency mismatches for foreign filers.
+    good: normalized P/E 15 or less; watch: 15-25; bad: over 25 or average earnings not positive; unverified: under 3 years or no trailing P/E."""
+    ni = [row_val(fs, ["Net Income Common Stockholders", "Net Income"], c) for c in range(4)]
+    yrs = [x for x in ni if x is not None]
+    if len(yrs) < 3 or ni[0] is None or not trl or trl <= 0:
+        return "❓", {"net_income_years": len(yrs)}
+    avg = sum(yrs) / len(yrs)
+    if avg <= 0: return "❌", {"years": len(yrs), "avg_net_income_positive": False}
+    ratio = ni[0] / avg
+    norm = trl * ratio
+    rating = "✅" if norm <= 15 else "⚠️" if norm <= 25 else "❌"
+    return rating, {"years": len(yrs), "latest_vs_avg": round(ratio, 2), "normalized_pe": round(norm, 1),
+                    "losses_in_window": sum(1 for x in yrs if x < 0)}
 
 def num(x):
     try:
@@ -205,6 +222,7 @@ def analyze(sym, quote):
     analyst = "❓" if (rec is None and tgt is None) else ("❌" if (up is not None and up < 0) else "✅" if (rec in ("buy", "strong_buy") and up is not None and up >= 15) else "⚠️")
     risks["analyst"] = analyst
     mrate, mdet = margin_check(fs, fin); risks["margin"] = mrate
+    srate, sdet = steadiness_check(fs, trl); risks["steady"] = srate
     nred = sum(1 for k, x in risks.items() if x == "❌"); nwatch = sum(1 for k, x in risks.items() if x == "⚠️" and k not in NO_WATCH)
     lvl = "High" if nred >= 2 else "Medium" if (nred == 1 or nwatch >= 5) else "Low"
     dflag, dhits = deal_scan(t)
@@ -215,7 +233,7 @@ def analyze(sym, quote):
               "fwd_eps_growth_pct": fgrowth, "analyst_rec": rec, "analyst_upside_pct": up,
               "score": score, "score_parts": {"valuation": v, "returns": ret, "balance": bal, "fcf": fc, "growth": gr},
               "risks": risks, "after_risk": score - nred, "risk_level": lvl,
-              "deal_flag": dflag, "deal_headlines": dhits, "ebitda_margin": mdet,
+              "deal_flag": dflag, "deal_headlines": dhits, "ebitda_margin": mdet, "earnings_steadiness": sdet,
               "total_debt": debt, "total_cash": cash, "ebitda": ebitda, "free_cash_flow": fcf,
               "shares_out": num(info.get("sharesOutstanding")),
               "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
