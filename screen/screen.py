@@ -24,12 +24,14 @@ LEVELS = {   # indicator: (direction, [(good,bad) for level 1..5])
 OVERRIDES = {}  # e.g. {"debt": 3}
 EXCLUDED = json.load(open(os.path.join(HERE, "exclusions.json"))) if os.path.exists(os.path.join(HERE, "exclusions.json")) else {}
 
-DEAL_RE = re.compile(r"\b(acquire[sd]?|acquisition|acquiring|to buy|agrees? to (?:buy|sell|be acquired|merge)|merger|merges?|takeover|take-private|buyout|definitive agreement|to be acquired|tender offer|all-stock|all-cash deal)\b", re.I)
+DEAL_RE = re.compile(r"\b(acquire[sd]?|acquisition|acquiring|agrees? to (?:buy|sell|be acquired|merge)|merger|merges?|takeover|take-private|buyout|definitive agreement|to be acquired|tender offer|all-stock|all-cash deal)\b", re.I)
 
-def deal_scan(t, days=90):
-    """Scan Yahoo headlines from the last `days` days for deal language. Returns (flag, headlines).
+def deal_scan(t, days=270):
+    """Scan Yahoo headlines from the last `days` days (pending deals can take 3-9 months to close) for deal language. Returns (flag, headlines).
     This is a wide net: Claude confirms terms in the analysis step. Absence = 'none found', not 'none exists'."""
-    try: items = retry(lambda: t.news) or []
+    try:
+        try: items = retry(lambda: t.get_news(count=50)) or []
+        except TypeError: items = retry(lambda: t.news) or []
     except Exception: return None, []
     cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
     hits = []

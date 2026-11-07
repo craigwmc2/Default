@@ -14,6 +14,6 @@ Research only, not investment advice. Opened 2026-11-07 after reviewing the MGY 
 | 8 | Piotroski score | Planned | Not computed in any run so far |
 
 ## Pending deal flag: design notes
-- Script (`screen/screen.py`): scans Yahoo headlines from the last 90 days for deal language. Writes `deal_flag` (possible / none_found) and `deal_headlines` to results.json, plus debt, cash, EBITDA, free cash flow and shares outstanding for pro forma math. Risk key `deal` shows ❓ when flagged, ✅ when nothing found.
+- Script (`screen/screen.py`): scans Yahoo headlines (up to 270 days back, as many as Yahoo returns) for deal language. Writes `deal_flag` (possible / none_found) and `deal_headlines` to results.json, plus debt, cash, EBITDA, free cash flow and shares outstanding for pro forma math. Risk key `deal` shows ❓ when flagged, ✅ when nothing found.
 - Analysis task: confirms terms by news search (buyer or target, value, financing, expected close, approval status), then sets the final rating and pro forma debt and dilution.
 - Limit: a deal that is not in headlines can be missed. "None found" is not "none exists."
