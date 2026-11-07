@@ -1,6 +1,6 @@
 {
  "run_date": "2026-11-07",
- "generated_at": "2026-11-07T13:05Z",
+ "generated_at": "2026-11-07T13:11Z",
  "source": "Yahoo Finance via yfinance, fetched live during this run",
  "risk_setting": {
   "master": 2,
@@ -12,8 +12,8 @@
   "skipped": 70,
   "skip_reasons": {
    "not cheap": 46,
-   "market value below floor": 19,
-   "penny stock": 5
+   "penny stock": 5,
+   "market value below floor": 19
   }
  },
  "excluded": {
@@ -28,7 +28,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 7.9994173,
    "pb": 1.9767724,
@@ -61,12 +61,17 @@
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-20",
+     "title": "Oilpatch dealmaker on hunt for new takeover target with $1.4-billion fund"
+    }
+   ],
    "total_debt": 11550000128.0,
    "total_cash": 5548000256.0,
    "ebitda": 17213999104.0,
@@ -83,7 +88,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.458209,
    "pb": 1.3464848,
@@ -116,12 +121,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-05-13",
+     "title": "Nexstar-Tegna Merger Blocked by Federal Judge Amid Antitrust Battle"
+    }
+   ],
    "total_debt": 16883999744.0,
    "total_cash": 30653999104.0,
    "ebitda": 11276000256.0,
@@ -138,7 +148,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.245092,
    "pb": 1.6593182,
@@ -193,7 +203,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 5.198147,
    "pb": 2.3404922,
@@ -248,7 +258,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 3.4862854,
    "pb": 0.9064744,
@@ -308,7 +318,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 9.315206,
    "pb": 1.7402893,
@@ -363,7 +373,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 3.8435724,
    "pb": 4.1011443,
@@ -418,7 +428,7 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.4705296,
    "pb": 1.283553,
@@ -451,12 +461,17 @@
     "short": "\u274c",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 11,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-05",
+     "title": "Magnolia Oil & Gas Strengthens Outlook After WildFire Acquisition"
+    }
+   ],
    "total_debt": 1937799040.0,
    "total_cash": 17493000.0,
    "ebitda": 1187905024.0,
@@ -473,7 +488,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 4.344666,
    "pb": 1.2480016,
@@ -528,7 +543,7 @@
    "market_cap": 49324290048.0,
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 6.4068546,
    "pb": 1.2730157,
@@ -586,7 +601,7 @@
     "market_cap": 49610989568.0,
     "sector": "Energy",
     "industry": "Oil & Gas Integrated",
-    "fetched_at": "2026-11-07T13:02Z",
+    "fetched_at": "2026-11-07T13:07Z",
     "financial": false,
     "fwd_pe": 7.9994173,
     "pb": 1.9767724,
@@ -619,12 +634,17 @@
      "short": "\u2753",
      "altman": "\u26a0\ufe0f",
      "analyst": "\u2705",
-     "deal": "\u2705"
+     "deal": "\u2753"
     },
     "after_risk": 12,
     "risk_level": "Low",
-    "deal_flag": "none_found",
-    "deal_headlines": [],
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-10-20",
+      "title": "Oilpatch dealmaker on hunt for new takeover target with $1.4-billion fund"
+     }
+    ],
     "total_debt": 11550000128.0,
     "total_cash": 5548000256.0,
     "ebitda": 17213999104.0,
@@ -641,7 +661,7 @@
     "market_cap": 15580555264.0,
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "fetched_at": "2026-11-07T13:02Z",
+    "fetched_at": "2026-11-07T13:08Z",
     "financial": false,
     "fwd_pe": 9.458209,
     "pb": 1.3464848,
@@ -674,12 +694,17 @@
      "short": "\u26a0\ufe0f",
      "altman": "\u26a0\ufe0f",
      "analyst": "\u2705",
-     "deal": "\u2705"
+     "deal": "\u2753"
     },
     "after_risk": 12,
     "risk_level": "Low",
-    "deal_flag": "none_found",
-    "deal_headlines": [],
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-05-13",
+      "title": "Nexstar-Tegna Merger Blocked by Federal Judge Amid Antitrust Battle"
+     }
+    ],
     "total_debt": 16883999744.0,
     "total_cash": 30653999104.0,
     "ebitda": 11276000256.0,
@@ -696,7 +721,7 @@
     "market_cap": 15530130432.0,
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics",
-    "fetched_at": "2026-11-07T13:03Z",
+    "fetched_at": "2026-11-07T13:08Z",
     "financial": false,
     "fwd_pe": 9.245092,
     "pb": 1.6593182,
@@ -751,7 +776,7 @@
     "market_cap": 10766166016.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T13:03Z",
+    "fetched_at": "2026-11-07T13:09Z",
     "financial": false,
     "fwd_pe": 5.198147,
     "pb": 2.3404922,
@@ -806,7 +831,7 @@
     "market_cap": 7031777280.0,
     "sector": "Energy",
     "industry": "Oil & Gas E&P",
-    "fetched_at": "2026-11-07T13:04Z",
+    "fetched_at": "2026-11-07T13:10Z",
     "financial": false,
     "fwd_pe": 3.4862854,
     "pb": 0.9064744,
@@ -868,7 +893,7 @@
     "market_cap": 39313055744.0,
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "fetched_at": "2026-11-07T13:02Z",
+    "fetched_at": "2026-11-07T13:07Z",
     "financial": false,
     "fwd_pe": 7.2370224,
     "pb": 1.1924037,
@@ -928,7 +953,7 @@
     "market_cap": 17673695232.0,
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "fetched_at": "2026-11-07T13:02Z",
+    "fetched_at": "2026-11-07T13:07Z",
     "financial": false,
     "fwd_pe": 8.926218,
     "pb": 6.4452615,
@@ -961,12 +986,29 @@
      "short": "\u26a0\ufe0f",
      "altman": "\u274c",
      "analyst": "\u26a0\ufe0f",
-     "deal": "\u2705"
+     "deal": "\u2753"
     },
     "after_risk": 10,
     "risk_level": "Medium",
-    "deal_flag": "none_found",
-    "deal_headlines": [],
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-09-28",
+      "title": "Gen Digital CEO addresses GoDaddy acquisition rumors"
+     },
+     {
+      "date": "2026-09-27",
+      "title": "GoDaddy Jumps on Takeover Report While the Would-Be Buyer\u2019s Stock Sinks"
+     },
+     {
+      "date": "2026-09-24",
+      "title": "GoDaddy Stock Fails To Break Out After Reported Takeover Offer"
+     },
+     {
+      "date": "2026-09-24",
+      "title": "GoDaddy surges 11% after FT reports takeover bid by Gen Digital"
+     }
+    ],
     "total_debt": 8115999744.0,
     "total_cash": 583000000.0,
     "ebitda": 2496999936.0,
@@ -983,7 +1025,7 @@
     "market_cap": 6113241088.0,
     "sector": "Communication Services",
     "industry": "Advertising Agencies",
-    "fetched_at": "2026-11-07T13:04Z",
+    "fetched_at": "2026-11-07T13:10Z",
     "financial": false,
     "fwd_pe": 12.7400465,
     "pb": 2.3586283,
@@ -1038,7 +1080,7 @@
     "market_cap": 5302699520.0,
     "sector": "Technology",
     "industry": "Software - Application",
-    "fetched_at": "2026-11-07T13:05Z",
+    "fetched_at": "2026-11-07T13:11Z",
     "financial": false,
     "fwd_pe": 13.648082,
     "pb": 9.651475,
@@ -1093,7 +1135,7 @@
     "market_cap": 86609035264.0,
     "sector": "Communication Services",
     "industry": "Telecom Services",
-    "fetched_at": "2026-11-07T13:01Z",
+    "fetched_at": "2026-11-07T13:06Z",
     "financial": false,
     "fwd_pe": 6.925298,
     "pb": 0.93552226,
@@ -1126,12 +1168,21 @@
      "short": "\u2705",
      "altman": "\u274c",
      "analyst": "\u26a0\ufe0f",
-     "deal": "\u2705"
+     "deal": "\u2753"
     },
     "after_risk": 9,
     "risk_level": "Medium",
-    "deal_flag": "none_found",
-    "deal_headlines": [],
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-11-04",
+      "title": "ITV takeover sparks fears of White House meddling in news"
+     },
+     {
+      "date": "2026-11-03",
+      "title": "Salesforce to acquire voice AI company Cresta"
+     }
+    ],
     "total_debt": 87366000640.0,
     "total_cash": 7596000256.0,
     "ebitda": 33540999168.0,
@@ -1150,7 +1201,7 @@
     "market_cap": 13449138176.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T13:03Z",
+    "fetched_at": "2026-11-07T13:08Z",
     "financial": false,
     "fwd_pe": 8.512337,
     "pb": 1.4276862,
@@ -1183,12 +1234,17 @@
      "short": "\u2753",
      "altman": "\u26a0\ufe0f",
      "analyst": "\u2705",
-     "deal": "\u2705"
+     "deal": "\u2753"
     },
     "after_risk": 9,
     "risk_level": "Medium",
-    "deal_flag": "none_found",
-    "deal_headlines": [],
+    "deal_flag": "possible",
+    "deal_headlines": [
+     {
+      "date": "2026-06-12",
+      "title": "Equinox Gold Orla Merger Recasts Scale Risks And Opportunities For Investors"
+     }
+    ],
     "total_debt": 839054976.0,
     "total_cash": 481577984.0,
     "ebitda": 1689364992.0,
@@ -1205,7 +1261,7 @@
     "market_cap": 7112991232.0,
     "sector": "Basic Materials",
     "industry": "Gold",
-    "fetched_at": "2026-11-07T13:04Z",
+    "fetched_at": "2026-11-07T13:10Z",
     "financial": false,
     "fwd_pe": 6.0726695,
     "pb": 1.6274865,
@@ -1287,7 +1343,7 @@
    "market_cap": 49610989568.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 7.9994173,
    "pb": 1.9767724,
@@ -1320,12 +1376,17 @@
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-20",
+     "title": "Oilpatch dealmaker on hunt for new takeover target with $1.4-billion fund"
+    }
+   ],
    "total_debt": 11550000128.0,
    "total_cash": 5548000256.0,
    "ebitda": 17213999104.0,
@@ -1342,7 +1403,7 @@
    "market_cap": 15580555264.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.458209,
    "pb": 1.3464848,
@@ -1375,12 +1436,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 12,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-05-13",
+     "title": "Nexstar-Tegna Merger Blocked by Federal Judge Amid Antitrust Battle"
+    }
+   ],
    "total_debt": 16883999744.0,
    "total_cash": 30653999104.0,
    "ebitda": 11276000256.0,
@@ -1397,7 +1463,7 @@
    "market_cap": 15530130432.0,
    "sector": "Industrials",
    "industry": "Integrated Freight & Logistics",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.245092,
    "pb": 1.6593182,
@@ -1452,7 +1518,7 @@
    "market_cap": 10766166016.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 5.198147,
    "pb": 2.3404922,
@@ -1507,7 +1573,7 @@
    "market_cap": 7031777280.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 3.4862854,
    "pb": 0.9064744,
@@ -1567,7 +1633,7 @@
    "market_cap": 8618187776.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 9.315206,
    "pb": 1.7402893,
@@ -1622,7 +1688,7 @@
    "market_cap": 6872017920.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 3.8435724,
    "pb": 4.1011443,
@@ -1677,7 +1743,7 @@
    "market_cap": 6434322432.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.4705296,
    "pb": 1.283553,
@@ -1710,12 +1776,17 @@
     "short": "\u274c",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 11,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-05",
+     "title": "Magnolia Oil & Gas Strengthens Outlook After WildFire Acquisition"
+    }
+   ],
    "total_debt": 1937799040.0,
    "total_cash": 17493000.0,
    "ebitda": 1187905024.0,
@@ -1732,7 +1803,7 @@
    "market_cap": 119414112256.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 4.344666,
    "pb": 1.2480016,
@@ -1787,7 +1858,7 @@
    "market_cap": 49324290048.0,
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 6.4068546,
    "pb": 1.2730157,
@@ -1842,7 +1913,7 @@
    "market_cap": 39313055744.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 7.2370224,
    "pb": 1.1924037,
@@ -1902,7 +1973,7 @@
    "market_cap": 17673695232.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 8.926218,
    "pb": 6.4452615,
@@ -1935,12 +2006,29 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 10,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-28",
+     "title": "Gen Digital CEO addresses GoDaddy acquisition rumors"
+    },
+    {
+     "date": "2026-09-27",
+     "title": "GoDaddy Jumps on Takeover Report While the Would-Be Buyer\u2019s Stock Sinks"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "GoDaddy Stock Fails To Break Out After Reported Takeover Offer"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "GoDaddy surges 11% after FT reports takeover bid by Gen Digital"
+    }
+   ],
    "total_debt": 8115999744.0,
    "total_cash": 583000000.0,
    "ebitda": 2496999936.0,
@@ -1957,7 +2045,7 @@
    "market_cap": 9506588672.0,
    "sector": "Basic Materials",
    "industry": "Specialty Chemicals",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 5.140488,
    "pb": 0.9743658,
@@ -2012,7 +2100,7 @@
    "market_cap": 6113241088.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 12.7400465,
    "pb": 2.3586283,
@@ -2067,7 +2155,7 @@
    "market_cap": 5302699520.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 13.648082,
    "pb": 9.651475,
@@ -2122,7 +2210,7 @@
    "market_cap": 169270951936.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 8.376261,
    "pb": 1.3283631,
@@ -2182,7 +2270,7 @@
    "market_cap": 72691580928.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 8.647785,
    "pb": 1.1860651,
@@ -2215,12 +2303,17 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 10,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-06",
+     "title": "Market Chatter: Apollo Could Use Aircraft Financing in EasyJet Acquisition"
+    }
+   ],
    "total_debt": 168198995968.0,
    "total_cash": 334627995648.0,
    "ebitda": null,
@@ -2237,7 +2330,7 @@
    "market_cap": 18262890496.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 10.697348,
    "pb": 1.3987627,
@@ -2292,7 +2385,7 @@
    "market_cap": 9580390400.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.492602,
    "pb": 1.5704129,
@@ -2325,17 +2418,12 @@
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 10,
    "risk_level": "Low",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-09-09",
-     "title": "Full Truck Alliance (YMM) Upgraded to Buy: Here's Why"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 24858000.0,
    "total_cash": 23554768896.0,
    "ebitda": 4407259648.0,
@@ -2352,7 +2440,7 @@
    "market_cap": 18242287616.0,
    "sector": "Energy",
    "industry": "Oil & Gas E&P",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 8.430527,
    "pb": 1.4817085,
@@ -2407,7 +2495,7 @@
    "market_cap": 10873708544.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 8.330038,
    "pb": 3.4975095,
@@ -2462,7 +2550,7 @@
    "market_cap": 86609035264.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 6.925298,
    "pb": 0.93552226,
@@ -2495,12 +2583,21 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "ITV takeover sparks fears of White House meddling in news"
+    },
+    {
+     "date": "2026-11-03",
+     "title": "Salesforce to acquire voice AI company Cresta"
+    }
+   ],
    "total_debt": 87366000640.0,
    "total_cash": 7596000256.0,
    "ebitda": 33540999168.0,
@@ -2517,7 +2614,7 @@
    "market_cap": 76786417664.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 12.42344,
    "pb": 3.5722969,
@@ -2550,12 +2647,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-07-23",
+     "title": "Iridium Q2 Earnings Lag, Sales Up Y/Y, Rocket Lab Acquisition in Focus"
+    }
+   ],
    "total_debt": 702901125120.0,
    "total_cash": 85520293888.0,
    "ebitda": 324744380416.0,
@@ -2572,7 +2674,7 @@
    "market_cap": 26199568384.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 8.437058,
    "pb": 2.6275992,
@@ -2627,7 +2729,7 @@
    "market_cap": 24063500288.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 9.9361925,
    "pb": 1.4603322,
@@ -2682,7 +2784,7 @@
    "market_cap": 15808846848.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 8.624198,
    "pb": 1.5186021,
@@ -2715,12 +2817,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-08-26",
+     "title": "Fortuna Mining's Growth Is Built In, So Why Is Its Stock Priced For A Buyout?"
+    }
+   ],
    "total_debt": 709315968.0,
    "total_cash": 1172732032.0,
    "ebitda": 1799406976.0,
@@ -2737,7 +2844,7 @@
    "market_cap": 13449138176.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 8.512337,
    "pb": 1.4276862,
@@ -2770,12 +2877,17 @@
     "short": "\u2753",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-06-12",
+     "title": "Equinox Gold Orla Merger Recasts Scale Risks And Opportunities For Investors"
+    }
+   ],
    "total_debt": 839054976.0,
    "total_cash": 481577984.0,
    "ebitda": 1689364992.0,
@@ -2792,7 +2904,7 @@
    "market_cap": 10949623808.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.936911,
    "pb": null,
@@ -2847,7 +2959,7 @@
    "market_cap": 10631292928.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 8.455592,
    "pb": 2.3018405,
@@ -2880,12 +2992,17 @@
     "short": "\u2753",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-04",
+     "title": "iA Financial (TSX:IAG) Expands Its Wealth Management Reach With RF Capital Acquisition"
+    }
+   ],
    "total_debt": 548700032.0,
    "total_cash": 767600000.0,
    "ebitda": 2191200000.0,
@@ -2902,7 +3019,7 @@
    "market_cap": 8967168000.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 5.066881,
    "pb": 0.64594346,
@@ -2957,7 +3074,7 @@
    "market_cap": 7721975296.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 11.84074,
    "pb": 2.1587155,
@@ -3012,7 +3129,7 @@
    "market_cap": 7474668032.0,
    "sector": "Basic Materials",
    "industry": "Silver",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 15.6692505,
    "pb": 2.451884,
@@ -3045,12 +3162,21 @@
     "short": "\u2753",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-21",
+     "title": "First Majestic's 2026 Outlook: Silver Production Targets Continued Scale Post-Acquisition"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Fortuna Mining's Growth Is Built In, So Why Is Its Stock Priced For A Buyout?"
+    }
+   ],
    "total_debt": 335388000.0,
    "total_cash": 1248564992.0,
    "ebitda": 1011564992.0,
@@ -3067,7 +3193,7 @@
    "market_cap": 6006751232.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 12.463078,
    "pb": 3.228958,
@@ -3100,17 +3226,12 @@
     "short": "\u274c",
     "altman": "\u2753",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 9,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-15",
-     "title": "5 Value Stocks to Buy as Core Inflation Rises and Rate Hike Odds Climb"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 8634999808.0,
    "total_cash": 1060000000.0,
    "ebitda": 2574000128.0,
@@ -3127,7 +3248,7 @@
    "market_cap": 5829334016.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 6.637474,
    "pb": 1.3387691,
@@ -3167,8 +3288,8 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-11-06",
-     "title": "Best Growth Stocks to Buy for November 6th"
+     "date": "2026-10-05",
+     "title": "Pentair Expands Water Solutions Segment With Taco Acquisition"
     }
    ],
    "total_debt": 4338768896.0,
@@ -3187,7 +3308,7 @@
    "market_cap": 74227728384.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 7.0879664,
    "pb": 0.87651914,
@@ -3220,12 +3341,17 @@
     "short": "\u2753",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-28",
+     "title": "Tesla Closed Up 4% at $407. Here\u2019s What a SpaceX Merger Could Mean for Your Shares."
+    }
+   ],
    "total_debt": 784599023616.0,
    "total_cash": 790296985600.0,
    "ebitda": null,
@@ -3242,7 +3368,7 @@
    "market_cap": 64596844544.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 7.6052103,
    "pb": 0.724133,
@@ -3297,7 +3423,7 @@
    "market_cap": 61543723008.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 7.276119,
    "pb": 1.1974946,
@@ -3352,7 +3478,7 @@
    "market_cap": 26335703040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 10.842508,
    "pb": 2.3683426,
@@ -3407,7 +3533,7 @@
    "market_cap": 22017179648.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 9.585898,
    "pb": 1.3934371,
@@ -3453,6 +3579,10 @@
     {
      "date": "2026-11-03",
      "title": "Can Lazard's Campbell Lutyens Buyout Drive Long-Term Growth?"
+    },
+    {
+     "date": "2026-09-23",
+     "title": "Goldman Eyes Palmer Square Buyout to Strengthen Credit & AWM Franchise"
     }
    ],
    "total_debt": 17984999424.0,
@@ -3471,7 +3601,7 @@
    "market_cap": 17286625280.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 9.474187,
    "pb": 1.4583423,
@@ -3526,7 +3656,7 @@
    "market_cap": 15231159296.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 10.840809,
    "pb": 1.3266312,
@@ -3581,7 +3711,7 @@
    "market_cap": 10848701440.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 9.903161,
    "pb": 1.3403141,
@@ -3636,7 +3766,7 @@
    "market_cap": 5663627264.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 8.732575,
    "pb": 1.7376927,
@@ -3669,12 +3799,33 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 9,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-15",
+     "title": "SSR Mining (TSX:SSRM) Unveils 20 Year Marigold Plan And Roxmore Acquisition"
+    },
+    {
+     "date": "2026-10-14",
+     "title": "Is SSRM's US Platform Set to Gain From Roxmore Acquisition?"
+    },
+    {
+     "date": "2026-10-14",
+     "title": "SSR Mining to acquire Roxmore Resources in $464m all-cash deal"
+    },
+    {
+     "date": "2026-10-13",
+     "title": "SSR Mining to Acquire Roxmore Resources; Releases Technical Report Summary for the Marigold Gold Complex"
+    },
+    {
+     "date": "2026-09-17",
+     "title": "Is SSR Mining Benefiting From Its 2025 Colorado Mine Acquisition?"
+    }
+   ],
    "total_debt": 2369000.0,
    "total_cash": 1621031040.0,
    "ebitda": 857892992.0,
@@ -3691,7 +3842,7 @@
    "market_cap": 25664970752.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 9.024178,
    "pb": -279.0196,
@@ -3746,7 +3897,7 @@
    "market_cap": 7203036672.0,
    "sector": "Industrials",
    "industry": "Security & Protection Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.007814,
    "pb": 1.9787277,
@@ -3788,6 +3939,22 @@
     {
      "date": "2026-11-04",
      "title": "ADT Inc (ADT) (Q3 2026) Earnings Call Highlights: $10-Per-Share Thrive Holdings Buyout and $1 ..."
+    },
+    {
+     "date": "2026-11-01",
+     "title": "ADT (ADT) Has A 20% Overvaluation View As Its $10 Buyout Nears"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "ADT agrees to $7.6 billion buyout; more offers possible"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Stock Market Today, Oct. 29: ADT Surges 33% on $10 Per Share All-Cash Acquisition Deal"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "ADT stock surges to 5-year high after Thrive Holdings agrees to $7.6 billion buyout deal"
     }
    ],
    "total_debt": 7878776832.0,
@@ -3806,7 +3973,7 @@
    "market_cap": 6002266624.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 5.804502,
    "pb": 1.433847,
@@ -3861,7 +4028,7 @@
    "market_cap": 5635764736.0,
    "sector": "Consumer Defensive",
    "industry": "Education & Training Services",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 8.244745,
    "pb": 1.3435599,
@@ -3916,7 +4083,7 @@
    "market_cap": 31178041344.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 8.852445,
    "pb": 1.0641811,
@@ -3971,7 +4138,7 @@
    "market_cap": 20657475584.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 14.824571,
    "pb": 2.131424,
@@ -4004,33 +4171,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-16",
-     "title": "Best Growth Stocks to Buy for October 16th"
-    },
-    {
-     "date": "2026-10-14",
-     "title": "Best Growth Stocks to Buy for October 14th"
-    },
-    {
-     "date": "2026-10-12",
-     "title": "Best Growth Stocks to Buy for October 12th"
-    },
-    {
-     "date": "2026-10-08",
-     "title": "Best Growth Stocks to Buy for October 8th"
-    },
-    {
-     "date": "2026-10-06",
-     "title": "NVIDIA & 2 Momentum Stocks to Buy in October for Big Upside"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 14388197376.0,
    "total_cash": 46972940288.0,
    "ebitda": 5878432768.0,
@@ -4047,7 +4193,7 @@
    "market_cap": 16877150208.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 12.287776,
    "pb": 1.8665627,
@@ -4087,8 +4233,8 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-11-03",
-     "title": "Best Income Stocks to Buy for November 3rd"
+     "date": "2026-09-17",
+     "title": "PAA Plans to Expand Rockies Presence With Silver Creek Acquisition"
     }
    ],
    "total_debt": 8634999808.0,
@@ -4107,7 +4253,7 @@
    "market_cap": 15468450816.0,
    "sector": "Basic Materials",
    "industry": "Building Materials",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 11.991052,
    "pb": 1.2044945,
@@ -4162,7 +4308,7 @@
    "market_cap": 13815588864.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 9.849857,
    "pb": 0.99037063,
@@ -4195,12 +4341,33 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-28",
+     "title": "ARCC Misses on Q3 Earnings as Income Falls, Announces MidCap Buyout"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Why Is Ares Capital Acquiring MidCap Financial Investment Corporation in a $2.6 Billion Transaction?"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Top Midday Stories: Ares Capital to Acquire MidCap Financial for $2.6 Billion; S&P Global Considering Separation of Capital IQ"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Ares Capital\u2019s Buyout of Apollo\u2019s MidCap Financial Could Spark Wave of BDC Mergers"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Ares Capital is Making a $2.6 Billion Acquisition. Here\u2019s What it Means for its 10%-Yielding Dividend."
+    }
+   ],
    "total_debt": 15123999744.0,
    "total_cash": 722000000.0,
    "ebitda": null,
@@ -4217,7 +4384,7 @@
    "market_cap": 12089828352.0,
    "sector": "Financial Services",
    "industry": "Insurance - Diversified",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 8.867521,
    "pb": 1.2305387,
@@ -4272,7 +4439,7 @@
    "market_cap": 8622861312.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": true,
    "fwd_pe": 9.111426,
    "pb": 1.1897885,
@@ -4305,12 +4472,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-08",
+     "title": "WaFd's EverBank Merger Deal: A Boost to Earnings & Scale?"
+    }
+   ],
    "total_debt": 4160999936.0,
    "total_cash": 1736999936.0,
    "ebitda": null,
@@ -4327,7 +4499,7 @@
    "market_cap": 7740701696.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": true,
    "fwd_pe": 9.194502,
    "pb": 1.0278872,
@@ -4367,8 +4539,16 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-10-28",
-     "title": "Valley National (VLY) Upgraded to Buy: What Does It Mean for the Stock?"
+     "date": "2026-09-28",
+     "title": "Valley National Bank to acquire fintech Bluevine for $340M"
+    },
+    {
+     "date": "2026-08-26",
+     "title": "Will VLY's Providence Buyout Accelerate Growth in Chicago Franchise?"
+    },
+    {
+     "date": "2026-08-25",
+     "title": "Valley National Bank to acquire Chicago-area lender for $247M"
     }
    ],
    "total_debt": 3064463872.0,
@@ -4387,7 +4567,7 @@
    "market_cap": 6280054784.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": true,
    "fwd_pe": 9.457389,
    "pb": 0.9217776,
@@ -4442,7 +4622,7 @@
    "market_cap": 5775660544.0,
    "sector": "Energy",
    "industry": "Oil & Gas Refining & Marketing",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 9.255781,
    "pb": 1.6238644,
@@ -4475,29 +4655,12 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 8,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-03",
-     "title": "Best Income Stocks to Buy for November 3rd"
-    },
-    {
-     "date": "2026-11-03",
-     "title": "Best Value Stocks to Buy for November 3rd"
-    },
-    {
-     "date": "2026-11-02",
-     "title": "5 Valuable Price-to-Book Stocks to Buy in November"
-    },
-    {
-     "date": "2026-10-23",
-     "title": "Best Growth Stocks to Buy for October 23rd"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 19563366400.0,
    "total_cash": 9250765824.0,
    "ebitda": 9134960640.0,
@@ -4514,7 +4677,7 @@
    "market_cap": 5689949696.0,
    "sector": "Financial Services",
    "industry": "Insurance - Specialty",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 8.297864,
    "pb": 1.1887938,
@@ -4569,7 +4732,7 @@
    "market_cap": 137774563328.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 9.38139,
    "pb": 2.1161604,
@@ -4624,7 +4787,7 @@
    "market_cap": 113480548352.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 6.76259,
    "pb": 1.5712769,
@@ -4657,12 +4820,21 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-08-28",
+     "title": "PYPL Stock Crash: Mizuho Highlights Three Key Risks For PayPal After Stripe, Advent Reportedly Abandon Takeover Bid"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Mizuho Financial Group, Inc. (MFG) Units Complete Merger amid Oracle Autonomous AI Integration"
+    }
+   ],
    "total_debt": 75297177206784.0,
    "total_cash": 119449818497024.0,
    "ebitda": null,
@@ -4679,7 +4851,7 @@
    "market_cap": 81452769280.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 7.620756,
    "pb": 1.7857679,
@@ -4734,7 +4906,7 @@
    "market_cap": 9287066624.0,
    "sector": "Basic Materials",
    "industry": "Copper",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.347796,
    "pb": 1.9359319,
@@ -4789,7 +4961,7 @@
    "market_cap": 8604250112.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 25.443626,
    "pb": 2.240164,
@@ -4844,7 +5016,7 @@
    "market_cap": 7682686976.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": true,
    "fwd_pe": 6.144878,
    "pb": 1.5553046,
@@ -4899,7 +5071,7 @@
    "market_cap": 7112991232.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 6.0726695,
    "pb": 1.6274865,
@@ -4954,7 +5126,7 @@
    "market_cap": 6164262912.0,
    "sector": "Basic Materials",
    "industry": "Gold",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": null,
    "pb": 2.309217,
@@ -4987,12 +5159,21 @@
     "short": "\u2753",
     "altman": "\u2705",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 8,
    "risk_level": "Low",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-08-26",
+     "title": "OceanaGold Corporation (OGC) Acquires Ausgold in $549M Deal to Secure Katanning Gold Project"
+    },
+    {
+     "date": "2026-08-17",
+     "title": "OceanaGold to acquire Ausgold for $549m"
+    }
+   ],
    "total_debt": 49100000.0,
    "total_cash": 728700032.0,
    "ebitda": 1610499968.0,
@@ -5009,7 +5190,7 @@
    "market_cap": 145709924352.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 8.332691,
    "pb": 1.3696808,
@@ -5064,7 +5245,7 @@
    "market_cap": 31968231424.0,
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 8.007539,
    "pb": 0.0079213595,
@@ -5119,7 +5300,7 @@
    "market_cap": 18011111424.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 10.015398,
    "pb": 1.5298845,
@@ -5152,12 +5333,25 @@
     "short": "\u2753",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-01",
+     "title": "Rogers Communications Acquires Remaining 25% of MLSE For CA$4.35 Billion"
+    },
+    {
+     "date": "2026-07-23",
+     "title": "Rogers Communications (TSX:RCI.B) Moves For Full MLSE Ownership With 25% Stake Buyout"
+    },
+    {
+     "date": "2026-07-22",
+     "title": "Rogers Q2 earnings top expectations as profitability improves, MLSE acquisition moves forward"
+    }
+   ],
    "total_debt": 46637998080.0,
    "total_cash": 3652000000.0,
    "ebitda": 9525000192.0,
@@ -5174,7 +5368,7 @@
    "market_cap": 12145038336.0,
    "sector": "Healthcare",
    "industry": "Medical Care Facilities",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.8097105,
    "pb": 0.8450687,
@@ -5229,7 +5423,7 @@
    "market_cap": 9429971968.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": true,
    "fwd_pe": 8.914364,
    "pb": 1.1704775,
@@ -5284,7 +5478,7 @@
    "market_cap": 7600355840.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.634019,
    "pb": 1.0834175,
@@ -5344,7 +5538,7 @@
    "market_cap": 5060581376.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Parts",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 8.584811,
    "pb": 0.80389714,
@@ -5377,12 +5571,17 @@
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-27",
+     "title": "Dauch (DCH) vs. LKQ and GPC: Can the Dowlais Acquisition Unlock a Hidden Auto Supplier Revaluation?"
+    }
+   ],
    "total_debt": 5078000128.0,
    "total_cash": 319000000.0,
    "ebitda": 1300999936.0,
@@ -5399,7 +5598,7 @@
    "market_cap": 10380831744.0,
    "sector": "Communication Services",
    "industry": "Publishing",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 17.783957,
    "pb": 2.3771462,
@@ -5441,10 +5640,6 @@
     {
      "date": "2026-09-18",
      "title": "Pearson acquires ITS as it bets on verified skills in the AI era"
-    },
-    {
-     "date": "2026-09-08",
-     "title": "All You Need to Know About Pearson (PSO) Rating Upgrade to Buy"
     }
    ],
    "total_debt": 1760999936.0,
@@ -5463,7 +5658,7 @@
    "market_cap": 8965126144.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 11.74643,
    "pb": 4.0625,
@@ -5496,12 +5691,25 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 7,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-03-06",
+     "title": "Infinity Natural Resources (INR) Finalizes Transformational $1.2B Ohio Utica Shale Acquisition"
+    },
+    {
+     "date": "2026-02-24",
+     "title": "NOG finalises $464.5m acquisition of Utica Shale assets"
+    },
+    {
+     "date": "2026-02-12",
+     "title": "Antero Midstream Corp (AM) Q4 2025 Earnings Call Highlights: Strategic Acquisition and Record ..."
+    }
+   ],
    "total_debt": 3204377088.0,
    "total_cash": null,
    "ebitda": 967737024.0,
@@ -5518,7 +5726,7 @@
    "market_cap": 7109092352.0,
    "sector": "Basic Materials",
    "industry": "Other Precious Metals & Mining",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.5346856,
    "pb": 1.5557779,
@@ -5573,7 +5781,7 @@
    "market_cap": 6775020544.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 14.093515,
    "pb": 3.475936,
@@ -5628,7 +5836,7 @@
    "market_cap": 6590429696.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 5.500385,
    "pb": 1.138385,
@@ -5683,7 +5891,7 @@
    "market_cap": 5619825664.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 9.458223,
    "pb": 0.8948072,
@@ -5738,7 +5946,7 @@
    "market_cap": 90367664128.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 10.33637,
    "pb": 1.6115285,
@@ -5793,7 +6001,7 @@
    "market_cap": 58113183744.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 10.861518,
    "pb": 4.385709,
@@ -5853,7 +6061,7 @@
    "market_cap": 6052411392.0,
    "sector": "Industrials",
    "industry": "Specialty Industrial Machinery",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 12.428895,
    "pb": 1.7006563,
@@ -5908,7 +6116,7 @@
    "market_cap": 5948410880.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": true,
    "fwd_pe": 11.48603,
    "pb": 1.3131624,
@@ -5963,7 +6171,7 @@
    "market_cap": 5596928000.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 13.946115,
    "pb": 1.1017755,
@@ -6018,7 +6226,7 @@
    "market_cap": 6480801280.0,
    "sector": "Technology",
    "industry": "Software - Application",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.8937645,
    "pb": 2.1740236,
@@ -6073,7 +6281,7 @@
    "market_cap": 10902170624.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 9.929513,
    "pb": 0.89882654,
@@ -6128,7 +6336,7 @@
    "market_cap": 157362847744.0,
    "sector": "Technology",
    "industry": "Consumer Electronics",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 22.689075,
    "pb": 2.9164672,
@@ -6161,12 +6369,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-12",
+     "title": "Meta acquires multiple VR patents from Sony"
+    }
+   ],
    "total_debt": 2086850002944.0,
    "total_cash": 2009334022144.0,
    "ebitda": 2300307046400.0,
@@ -6183,7 +6396,7 @@
    "market_cap": 34732945408.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 15.395218,
    "pb": 2.3894806,
@@ -6238,7 +6451,7 @@
    "market_cap": 15476584448.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": true,
    "fwd_pe": 10.082964,
    "pb": 3.5387385,
@@ -6293,7 +6506,7 @@
    "market_cap": 11896876032.0,
    "sector": "Basic Materials",
    "industry": "Paper & Paper Products",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 6.5270267,
    "pb": 1.1582712,
@@ -6326,17 +6539,12 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-29",
-     "title": "4 Value Stocks to Buy With Attractive PEG Ratios and Growth Potential"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 104970092544.0,
    "total_cash": 21187938304.0,
    "ebitda": 19565334528.0,
@@ -6353,7 +6561,7 @@
    "market_cap": 5360924160.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 8.186417,
    "pb": 0.7386402,
@@ -6408,7 +6616,7 @@
    "market_cap": 5219204096.0,
    "sector": "Financial Services",
    "industry": "Banks - Regional",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 10.599837,
    "pb": 1.1741724,
@@ -6463,7 +6671,7 @@
    "market_cap": 5195761152.0,
    "sector": "Industrials",
    "industry": "Engineering & Construction",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 8.050675,
    "pb": 1.1057918,
@@ -6496,17 +6704,12 @@
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-24",
-     "title": "3 Industrial Stocks Under $50 to Buy in October"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 3824999936.0,
    "total_cash": 459000000.0,
    "ebitda": 1006000000.0,
@@ -6523,7 +6726,7 @@
    "market_cap": 50629705728.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 14.83979,
    "pb": 9.800078,
@@ -6556,12 +6759,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
     "analyst": "\u274c",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-08",
+     "title": "Top Midday Stories: Microsoft, Adobe Among Tech Firms Suspended From US Immigration Program; Starbucks Has Explored Chipotle Takeover"
+    }
+   ],
    "total_debt": 890000000.0,
    "total_cash": 3976999936.0,
    "ebitda": 4897999872.0,
@@ -6578,7 +6786,7 @@
    "market_cap": 39773569024.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 11.488673,
    "pb": 2.8187535,
@@ -6633,7 +6841,7 @@
    "market_cap": 22825914368.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 7.2379994,
    "pb": 1.6679232,
@@ -6666,12 +6874,33 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-27",
+     "title": "IBRX Stock Rises Overnight: Jim Cramer Backs ImmunityBio As A \u2018Very Good Spec\u2019 Amid Biotech Takeover Wave"
+    },
+    {
+     "date": "2026-10-09",
+     "title": "Pacira Biosciences' Acquisition by Viatris Unlikely to See Superior Bid, RBC Says"
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Pacira Biosciences Snags $1.65 Billion Viatris Takeover Deal; Shares Fly"
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Viatris to acquire Pacira BioSciences for $1.65 billion"
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Why Pacira BioSciences Stock Is Having Its Best Day Ever After $1.7 Billion Viatris Acquisition"
+    }
+   ],
    "total_debt": 13579299840.0,
    "total_cash": 2006300032.0,
    "ebitda": 4376399872.0,
@@ -6688,7 +6917,7 @@
    "market_cap": 14772430848.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 6.0222774,
    "pb": 1.0495969,
@@ -6721,17 +6950,12 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-03",
-     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 127570345984.0,
    "total_cash": 1647788032.0,
    "ebitda": null,
@@ -6748,7 +6972,7 @@
    "market_cap": 9067479040.0,
    "sector": "Consumer Cyclical",
    "industry": "Internet Retail",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 12.06714,
    "pb": 24.442038,
@@ -6803,7 +7027,7 @@
    "market_cap": 8769952768.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 13.667685,
    "pb": 3.6313117,
@@ -6858,7 +7082,7 @@
    "market_cap": 6793335808.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 11.232284,
    "pb": 1.7528878,
@@ -6891,12 +7115,17 @@
     "short": "\u2705",
     "altman": "\u2705",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 6,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-09",
+     "title": "Pilgrim\u2019s Pride board to review takeover approach by Brazil\u2019s JBS"
+    }
+   ],
    "total_debt": 3726504960.0,
    "total_cash": 935771008.0,
    "ebitda": 1453252352.0,
@@ -6913,7 +7142,7 @@
    "market_cap": 6260359168.0,
    "sector": "Energy",
    "industry": "Oil & Gas Equipment & Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 13.898672,
    "pb": 1.0021114,
@@ -6968,7 +7197,7 @@
    "market_cap": 5016052736.0,
    "sector": "Industrials",
    "industry": "Marine Shipping",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 13.197184,
    "pb": 1.7672576,
@@ -7023,7 +7252,7 @@
    "market_cap": 167518699520.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 10.006673,
    "pb": 1.882285,
@@ -7056,17 +7285,12 @@
     "short": "\u2705",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 6,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-06",
-     "title": "3 High-Yield Healthcare Stocks to Buy With $1,000 and Hold Through Any Market"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 63408001024.0,
    "total_cash": 14279000064.0,
    "ebitda": 24937000960.0,
@@ -7083,7 +7307,7 @@
    "market_cap": 14164215808.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 17.094046,
    "pb": 1.6761959,
@@ -7138,7 +7362,7 @@
    "market_cap": 11902443520.0,
    "sector": "Financial Services",
    "industry": "Asset Management",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 8.21146,
    "pb": 1.176215,
@@ -7193,7 +7417,7 @@
    "market_cap": 6284800000.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 12.22678,
    "pb": 0.5887466,
@@ -7248,7 +7472,7 @@
    "market_cap": 7536561152.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.294795,
    "pb": -3.4577014,
@@ -7290,6 +7514,14 @@
     {
      "date": "2026-11-06",
      "title": "Dropbox to acquire object storage service Tigris Data for $350m"
+    },
+    {
+     "date": "2026-11-05",
+     "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Wendy\u2019s Gets a Lifeline, but Kohl\u2019s May Be the Smarter Buyout Bet"
     }
    ],
    "total_debt": 3955800064.0,
@@ -7308,7 +7540,7 @@
    "market_cap": 18959380480.0,
    "sector": "Technology",
    "industry": "Computer Hardware",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 4.277954,
    "pb": 1.5983106,
@@ -7363,7 +7595,7 @@
    "market_cap": 14809459712.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 5.1101265,
    "pb": 0.9135135,
@@ -7396,12 +7628,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-03",
+     "title": "GPN's $40B Takeover Buzz: Can Private Equity Revive Its Growth?"
+    }
+   ],
    "total_debt": 20846000128.0,
    "total_cash": 740000000.0,
    "ebitda": 3703000064.0,
@@ -7418,7 +7655,7 @@
    "market_cap": 14379995136.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 3.9747603,
    "pb": 0.37684518,
@@ -7473,7 +7710,7 @@
    "market_cap": 8010555392.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Manufacturing",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 14.535611,
    "pb": 3.939218,
@@ -7506,21 +7743,12 @@
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u274c",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-04",
-     "title": "Is Lululemon's Cash Reason Enough To Buy The Stock?"
-    },
-    {
-     "date": "2026-11-03",
-     "title": "V.F. (VFC) Moves to Buy: Rationale Behind the Upgrade"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 5000814080.0,
    "total_cash": 442951008.0,
    "ebitda": 1033516992.0,
@@ -7537,7 +7765,7 @@
    "market_cap": 6027956736.0,
    "sector": "Consumer Cyclical",
    "industry": "Department Stores",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 9.73392,
    "pb": 1.2232351,
@@ -7597,7 +7825,7 @@
    "market_cap": 8133130240.0,
    "sector": "Technology",
    "industry": "Semiconductor Equipment & Materials",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 11.82349,
    "pb": 1.6944603,
@@ -7652,7 +7880,7 @@
    "market_cap": 7943708160.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 14.738292,
    "pb": 7.0749063,
@@ -7685,12 +7913,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 5,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-06-28",
+     "title": "Gerdau S.A. (GGB) Strengthens Edge in Brazil Energy Market with Dona Francisca Energ\u00e9tica Hydro Plant Acquisition"
+    }
+   ],
    "total_debt": 23569670144.0,
    "total_cash": 3272766976.0,
    "ebitda": 6831488000.0,
@@ -7707,7 +7940,7 @@
    "market_cap": 7837651456.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 14.656695,
    "pb": 2.5,
@@ -7740,17 +7973,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-07",
-     "title": "5 Best 52-Week Low NASDAQ Stocks to Buy According to Billionaires"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 4167000064.0,
    "total_cash": 841000000.0,
    "ebitda": 580000000.0,
@@ -7767,7 +7995,7 @@
    "market_cap": 6213824000.0,
    "sector": "Industrials",
    "industry": "Electrical Equipment & Parts",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 9.635597,
    "pb": 8.972823,
@@ -7822,7 +8050,7 @@
    "market_cap": 5454303744.0,
    "sector": "Healthcare",
    "industry": "Health Information Services",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 14.980105,
    "pb": 1.3503214,
@@ -7877,7 +8105,7 @@
    "market_cap": 5098987008.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 12.023809,
    "pb": 3.596297,
@@ -7932,7 +8160,7 @@
    "market_cap": 33246873600.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 16.266607,
    "pb": 0.33321425,
@@ -7987,7 +8215,7 @@
    "market_cap": 30282971136.0,
    "sector": "Financial Services",
    "industry": "Insurance - Life",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 15.504265,
    "pb": 6.2890525,
@@ -8042,7 +8270,7 @@
    "market_cap": 11872924672.0,
    "sector": "Industrials",
    "industry": "Specialty Business Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 16.031235,
    "pb": 2.162088,
@@ -8097,7 +8325,7 @@
    "market_cap": 5771752448.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 13.179571,
    "pb": 6.0554366,
@@ -8152,7 +8380,7 @@
    "market_cap": 5189195264.0,
    "sector": "Utilities",
    "industry": "Utilities - Renewable",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 15.14695,
    "pb": 6.386052,
@@ -8207,7 +8435,7 @@
    "market_cap": 5154096640.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 3.9021542,
    "pb": 0.7376329,
@@ -8240,17 +8468,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2753",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 5,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-03",
-     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 38374985728.0,
    "total_cash": 1927916032.0,
    "ebitda": null,
@@ -8267,7 +8490,7 @@
    "market_cap": 5084293632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 14.172767,
    "pb": 2.180519,
@@ -8322,7 +8545,7 @@
    "market_cap": 43347447808.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 15.839864,
    "pb": 1.8168039,
@@ -8377,7 +8600,7 @@
    "market_cap": 40173969408.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 15.121185,
    "pb": 1.8502845,
@@ -8432,7 +8655,7 @@
    "market_cap": 15546548224.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 18.76231,
    "pb": 1.8397814,
@@ -8487,7 +8710,7 @@
    "market_cap": 5156576768.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": true,
    "fwd_pe": 17.300158,
    "pb": 2.1124573,
@@ -8542,7 +8765,7 @@
    "market_cap": 27295911936.0,
    "sector": "Real Estate",
    "industry": "REIT - Diversified",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 8.346802,
    "pb": 0.94086844,
@@ -8575,17 +8798,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-03",
-     "title": "3 Dirt Cheap Dividend Stocks to Buy in November 2026"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 17825748992.0,
    "total_cash": 270320992.0,
    "ebitda": 3218202112.0,
@@ -8602,7 +8820,7 @@
    "market_cap": 13364966400.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 8.920884,
    "pb": 1.625,
@@ -8657,7 +8875,7 @@
    "market_cap": 6898168320.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 12.592346,
    "pb": 1.7903862,
@@ -8690,12 +8908,17 @@
     "short": "\u274c",
     "altman": "\u274c",
     "analyst": "\u274c",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-08",
+     "title": "Campbell\u2019s Slashes Dividend 36% to Combat Debt From Rao\u2019s Acquisition"
+    }
+   ],
    "total_debt": 7449999872.0,
    "total_cash": 394000000.0,
    "ebitda": 1620000000.0,
@@ -8712,7 +8935,7 @@
    "market_cap": 28565514240.0,
    "sector": "Utilities",
    "industry": "Utilities - Regulated Electric",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 7.1983175,
    "pb": 0.8657633,
@@ -8745,12 +8968,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-23",
+     "title": "What Is PG&E (PCG) Saying About A $22.5 Billion San Francisco Grid Takeover?"
+    }
+   ],
    "total_debt": 65478000640.0,
    "total_cash": 902000000.0,
    "ebitda": 10679000064.0,
@@ -8767,7 +8995,7 @@
    "market_cap": 20161208320.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 11.362848,
    "pb": 1.3531401,
@@ -8822,7 +9050,7 @@
    "market_cap": 67156754432.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 39.66038,
    "pb": 1.4321415,
@@ -8855,12 +9083,21 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-19",
+     "title": "Merck KGaA bets on RNAi with $1.3B Silence buyout"
+    },
+    {
+     "date": "2026-10-12",
+     "title": "SLS Stock Jumps Overnight: Retail Sees Big Pharma Buyout Clues In 'M&A Negotiation Lounge' Booth At ASH"
+    }
+   ],
    "total_debt": 5357417005056.0,
    "total_cash": 418533015552.0,
    "ebitda": 1366422061056.0,
@@ -8877,7 +9114,7 @@
    "market_cap": 36096741376.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 9.860196,
    "pb": 1.2647849,
@@ -8910,12 +9147,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-12",
+     "title": "Market Chatter: Vodafone, KKR-Backed Oak and Ardian Explore Inwit Buyout Deal"
+    }
+   ],
    "total_debt": 54448001024.0,
    "total_cash": 14583000064.0,
    "ebitda": 8947999744.0,
@@ -8932,7 +9174,7 @@
    "market_cap": 29134032896.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 11.945964,
    "pb": 0.8099658,
@@ -8987,7 +9229,7 @@
    "market_cap": 11184013312.0,
    "sector": "Real Estate",
    "industry": "REIT - Mortgage",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 6.083745,
    "pb": 1.1549592,
@@ -9027,10 +9269,6 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-11-03",
-     "title": "3 Double-Digit-Yield Stocks to Buy That Earned Their Dividends Last Quarter"
-    },
-    {
      "date": "2026-11-02",
      "title": "CHMI & MITT Merger Offers Long-Term Upside Potential \u2013 Quarterly Update Report"
     }
@@ -9051,7 +9289,7 @@
    "market_cap": 10758958080.0,
    "sector": "Technology",
    "industry": "Information Technology Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 15.865335,
    "pb": 5.937167,
@@ -9106,7 +9344,7 @@
    "market_cap": 9081979904.0,
    "sector": "Industrials",
    "industry": "Aerospace & Defense",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 15.486192,
    "pb": 3.1846473,
@@ -9161,7 +9399,7 @@
    "market_cap": 7001402880.0,
    "sector": "Technology",
    "industry": "Communication Equipment",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 13.398466,
    "pb": 5.2997017,
@@ -9194,17 +9432,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 4,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-05",
-     "title": "5 Best Mid-Cap US Stocks to Buy Now"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 642499968.0,
    "total_cash": 528800000.0,
    "ebitda": 358649984.0,
@@ -9221,7 +9454,7 @@
    "market_cap": 6017470464.0,
    "sector": "Consumer Defensive",
    "industry": "Grocery Stores",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.7335634,
    "pb": 4.2505813,
@@ -9263,6 +9496,22 @@
     {
      "date": "2026-10-30",
      "title": "Albertsons and Kroger fighting in court over failed merger"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Albertsons didn\u2019t risk fiscal health with $4B pre-merger dividend, former CEO testifies"
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Kroger doomed merger with weak store divestiture plan, former Albertsons CEO testifies"
+    },
+    {
+     "date": "2026-10-19",
+     "title": "Albertsons Seeks More Than $8 Billion From Kroger as Trial Over Failed Merger Begins"
+    },
+    {
+     "date": "2026-10-19",
+     "title": "Albertsons begins its $8 billion trial against Kroger over failed merger"
     }
    ],
    "total_debt": 15916999680.0,
@@ -9281,7 +9530,7 @@
    "market_cap": 5860307456.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 11.441711,
    "pb": 2.568605,
@@ -9336,7 +9585,7 @@
    "market_cap": 5737293824.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - General",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 6.775874,
    "pb": 1.7645789,
@@ -9391,7 +9640,7 @@
    "market_cap": 29670586368.0,
    "sector": "Healthcare",
    "industry": "Medical Devices",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 15.040836,
    "pb": 2.28077,
@@ -9446,7 +9695,7 @@
    "market_cap": 27530807296.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 16.821428,
    "pb": 1.1533016,
@@ -9479,12 +9728,17 @@
     "short": "\u2705",
     "altman": "\u2753",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-07-31",
+     "title": "MarketAxess Stock Soars 30% on $6 Billion ICE Buyout Deal"
+    }
+   ],
    "total_debt": 37183381569536.0,
    "total_cash": 51602144624640.0,
    "ebitda": null,
@@ -9501,7 +9755,7 @@
    "market_cap": 13342410752.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 12.608103,
    "pb": 2.052037,
@@ -9556,7 +9810,7 @@
    "market_cap": 12080199680.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 14.009536,
    "pb": 1.5401348,
@@ -9589,12 +9843,21 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u2705",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 4,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-09-30",
+     "title": "Hormel Foods to acquire Brakebush Brothers for $1.055 billion"
+    },
+    {
+     "date": "2026-09-30",
+     "title": "Hormel Foods Expands Further Into Proteins With $1.06 Billion Acquisition"
+    }
+   ],
    "total_debt": 2855122944.0,
    "total_cash": 868446016.0,
    "ebitda": 1264931968.0,
@@ -9611,7 +9874,7 @@
    "market_cap": 6846807040.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 10.259391,
    "pb": 1.6196319,
@@ -9666,7 +9929,7 @@
    "market_cap": 6664135168.0,
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 10.443025,
    "pb": 1.5764203,
@@ -9721,7 +9984,7 @@
    "market_cap": 12291405824.0,
    "sector": "Real Estate",
    "industry": "Real Estate Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 17.266716,
    "pb": 1.5395857,
@@ -9789,7 +10052,7 @@
    "market_cap": 18287173632.0,
    "sector": "Consumer Cyclical",
    "industry": "Packaging & Containers",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 12.556409,
    "pb": 1.3908244,
@@ -9844,7 +10107,7 @@
    "market_cap": 16373335040.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 15.910616,
    "pb": 19.167177,
@@ -9884,8 +10147,8 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-09-28",
-     "title": "3 Reasons WMG is Risky and 1 Stock to Buy Instead"
+     "date": "2026-06-11",
+     "title": "Warner Music Group Acquires Platform That Creates \u2018AI DNA\u2019 To Protect, Control, And Monetize NIL"
     }
    ],
    "total_debt": 4919000064.0,
@@ -9904,7 +10167,7 @@
    "market_cap": 5880120832.0,
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 7.2153816,
    "pb": 8.42388,
@@ -9959,7 +10222,7 @@
    "market_cap": 146205671424.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 56.853657,
    "pb": 1.4495668,
@@ -10014,7 +10277,7 @@
    "market_cap": 69825552384.0,
    "sector": "Technology",
    "industry": "Semiconductors",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": false,
    "fwd_pe": 14.499464,
    "pb": 5.335182,
@@ -10069,7 +10332,7 @@
    "market_cap": 21037991936.0,
    "sector": "Financial Services",
    "industry": "Credit Services",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": true,
    "fwd_pe": 18.018919,
    "pb": 1.8608654,
@@ -10124,7 +10387,7 @@
    "market_cap": 17099915264.0,
    "sector": "Real Estate",
    "industry": "REIT - Hotel & Motel",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 23.46013,
    "pb": 2.6598966,
@@ -10179,7 +10442,7 @@
    "market_cap": 37297004544.0,
    "sector": "Financial Services",
    "industry": "Financial Conglomerates",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": null,
    "pb": 1.2815627,
@@ -10234,7 +10497,7 @@
    "market_cap": 6066148352.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 35.265713,
    "pb": 18.718502,
@@ -10289,7 +10552,7 @@
    "market_cap": 6177117184.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 20.795538,
    "pb": 1.356779,
@@ -10344,7 +10607,7 @@
    "market_cap": 12673064960.0,
    "sector": "Consumer Cyclical",
    "industry": "Specialty Retail",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 16.258902,
    "pb": 1.8369287,
@@ -10377,12 +10640,17 @@
     "short": "\u274c",
     "altman": "\u2705",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-15",
+     "title": "eBay Jumps 5% on Takeover Speculation; Etsy Rallies 7%, Shopify Holds Flat"
+    }
+   ],
    "total_debt": 4333199872.0,
    "total_cash": 5060299776.0,
    "ebitda": 505800000.0,
@@ -10399,7 +10667,7 @@
    "market_cap": 8095060992.0,
    "sector": "Consumer Defensive",
    "industry": "Beverages - Non-Alcoholic",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 15.212562,
    "pb": 2.6563056,
@@ -10432,12 +10700,25 @@
     "short": "\u274c",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 2,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-19",
+     "title": "Primo Brands opens first new factory post merger"
+    },
+    {
+     "date": "2026-10-15",
+     "title": "Primo Brands (PRMB) Opens 200,000 Square Foot Arkansas Factory After 2024 Merger"
+    },
+    {
+     "date": "2026-08-27",
+     "title": "Can Primo Brands (PRMB) Turn Merger Challenges\u00a0Into\u00a0a Free Cash Flow Opportunity?"
+    }
+   ],
    "total_debt": 5774199808.0,
    "total_cash": 477200000.0,
    "ebitda": 1371699968.0,
@@ -10454,7 +10735,7 @@
    "market_cap": 5957281792.0,
    "sector": "Consumer Cyclical",
    "industry": "Resorts & Casinos",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 525.05835,
    "pb": 1.8195966,
@@ -10496,6 +10777,22 @@
     {
      "date": "2026-10-28",
      "title": "Caesars posts Q3 Las Vegas declines as Fertitta takeover looms"
+    },
+    {
+     "date": "2026-09-30",
+     "title": "MGM CEO Signals Possible Acquisition Of Top Shareholder People Inc. As Casino M&A Accelerates: Report"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "Does Caesars (CZR)\u2019s $31 Buyout Offer Enough Reward for the Regulatory Wait?"
+    },
+    {
+     "date": "2026-09-26",
+     "title": "DraftKings (DKNG) In Focus After Shareholders Back Multibillion Dollar Gaming Merger"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "MGM Falls 11% After Barry Diller Pulls Out of Takeover. Why the Stock Is Still a Good Bet."
     }
    ],
    "total_debt": 25809000448.0,
@@ -10514,7 +10811,7 @@
    "market_cap": 14709140480.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 144.71428,
    "pb": 1.7759467,
@@ -10569,7 +10866,7 @@
    "market_cap": 14484899840.0,
    "sector": "Communication Services",
    "industry": "Telecom Services",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 16.845415,
    "pb": 1.2559892,
@@ -10602,17 +10899,12 @@
     "short": "\u2753",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-27",
-     "title": "Quebec\u2019s La Caisse to Buy BCE Towers Stake for $1.7 Billion"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 31531999232.0,
    "total_cash": 1396999936.0,
    "ebitda": 4963999744.0,
@@ -10629,7 +10921,7 @@
    "market_cap": 12245249024.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 32.37053,
    "pb": 1.2622612,
@@ -10684,7 +10976,7 @@
    "market_cap": 11316527104.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": true,
    "fwd_pe": 19.957447,
    "pb": 0.9374844,
@@ -10724,8 +11016,8 @@
    "deal_flag": "possible",
    "deal_headlines": [
     {
-     "date": "2026-11-06",
-     "title": "1 Top Cryptocurrency to Buy Before It Soars by 11,000%, According to Bitmine's Tom Lee"
+     "date": "2026-10-19",
+     "title": "Bitmine Acquired 12,535 Ethereum Over The Past Week"
     }
    ],
    "total_debt": 1320000.0,
@@ -10744,7 +11036,7 @@
    "market_cap": 7146372608.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 16.741484,
    "pb": 1.1095077,
@@ -10777,21 +11069,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-11-05",
-     "title": "Midterm Election Rally: 5 Relative Price Strength Stocks to Buy"
-    },
-    {
-     "date": "2026-11-05",
-     "title": "Best Growth Stocks to Buy for November 5th"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 5095000064.0,
    "total_cash": 513000000.0,
    "ebitda": 914000000.0,
@@ -10808,7 +11091,7 @@
    "market_cap": 6089300992.0,
    "sector": "Industrials",
    "industry": "Conglomerates",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 10.43662,
    "pb": 1.0997329,
@@ -10863,7 +11146,7 @@
    "market_cap": 236033376256.0,
    "sector": "Financial Services",
    "industry": "Banks - Diversified",
-   "fetched_at": "2026-11-07T13:01Z",
+   "fetched_at": "2026-11-07T13:06Z",
    "financial": true,
    "fwd_pe": 20.359222,
    "pb": 1.6444774,
@@ -10923,7 +11206,7 @@
    "market_cap": 10967212032.0,
    "sector": "Technology",
    "industry": "Software - Infrastructure",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 47.671043,
    "pb": 1.5983026,
@@ -10956,17 +11239,12 @@
     "short": "\u274c",
     "altman": "\u2705",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 2,
    "risk_level": "Medium",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-23",
-     "title": "SailPoint, Inc.  (SAIL) Upgraded to Buy: Here's Why"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 31365000.0,
    "total_cash": 309849984.0,
    "ebitda": -9470000.0,
@@ -10983,7 +11261,7 @@
    "market_cap": 7545282560.0,
    "sector": "Consumer Cyclical",
    "industry": "Apparel Retail",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 8.214777,
    "pb": 1.9083155,
@@ -11016,21 +11294,12 @@
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-23",
-     "title": "4 Value Stocks to Buy as AI Spending Fears & Oil Prices Rattle Markets"
-    },
-    {
-     "date": "2026-10-22",
-     "title": "3 Reasons GAP is risky and 1 stock to buy instead"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 5720000000.0,
    "total_cash": 2484999936.0,
    "ebitda": 1468000000.0,
@@ -11047,7 +11316,7 @@
    "market_cap": 6538903552.0,
    "sector": "Basic Materials",
    "industry": "Steel",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 6.71861,
    "pb": 1.1497943,
@@ -11107,7 +11376,7 @@
    "market_cap": 5852670976.0,
    "sector": "Energy",
    "industry": "Oil & Gas Drilling",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 17.49641,
    "pb": 0.692389,
@@ -11140,12 +11409,17 @@
     "short": "\u274c",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-19",
+     "title": "Transocean (RIG) is Positioned to Benefit from Offshore Demand and Valaris Merger"
+    }
+   ],
    "total_debt": 5017999872.0,
    "total_cash": 499000000.0,
    "ebitda": 1458000000.0,
@@ -11162,7 +11436,7 @@
    "market_cap": 49675624448.0,
    "sector": "Consumer Cyclical",
    "industry": "Auto Manufacturers",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 6.5903444,
    "pb": 1.3454466,
@@ -11195,12 +11469,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-11-04",
+     "title": "SpaceX Declines 6%, Tesla Falls 5% as Democratic Sweep Raises Merger and Regulatory Risks; General Motors Rises 2%"
+    }
+   ],
    "total_debt": 165432999936.0,
    "total_cash": 25088000000.0,
    "ebitda": 7837000192.0,
@@ -11217,7 +11496,7 @@
    "market_cap": 40387846144.0,
    "sector": "Communication Services",
    "industry": "Entertainment",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 146.14122,
    "pb": 0.76285714,
@@ -11250,12 +11529,25 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 1,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-21",
+     "title": "Lionsgate Studios Stock Jumps on Report of Takeover Bid by Legendary Entertainment"
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Skydance Rises 5% as Steep Post-Merger Slide Pauses; Disney Gains 2%, Netflix Slips"
+    },
+    {
+     "date": "2026-10-18",
+     "title": "Skydance (SKYD) Closes Its Merger, Is The Discount A Warning Sign?"
+    }
+   ],
    "total_debt": 16202000384.0,
    "total_cash": 1627000064.0,
    "ebitda": 3310000128.0,
@@ -11272,7 +11564,7 @@
    "market_cap": 6663946240.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 480.00003,
    "pb": 1.5998666,
@@ -11327,7 +11619,7 @@
    "market_cap": 18590314496.0,
    "sector": "Industrials",
    "industry": "Farm & Heavy Construction Machinery",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 16.810389,
    "pb": 1.8448772,
@@ -11382,7 +11674,7 @@
    "market_cap": 10482715648.0,
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 17.441599,
    "pb": 1.7965393,
@@ -11415,17 +11707,12 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": 1,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-30",
-     "title": "Avantor (AVTR) Upgraded to Buy: What Does It Mean for the Stock?"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 3683800064.0,
    "total_cash": 464300000.0,
    "ebitda": 947600000.0,
@@ -11442,7 +11729,7 @@
    "market_cap": 7275751424.0,
    "sector": "Consumer Defensive",
    "industry": "Packaged Foods",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.178525,
    "pb": 1.135957,
@@ -11497,7 +11784,7 @@
    "market_cap": 22729891840.0,
    "sector": "Basic Materials",
    "industry": "Chemicals",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 17.134687,
    "pb": 1.4071883,
@@ -11552,7 +11839,7 @@
    "market_cap": 16957750272.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 28.75493,
    "pb": 1.6695015,
@@ -11607,7 +11894,7 @@
    "market_cap": 15673315328.0,
    "sector": "Real Estate",
    "industry": "REIT - Residential",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 37.05527,
    "pb": 1.7874811,
@@ -11662,7 +11949,7 @@
    "market_cap": 7939632640.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.587659,
    "pb": 0.97990775,
@@ -11695,12 +11982,17 @@
     "short": "\u26a0\ufe0f",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 0,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-06",
+     "title": "Premarket Movers: OPCH, CEG Stocks Jump On Buyout Talks, Nuclear Deal \u2013 NKE Slides On \u2018Sell\u2019 Rating"
+    }
+   ],
    "total_debt": 4774000128.0,
    "total_cash": 1904999936.0,
    "ebitda": 678000000.0,
@@ -11717,7 +12009,7 @@
    "market_cap": 7108325888.0,
    "sector": "Basic Materials",
    "industry": "Agricultural Inputs",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 15.44263,
    "pb": 0.62913257,
@@ -11772,7 +12064,7 @@
    "market_cap": 9189364736.0,
    "sector": "Consumer Cyclical",
    "industry": "Gambling",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 10.704062,
    "pb": 51.27424,
@@ -11827,7 +12119,7 @@
    "market_cap": 7329226240.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 180.65454,
    "pb": 2.5910087,
@@ -11882,7 +12174,7 @@
    "market_cap": 6038316032.0,
    "sector": "Consumer Cyclical",
    "industry": "Restaurants",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 25.140514,
    "pb": 1.3429884,
@@ -11915,12 +12207,17 @@
     "short": "\u2753",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": 0,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-10-08",
+     "title": "The Chipotle Effect: Jersey Mike\u2019s, Shake Shack Stocks Rise on Rival\u2019s Takeover Report"
+    }
+   ],
    "total_debt": 1798000000.0,
    "total_cash": 295000000.0,
    "ebitda": 265000000.0,
@@ -11937,7 +12234,7 @@
    "market_cap": 28826071040.0,
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 9.310626,
    "pb": 3.3595572,
@@ -11992,7 +12289,7 @@
    "market_cap": 5506429952.0,
    "sector": "Real Estate",
    "industry": "REIT - Healthcare Facilities",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 25.950617,
    "pb": 1.9391145,
@@ -12047,7 +12344,7 @@
    "market_cap": 10610706432.0,
    "sector": "Utilities",
    "industry": "Utilities - Diversified",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 6.2397194,
    "pb": 1.857589,
@@ -12080,12 +12377,17 @@
     "short": "\u2705",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": -1,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-05-18",
+     "title": "Dominion Energy, NextEra $66.8B merger is powered by AI expansion"
+    }
+   ],
    "total_debt": 33724999680.0,
    "total_cash": 2026000000.0,
    "ebitda": 4355999744.0,
@@ -12102,7 +12404,7 @@
    "market_cap": 8230216192.0,
    "sector": "Consumer Cyclical",
    "industry": "Travel Services",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 12.616609,
    "pb": 2.613769,
@@ -12157,7 +12459,7 @@
    "market_cap": 6411387392.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 37.980263,
    "pb": 1.2184778,
@@ -12212,7 +12514,7 @@
    "market_cap": 42738720768.0,
    "sector": "Financial Services",
    "industry": "Mortgage Finance",
-   "fetched_at": "2026-11-07T13:02Z",
+   "fetched_at": "2026-11-07T13:07Z",
    "financial": false,
    "fwd_pe": 23.033863,
    "pb": 1.757293,
@@ -12267,7 +12569,7 @@
    "market_cap": 9183093760.0,
    "sector": "Financial Services",
    "industry": "Capital Markets",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": true,
    "fwd_pe": -5.4337726,
    "pb": 1.7210115,
@@ -12322,7 +12624,7 @@
    "market_cap": 6022999040.0,
    "sector": null,
    "industry": null,
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:10Z",
    "financial": false,
    "fwd_pe": 15.813889,
    "pb": 6.6406503,
@@ -12355,12 +12657,17 @@
     "short": "\u2753",
     "altman": "\u274c",
     "analyst": "\u26a0\ufe0f",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": -1,
    "risk_level": "Medium",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-07-04",
+     "title": "NIQ (NIQ) Completes Acquisition of Flywheel\u2019s China and Southeast Asia Business"
+    }
+   ],
    "total_debt": null,
    "total_cash": null,
    "ebitda": null,
@@ -12377,7 +12684,7 @@
    "market_cap": 11993393152.0,
    "sector": "Industrials",
    "industry": "Industrial Distribution",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 21.828619,
    "pb": 0.899681,
@@ -12410,12 +12717,33 @@
     "short": "\u274c",
     "altman": "\u26a0\ufe0f",
     "analyst": "\u2705",
-    "deal": "\u2705"
+    "deal": "\u2753"
    },
    "after_risk": -2,
    "risk_level": "High",
-   "deal_flag": "none_found",
-   "deal_headlines": [],
+   "deal_flag": "possible",
+   "deal_headlines": [
+    {
+     "date": "2026-08-15",
+     "title": "Is QXO (QXO) Undervalued Following Earnings And The TopBuild Acquisition?"
+    },
+    {
+     "date": "2026-07-31",
+     "title": "TopBuild Acquisition Seals QXO\u2019s (QXO) North American Dominance"
+    },
+    {
+     "date": "2026-07-06",
+     "title": "QXO Stock Gains Overnight: Why TopBuild Acquisition Has Investors Energized"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "Stock Market Today, June 30: QXO Falls After TopBuild Merger-Election Results Show Most Shareholders Opt for Cash"
+    },
+    {
+     "date": "2026-06-30",
+     "title": "QXO Says TopBuild Shareholders Largely Opt for Cash in Merger Election; $1.25 Billion of Senior Notes Tendered"
+    }
+   ],
    "total_debt": 7037000192.0,
    "total_cash": 2774000128.0,
    "ebitda": 591900032.0,
@@ -12432,7 +12760,7 @@
    "market_cap": 8733310976.0,
    "sector": "Industrials",
    "industry": "Airlines",
-   "fetched_at": "2026-11-07T13:04Z",
+   "fetched_at": "2026-11-07T13:09Z",
    "financial": false,
    "fwd_pe": 13.919105,
    "pb": -2.067451,
@@ -12465,17 +12793,12 @@
     "short": "\u274c",
     "altman": "\u274c",
     "analyst": "\u2705",
-    "deal": "\u2753"
+    "deal": "\u2705"
    },
    "after_risk": -2,
    "risk_level": "High",
-   "deal_flag": "possible",
-   "deal_headlines": [
-    {
-     "date": "2026-10-29",
-     "title": "Is It Too Early To Buy American Airlines Stock?"
-    }
-   ],
+   "deal_flag": "none_found",
+   "deal_headlines": [],
    "total_debt": 37206999040.0,
    "total_cash": 8737999872.0,
    "ebitda": 3400999936.0,
@@ -12492,7 +12815,7 @@
    "market_cap": 15112816640.0,
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 48.349926,
    "pb": 1.6108721,
@@ -12547,7 +12870,7 @@
    "market_cap": 5173335040.0,
    "sector": "Real Estate",
    "industry": "REIT - Retail",
-   "fetched_at": "2026-11-07T13:05Z",
+   "fetched_at": "2026-11-07T13:11Z",
    "financial": false,
    "fwd_pe": 74.85294,
    "pb": 1.8370147,
@@ -12602,7 +12925,7 @@
    "market_cap": 12855831552.0,
    "sector": "Healthcare",
    "industry": "Drug Manufacturers - Specialty & Generic",
-   "fetched_at": "2026-11-07T13:03Z",
+   "fetched_at": "2026-11-07T13:08Z",
    "financial": false,
    "fwd_pe": 20.035648,
    "pb": 1.9517744,
