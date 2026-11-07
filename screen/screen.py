@@ -1,4 +1,4 @@
-# rerun requested 2026-11-07
+# rerun requested 2026-11-07 (second)
 """Craig's value screen. Pulls fresh data from Yahoo Finance at run time (no cached/stale pages),
 scores every candidate on the 12-point rubric, rates the numeric risk checks, builds the
 combined top 10 / top 5 per exchange, and compares with the previous run.
