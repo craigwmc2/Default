@@ -4,8 +4,8 @@ Research only, not investment advice. Opened 2026-11-07 after reviewing the MGY 
 
 | Priority | Item | Status | Notes |
 |---|---|---|---|
-| 1 | Pending deal flag (new "Pending deal" risk check, pro forma debt and dilution for buyers) | In progress | Thresholds: under 10% of market value = watch, over 25% = bad. Targets of a pending acquisition are excluded. |
-| 2 | Peer-relative valuation | Planned | Compare each stock to its industry median, not the whole market |
+| 1 | Pending deal flag (new "Pending deal" risk check, pro forma debt and dilution for buyers) | Built 2026-11-07; first live analysis run is Mon Nov 9 | Thresholds: under 10% of market value = watch, over 25% = bad. Targets of a pending acquisition are excluded. |
+| 2 | Peer-relative valuation | Done 2026-11-07 | New `peer` risk check in screen.py. Peers are the screened $5-$35, $5B+ names, not the whole industry. EV/EBITDA is skipped for foreign filers (currency mismatch) and forward P/E is used instead. |
 | 3 | EV/EBITDA and EBITDA margin with multi-year trend | Planned | Available from Yahoo |
 | 4 | Earnings steadiness check | Planned | Guards against a low P/E built on peak commodity earnings |
 | 5 | Oil and gas module: net debt to EBITDAX, hedging, breakeven oil price | Planned | Partly manual |
