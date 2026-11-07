@@ -59,6 +59,8 @@ def peer_check(r, pool):
     Peers are only the $5B+ names priced $5-$35 that the screen pulled, so this is a peer set, not the whole industry."""
     metric = "m_pb" if r.get("m_financial") else PEER_METRIC.get(r.get("sector"), "m_fwd_pe")
     mine = r.get(metric)
+    if metric == "m_ev_ebitda" and not mine:
+        metric = "m_fwd_pe"; mine = r.get(metric)   # fall back when EV/EBITDA is unusable (foreign filers)
     if not mine or mine <= 0: return "❓", None
     for key, label, need in (("industry", "industry", 4), ("sector", "sector", 6)):
         grp = [p.get(metric) for p in pool if p is not r and p.get(key) and p.get(key) == r.get(key) and p.get("m_financial") == r.get("m_financial")]
@@ -135,7 +137,10 @@ def analyze(sym, quote):
     if (mcap or 0) < floor: r["skip"] = "market value below floor"; return r
     fin = (info.get("sector") == "Financial Services") and any(k in (info.get("industry") or "") for k in ("Bank", "Insurance", "Credit", "Capital Markets", "Asset Management"))
     fwd, trl, pb = num(info.get("forwardPE")), num(info.get("trailingPE")), num(info.get("priceToBook"))
-    r["m_fwd_pe"], r["m_pb"], r["m_ev_ebitda"] = fwd, pb, num(info.get("enterpriseToEbitda"))
+    fx_mismatch = bool(info.get("financialCurrency") and info.get("currency") and info.get("financialCurrency") != info.get("currency"))
+    # Yahoo's EV/EBITDA mixes currencies for foreign filers (e.g. rand or real earnings vs dollar price), so drop it for them
+    r["m_fwd_pe"], r["m_pb"], r["m_ev_ebitda"] = fwd, pb, (None if fx_mismatch else num(info.get("enterpriseToEbitda")))
+    r["m_fx_mismatch"] = fx_mismatch
     r["m_financial"] = fin
     fcf, debt, ebitda, cash = num(info.get("freeCashflow")), num(info.get("totalDebt")), num(info.get("ebitda")), num(info.get("totalCash"))
     roe = num(info.get("returnOnEquity")); roe = roe * 100 if roe is not None else None
