@@ -152,7 +152,82 @@ def batch_trash(service, message_ids, dry_run):
     return trashed
 
 
+def find_bulk_unread_sender_message_ids(service, min_count=3):
+    print(f"\nScanning for senders with {min_count}+ unread emails...")
+
+    all_msg_ids = []
+    page_token = None
+    while True:
+        kwargs = {
+            "userId": "me",
+            "q": "is:unread -in:trash -in:spam",
+            "maxResults": PAGE_SIZE,
+        }
+        if page_token:
+            kwargs["pageToken"] = page_token
+        resp = service.users().messages().list(**kwargs).execute()
+        msgs = resp.get("messages", [])
+        all_msg_ids.extend(m["id"] for m in msgs)
+        print(f"  Fetched {len(all_msg_ids)} unread messages...", end="\r")
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+    print()
+
+    if not all_msg_ids:
+        print("  No unread messages found.")
+        return []
+
+    print(f"  Fetching sender info ({len(all_msg_ids)} messages)...")
+    sender_to_msg_ids = {}
+    fetched = [0]
+
+    def handle_msg(request_id, response, exception):
+        if exception or not response:
+            return
+        mid = response.get("id")
+        headers = response.get("payload", {}).get("headers", [])
+        from_val = next(
+            (h["value"] for h in headers if h["name"].lower() == "from"), ""
+        )
+        if from_val:
+            sender_to_msg_ids.setdefault(from_val, []).append(mid)
+
+    META_BATCH = 100
+    for i in range(0, len(all_msg_ids), META_BATCH):
+        chunk = all_msg_ids[i : i + META_BATCH]
+        batch = service.new_batch_http_request(callback=handle_msg)
+        for mid in chunk:
+            batch.add(
+                service.users().messages().get(
+                    userId="me", id=mid, format="metadata",
+                    metadataHeaders=["From"],
+                )
+            )
+        batch.execute()
+        fetched[0] += len(chunk)
+        print(f"  Processed {fetched[0]}/{len(all_msg_ids)}...", end="\r")
+    print()
+
+    bulk = {s: ids for s, ids in sender_to_msg_ids.items() if len(ids) >= min_count}
+
+    if not bulk:
+        print(f"  No senders found with {min_count}+ unread emails.")
+        return []
+
+    total = sum(len(ids) for ids in bulk.values())
+    print(f"\nFound {len(bulk)} sender(s) with {min_count}+ unread emails ({total} total):")
+    for sender, ids in sorted(bulk.items(), key=lambda x: -len(x[1]))[:20]:
+        print(f"  {len(ids):4d}  {sender}")
+    if len(bulk) > 20:
+        print(f"  ... and {len(bulk) - 20} more senders")
+
+    return [mid for ids in bulk.values() for mid in ids]
+
+
 def parse_categories(csv_string):
+    if csv_string.strip().lower() == "none":
+        return []
     names = [s.strip().lower() for s in csv_string.split(",") if s.strip()]
     unknown = [n for n in names if n not in LABEL_MAP]
     if unknown:
@@ -208,6 +283,13 @@ def build_parser():
         metavar="N",
         help="Cap the number of emails to process (default: no limit)",
     )
+    parser.add_argument(
+        "--bulk-unread-senders",
+        type=int,
+        default=0,
+        metavar="N",
+        help="Also trash emails from senders with >= N unread emails (default: 0 = off)",
+    )
     return parser
 
 
@@ -222,7 +304,10 @@ def main():
 
     print(f"Gmail Cleanup Tool")
     print(f"  Mode:       {'DRY RUN (preview only)' if dry_run else 'EXECUTE (will move to Trash)'}")
-    print(f"  Categories: {', '.join(category_names)}")
+    if category_names:
+        print(f"  Categories: {', '.join(category_names)}")
+    if args.bulk_unread_senders:
+        print(f"  Bulk senders: senders with >= {args.bulk_unread_senders} unread emails")
     if args.older_than_days:
         print(f"  Age filter: older than {args.older_than_days} day(s)")
     if args.max_emails:
@@ -235,7 +320,17 @@ def main():
     print("Authenticated.\n")
 
     print(f"Searching for matching emails...")
-    message_ids = list_messages(service, label_ids, args.older_than_days, args.max_emails)
+    message_ids = list_messages(service, label_ids, args.older_than_days, args.max_emails) if label_ids else []
+
+    if args.bulk_unread_senders:
+        bulk_ids = find_bulk_unread_sender_message_ids(service, args.bulk_unread_senders)
+        seen = set(message_ids)
+        for mid in bulk_ids:
+            if mid not in seen:
+                seen.add(mid)
+                message_ids.append(mid)
+        if args.max_emails:
+            message_ids = message_ids[: args.max_emails]
 
     if not message_ids:
         print("No matching emails found. Nothing to do.")
