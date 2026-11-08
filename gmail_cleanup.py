@@ -27,7 +27,7 @@ LABEL_MAP = {
 }
 
 PAGE_SIZE = 500
-BATCH_SIZE = 1000
+BATCH_SIZE = 100
 TOKEN_FILE = "token.json"
 CREDS_FILE = "credentials.json"
 
@@ -126,7 +126,9 @@ def _batch_modify_with_retry(service, chunk, max_retries=5):
             service.users().messages().batchModify(userId="me", body=body).execute()
             return
         except HttpError as e:
-            if e.resp.status in (429, 500, 503):
+            if e.resp.status in (429, 500, 503) or (
+                e.resp.status == 403 and b"rateLimitExceeded" in e.content
+            ):
                 wait = (2**attempt) + random.uniform(0, 1)
                 print(f"\n  Rate limited (HTTP {e.resp.status}). Retrying in {wait:.1f}s...")
                 time.sleep(wait)
@@ -147,6 +149,7 @@ def batch_trash(service, message_ids, dry_run):
         _batch_modify_with_retry(service, chunk)
         trashed += len(chunk)
         print(f"  Moved {trashed}/{total} to Trash...", end="\r")
+        time.sleep(1)
 
     print()  # newline after \r progress line
     return trashed
