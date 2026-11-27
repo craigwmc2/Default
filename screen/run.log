@@ -1,4 +1,4 @@
-universe 269
+universe 272
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -423,7 +423,6 @@ universe 269
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
-80 CRBG
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
@@ -434,6 +433,7 @@ universe 269
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+80 ZTO
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -608,7 +608,7 @@ universe 269
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
-120 TLK
+120 IONQ
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -749,13 +749,13 @@ universe 269
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
-160 ZETA
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+160 S
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
@@ -924,7 +924,6 @@ universe 269
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
-200 PDI
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
@@ -935,6 +934,7 @@ universe 269
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+200 TTD
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -1059,6 +1059,40 @@ universe 269
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
+/home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
+/home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+/home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -1087,6 +1121,7 @@ universe 269
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
+240 ERAS
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
@@ -1097,7 +1132,6 @@ universe 269
   cutoff = dt.datetime.utcnow() - dt.timedelta(days=days)
 /home/runner/work/Default/Default/screen/screen.py:240: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
-240 FPS
 /home/runner/work/Default/Default/screen/screen.py:166: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "fetched_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")}
 /home/runner/work/Default/Default/screen/screen.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
@@ -1244,4 +1278,4 @@ universe 269
   "next_earnings": dt.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None})
 /home/runner/work/Default/Default/screen/screen.py:293: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   out = {"run_date": today, "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ"),
-done {'universe': 269, 'scored': 206, 'skipped': 63, 'skip_reasons': {'not cheap': 37, 'market value below floor': 21, 'penny stock': 5}} top10 ['ZTO', 'TME', 'HMY', 'SM', 'B', 'CVE', 'CDE', 'MGY', 'SBSW', 'GEN']
+done {'universe': 272, 'scored': 212, 'skipped': 60, 'skip_reasons': {'market value below floor': 18, 'not cheap': 37, 'penny stock': 5}} top10 ['TME', 'ZTO', 'HMY', 'SM', 'B', 'CVE', 'CDE', 'MGY', 'SBSW', 'GEN']
